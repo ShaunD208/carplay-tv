@@ -1,136 +1,137 @@
-CARPLAY TV MASTER PLAYLIST REPORT
-==================================================
+CARPLAY TV MASTER PLAYLIST REPORT V2
+============================================================
 
 Samsung TV Plus
 ---------------
 Channels in source: 585
 New unique channels added: 584
-Duplicates skipped: 1
+Duplicates / alternate feeds: 1
 
-Sample duplicates:
-  beIN Sports XTRA ñ -> already kept as beIN SPORTS XTRA from Samsung
+Sample alternate feeds:
+  beIN Sports XTRA ñ -> primary beIN SPORTS XTRA from Samsung
 
 Pluto TV
 --------
 Channels in source: 429
 New unique channels added: 288
-Duplicates skipped: 141
+Duplicates / alternate feeds: 141
 
-Sample duplicates:
-  48 Hours -> already kept as 48 Hours from Samsung
-  50 Cent Action -> already kept as 50 Cent Action from Samsung
-  ABC News Live -> already kept as ABC News Live from Samsung
-  ALLBLK Gems -> already kept as ALLBLK Gems from Samsung
-  ANIME x HIDIVE -> already kept as ANIME x HIDIVE from Samsung
-  All Reality WE tv -> already kept as All Reality We TV from Samsung
-  America's Funniest Home Videos -> already kept as America’s Funniest Home Videos from Samsung
-  America's Test Kitchen -> already kept as America's Test Kitchen from Samsung
-  American Crimes -> already kept as American Crimes from Samsung
-  Ancient Aliens -> already kept as Ancient Aliens from Samsung
-  Antiques Roadshow UK -> already kept as Antiques Roadshow UK from Samsung
-  BBC Earth -> already kept as BBC Earth from Samsung
-  BBC News -> already kept as BBC News from Samsung
-  BET Pluto TV -> already kept as BET Pluto TV from Samsung
-  BET x Tyler Perry Comedy -> already kept as BET x Tyler Perry Comedy from Samsung
-  BET x Tyler Perry Drama -> already kept as BET x Tyler Perry Drama from Samsung
-  BUZZR -> already kept as BUZZR from Samsung
-  Baby Shark TV -> already kept as BABY SHARK TV from Samsung
-  Bad Girls Club -> already kept as Bad Girls Club from Samsung
-  Bellator MMA -> already kept as Bellator MMA from Samsung
+Sample alternate feeds:
+  48 Hours -> primary 48 Hours from Samsung
+  50 Cent Action -> primary 50 Cent Action from Samsung
+  ABC News Live -> primary ABC News Live from Samsung
+  ALLBLK Gems -> primary ALLBLK Gems from Samsung
+  ANIME x HIDIVE -> primary ANIME x HIDIVE from Samsung
+  All Reality WE tv -> primary All Reality We TV from Samsung
+  America's Funniest Home Videos -> primary America’s Funniest Home Videos from Samsung
+  America's Test Kitchen -> primary America's Test Kitchen from Samsung
+  American Crimes -> primary American Crimes from Samsung
+  Ancient Aliens -> primary Ancient Aliens from Samsung
+  Antiques Roadshow UK -> primary Antiques Roadshow UK from Samsung
+  BBC Earth -> primary BBC Earth from Samsung
+  BBC News -> primary BBC News from Samsung
+  BET Pluto TV -> primary BET Pluto TV from Samsung
+  BET x Tyler Perry Comedy -> primary BET x Tyler Perry Comedy from Samsung
+  BET x Tyler Perry Drama -> primary BET x Tyler Perry Drama from Samsung
+  BUZZR -> primary BUZZR from Samsung
+  Baby Shark TV -> primary BABY SHARK TV from Samsung
+  Bad Girls Club -> primary Bad Girls Club from Samsung
+  Bellator MMA -> primary Bellator MMA from Samsung
 
 Roku
 ----
 Channels in source: 247
 New unique channels added: 152
-Duplicates skipped: 95
+Duplicates / alternate feeds: 95
 
-Sample duplicates:
-  Curiosity Explora -> already kept as Curiosity Explora from Samsung
-  Dog Whisperer With Cesar Millan -> already kept as Dog Whisperer with Cesar Millan from Pluto
-  MagellanTV Wildest -> already kept as MagellanTV Wildest from Samsung
-  WildEarth -> already kept as WildEarth from Samsung
-  Sonic The Hedgehog -> already kept as Sonic The Hedgehog from Samsung
-  Crunchyroll -> already kept as Crunchyroll from Samsung
-  The Bob Ross Channel -> already kept as The Bob Ross Channel from Samsung
-  PBS Antiques Roadshow -> already kept as PBS Antiques Roadshow from Samsung
-  Storage Wars by A&E -> already kept as Storage Wars by A&E from Pluto
-  Monster Jam -> already kept as Monster Jam from Pluto
-  POWERNATION -> already kept as POWERNATION from Samsung
-  Triton Poker -> already kept as Triton Poker from Samsung
-  Always Funny Videos -> already kept as Always Funny Videos from Samsung
-  Degrassi -> already kept as Degrassi from Samsung
-  LOL Network -> already kept as LOL! Network from Samsung
-  Tastemade Home -> already kept as Tastemade Home from Samsung
-  Dr. G: Medical Examiner -> already kept as Dr. G: Medical Examiner from Samsung
-  Live PD: Presents -> already kept as Live PD Presents from Samsung
-  Misterios sin resolver -> already kept as Misterios sin resolver from Pluto
-  Unsolved Mysteries -> already kept as Unsolved Mysteries from Samsung
+Sample alternate feeds:
+  Curiosity Explora -> primary Curiosity Explora from Samsung
+  Dog Whisperer With Cesar Millan -> primary Dog Whisperer with Cesar Millan from Pluto
+  MagellanTV Wildest -> primary MagellanTV Wildest from Samsung
+  WildEarth -> primary WildEarth from Samsung
+  Sonic The Hedgehog -> primary Sonic The Hedgehog from Samsung
+  Crunchyroll -> primary Crunchyroll from Samsung
+  The Bob Ross Channel -> primary The Bob Ross Channel from Samsung
+  PBS Antiques Roadshow -> primary PBS Antiques Roadshow from Samsung
+  Storage Wars by A&E -> primary Storage Wars by A&E from Pluto
+  Monster Jam -> primary Monster Jam from Pluto
+  POWERNATION -> primary POWERNATION from Samsung
+  Triton Poker -> primary Triton Poker from Samsung
+  Always Funny Videos -> primary Always Funny Videos from Samsung
+  Degrassi -> primary Degrassi from Samsung
+  LOL Network -> primary LOL! Network from Samsung
+  Tastemade Home -> primary Tastemade Home from Samsung
+  Dr. G: Medical Examiner -> primary Dr. G: Medical Examiner from Samsung
+  Live PD: Presents -> primary Live PD Presents from Samsung
+  Misterios sin resolver -> primary Misterios sin resolver from Pluto
+  Unsolved Mysteries -> primary Unsolved Mysteries from Samsung
 
 Tubi
 ----
 Channels in source: 278
 New unique channels added: 156
-Duplicates skipped: 122
+Duplicates / alternate feeds: 122
 
-Sample duplicates:
-  A&E Crime 360 -> already kept as A&E Crime 360 from Pluto
-  ABC News Live -> already kept as ABC News Live from Samsung
-  Alien Nation by DUST -> already kept as Alien Nation by DUST from Samsung
-  Always Funny -> already kept as Always Funny from Pluto
-  America's Test Kitchen -> already kept as America's Test Kitchen from Samsung
-  Anger Management -> already kept as Anger Management from Samsung
-  Antiques Road Trip -> already kept as Antiques Road Trip from Pluto
-  Are We There Yet -> already kept as Are We There Yet? from Samsung
-  Ax Men -> already kept as Ax Men from Samsung
-  Baywatch -> already kept as Baywatch from Samsung
-  BBC Earth -> already kept as BBC Earth from Samsung
-  beIN Sports XTRA -> already kept as beIN SPORTS XTRA from Samsung
-  Big 12 Studios -> already kept as Big 12 Studios from Samsung
-  Bloomberg Originals -> already kept as Bloomberg Originals from Samsung
-  Bloomberg TV+ -> already kept as Bloomberg TV+ from Samsung
-  Bounce XL -> already kept as Bounce XL from Samsung
-  BritBox Mysteries -> already kept as BritBox Mysteries from Samsung
-  BUZZR -> already kept as BUZZR from Samsung
-  CBC News -> already kept as CBC News from Samsung
-  Cheaters -> already kept as Cheaters from Samsung
+Sample alternate feeds:
+  A&E Crime 360 -> primary A&E Crime 360 from Pluto
+  ABC News Live -> primary ABC News Live from Samsung
+  Alien Nation by DUST -> primary Alien Nation by DUST from Samsung
+  Always Funny -> primary Always Funny from Pluto
+  America's Test Kitchen -> primary America's Test Kitchen from Samsung
+  Anger Management -> primary Anger Management from Samsung
+  Antiques Road Trip -> primary Antiques Road Trip from Pluto
+  Are We There Yet -> primary Are We There Yet? from Samsung
+  Ax Men -> primary Ax Men from Samsung
+  Baywatch -> primary Baywatch from Samsung
+  BBC Earth -> primary BBC Earth from Samsung
+  beIN Sports XTRA -> primary beIN SPORTS XTRA from Samsung
+  Big 12 Studios -> primary Big 12 Studios from Samsung
+  Bloomberg Originals -> primary Bloomberg Originals from Samsung
+  Bloomberg TV+ -> primary Bloomberg TV+ from Samsung
+  Bounce XL -> primary Bounce XL from Samsung
+  BritBox Mysteries -> primary BritBox Mysteries from Samsung
+  BUZZR -> primary BUZZR from Samsung
+  CBC News -> primary CBC News from Samsung
+  Cheaters -> primary Cheaters from Samsung
 
 Plex
 ----
 Channels in source: 694
 New unique channels added: 325
-Duplicates skipped: 369
+Duplicates / alternate feeds: 369
 
-Sample duplicates:
-  21 Jump Street -> already kept as 21 Jump Street from Samsung
-  48 Hours -> already kept as 48 Hours from Samsung
-  4UV -> already kept as 4UV from Samsung
-  50 Cent Action -> already kept as 50 Cent Action from Samsung
-  60 Minutes -> already kept as 60 Minutes from Pluto
-  A&E Alaska State Troopers -> already kept as A&E Alaska State Troopers from Samsung
-  A&E Crime 360 -> already kept as A&E Crime 360 from Pluto
-  A&E Live PD Greatest Shifts -> already kept as A&E Live PD: Greatest Shifts from Samsung
-  ACCDN -> already kept as ACCDN from Tubi
-  AccuWeather NOW -> already kept as AccuWeather NOW from Samsung
-  Acorn TV Mysteries -> already kept as Acorn TV Mysteries from Samsung
-  ALF -> already kept as ALF from Roku
-  Alien Nation by DUST -> already kept as Alien Nation by DUST from Samsung
-  All Reality We TV -> already kept as All Reality We TV from Samsung
-  All Weddings We TV -> already kept as All Weddings We TV from Samsung
-  ALLBLK Gems -> already kept as ALLBLK Gems from Samsung
-  Always Funny -> already kept as Always Funny from Pluto
-  AMC en Español -> already kept as AMC en Español from Samsung
-  American Crimes -> already kept as American Crimes from Samsung
-  America’s Funniest Home Videos -> already kept as America’s Funniest Home Videos from Samsung
+Sample alternate feeds:
+  21 Jump Street -> primary 21 Jump Street from Samsung
+  48 Hours -> primary 48 Hours from Samsung
+  4UV -> primary 4UV from Samsung
+  50 Cent Action -> primary 50 Cent Action from Samsung
+  60 Minutes -> primary 60 Minutes from Pluto
+  A&E Alaska State Troopers -> primary A&E Alaska State Troopers from Samsung
+  A&E Crime 360 -> primary A&E Crime 360 from Pluto
+  A&E Live PD Greatest Shifts -> primary A&E Live PD: Greatest Shifts from Samsung
+  ACCDN -> primary ACCDN from Tubi
+  AccuWeather NOW -> primary AccuWeather NOW from Samsung
+  Acorn TV Mysteries -> primary Acorn TV Mysteries from Samsung
+  ALF -> primary ALF from Roku
+  Alien Nation by DUST -> primary Alien Nation by DUST from Samsung
+  All Reality We TV -> primary All Reality We TV from Samsung
+  All Weddings We TV -> primary All Weddings We TV from Samsung
+  ALLBLK Gems -> primary ALLBLK Gems from Samsung
+  Always Funny -> primary Always Funny from Pluto
+  AMC en Español -> primary AMC en Español from Samsung
+  American Crimes -> primary American Crimes from Samsung
+  America’s Funniest Home Videos -> primary America’s Funniest Home Videos from Samsung
 
-==================================================
+============================================================
 MASTER PLAYLIST SUMMARY
-==================================================
+============================================================
 
 Total upstream channel entries: 2233
 Final unique channels: 1505
-Duplicates removed: 728
+Alternate feed entries retained: 728
+Channels with at least one fallback: 480
 
-Final channels by source:
+Final primary channels by source:
   Samsung: 584
   Pluto: 288
   Roku: 152
@@ -168,3 +169,146 @@ Top categories:
   Anime & Gaming: 14
   Motor Sports: 14
   Home + Food: 14
+  True Crime: 12
+  Game Shows: 11
+  Sports On Now: 9
+  History + Science: 8
+  News + Opinion: 8
+  Westerns: 8
+  Music Videos: 8
+  News: 7
+  Competition Reality: 6
+  Anime: 6
+
+============================================================
+SERVER-SIDE VALIDATION SAMPLE
+============================================================
+
+IMPORTANT: A server-pass does NOT prove browser/APTV compatibility.
+Actual browser playback remains the final compatibility test.
+
+Samples tested: 60
+Server pass: 59
+Server warning: 0
+Server fail: 1
+
+[server-pass] Samsung - 21 Jump Street
+  Manifest reachable and appears to be HLS
+[server-pass] Samsung - BBC Food
+  Manifest reachable and appears to be HLS
+[server-pass] Samsung - CINEVAULT: Westerns
+  Manifest reachable and appears to be HLS
+[server-pass] Samsung - DraftKings Network
+  Manifest reachable and appears to be HLS
+[server-pass] Samsung - Grizzy and the Lemmings
+  Manifest reachable and appears to be HLS
+[server-pass] Samsung - Letterman TV
+  Manifest reachable and appears to be HLS
+[server-pass] Samsung - Mythical 24/7
+  Manifest reachable and appears to be HLS
+[server-pass] Samsung - POWERNATION
+  Manifest reachable and appears to be HLS
+[server-pass] Samsung - Stingray DJAZZ
+  Manifest reachable and appears to be HLS
+[server-pass] Samsung - The Jack Hanna Channel
+  Manifest reachable and appears to be HLS
+[server-pass] Samsung - Vevo Latino
+  Manifest reachable and appears to be HLS
+[server-pass] Samsung - ¿Qué Culpa Tiene Fatmagül?
+  Manifest reachable and appears to be HLS
+[server-pass] Pluto - 00s Replay
+  Manifest reachable and appears to be HLS
+[server-pass] Pluto - Beverly Hills 90210
+  Manifest reachable and appears to be HLS
+[server-pass] Pluto - CBS News Pittsburgh
+  Manifest reachable and appears to be HLS
+[server-pass] Pluto - Cine en español
+  Manifest reachable and appears to be HLS
+[server-pass] Pluto - Ebony TV Drama
+  Manifest reachable and appears to be HLS
+[server-pass] Pluto - Inuyasha
+  Manifest reachable and appears to be HLS
+[server-pass] Pluto - More TV Drama
+  Manifest reachable and appears to be HLS
+[server-pass] Pluto - Pluto TV Anime
+  Manifest reachable and appears to be HLS
+[server-pass] Pluto - Pluto TV Romance
+  Manifest reachable and appears to be HLS
+[server-pass] Pluto - Spike Pluto TV
+  Manifest reachable and appears to be HLS
+[server-pass] Pluto - The Walking Dead en español
+  Manifest reachable and appears to be HLS
+[server-pass] Pluto - iCarly TV
+  Manifest reachable and appears to be HLS
+[server-fail] Roku - Unbeaten Sports
+  HTTP 404
+[server-pass] Roku - Fluffy TV
+  Manifest reachable and appears to be HLS
+[server-pass] Roku - COPS en Español
+  Manifest reachable and appears to be HLS
+[server-pass] Roku - TruBlu Crime Channel
+  Manifest reachable and appears to be HLS
+[server-pass] Roku - Scares by Shudder
+  Manifest reachable and appears to be HLS
+[server-pass] Roku - Ninja Kidz TV
+  Manifest reachable and appears to be HLS
+[server-pass] Roku - FreeTV Acción
+  Manifest reachable and appears to be HLS
+[server-pass] Roku - ViX Lo Mejor de Liga MX
+  Manifest reachable and appears to be HLS
+[server-pass] Roku - FilmRise Classic TV
+  Manifest reachable and appears to be HLS
+[server-pass] Roku - Life with Derek
+  Manifest reachable and appears to be HLS
+[server-pass] Roku - The Dick Van Dyke Show
+  Manifest reachable and appears to be HLS
+[server-pass] Roku - Weathernation
+  Manifest reachable and appears to be HLS
+[server-pass] Tubi - 25 News KXXV / KRHD
+  Manifest reachable and appears to be HLS
+[server-pass] Tubi - Crime Scenes
+  Manifest reachable and appears to be HLS
+[server-pass] Tubi - FOX LOCAL Minnesota
+  Manifest reachable and appears to be HLS
+[server-pass] Tubi - Ghosts are Real
+  Manifest reachable and appears to be HLS
+[server-pass] Tubi - KETV Very Omaha 7
+  Manifest reachable and appears to be HLS
+[server-pass] Tubi - KOAT Very New Mexico 7
+  Manifest reachable and appears to be HLS
+[server-pass] Tubi - Lucha Plus
+  Manifest reachable and appears to be HLS
+[server-pass] Tubi - Sweet Escapes
+  Manifest reachable and appears to be HLS
+[server-pass] Tubi - Very Boston WCVB
+  Manifest reachable and appears to be HLS
+[server-pass] Tubi - WISN Very Milwaukee 12
+  Manifest reachable and appears to be HLS
+[server-pass] Tubi - WPXI Pittsburgh
+  Manifest reachable and appears to be HLS
+[server-pass] Tubi - WYFF Very S. Carolina 4
+  Manifest reachable and appears to be HLS
+[server-pass] Plex - 123GO!
+  Manifest reachable and appears to be HLS
+[server-pass] Plex - Beyond Paranormal
+  Manifest reachable and appears to be HLS
+[server-pass] Plex - Corazón
+  Manifest reachable and appears to be HLS
+[server-pass] Plex - F1 Channel
+  Manifest reachable and appears to be HLS
+[server-pass] Plex - Glewed TV
+  Manifest reachable and appears to be HLS
+[server-pass] Plex - Impossible - Quiz Show
+  Manifest reachable and appears to be HLS
+[server-pass] Plex - MI-5
+  Manifest reachable and appears to be HLS
+[server-pass] Plex - Perform by Lifetime
+  Manifest reachable and appears to be HLS
+[server-pass] Plex - Silent Witness|New Tricks
+  Manifest reachable and appears to be HLS
+[server-pass] Plex - Tennis+
+  Manifest reachable and appears to be HLS
+[server-pass] Plex - Travel Escapes
+  Manifest reachable and appears to be HLS
+[server-pass] Plex - ÚN TV
+  Manifest reachable and appears to be HLS
