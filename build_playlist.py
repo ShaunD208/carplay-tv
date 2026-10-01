@@ -1,30 +1,32 @@
 #!/usr/bin/env python3
 
 """
-CarPlay TV Master Playlist Builder v2
+CarPlay TV Master Playlist Builder v3
 =====================================
 
-Goals:
-- Combine major U.S. FAST providers.
-- Prefer providers in a defined priority order.
-- Conservatively deduplicate channel names.
-- Preserve alternate/fallback feeds.
-- Perform server-side HLS/URL validation.
-- Never confuse server validation with browser/CORS validation.
-- Generate reports for actual browser testing.
+Target:
+    APTV / Apple native HLS / CarPlay
 
-Source priority:
-1. Samsung TV Plus US
-2. Pluto TV US
-3. Roku
-4. Tubi
-5. Plex US
+Provider priority:
+    1. Samsung TV Plus US
+    2. Pluto TV US
+    3. Roku
+    4. Tubi
+    5. Plex US
 
-Generated files:
-- master.m3u
-- playlist_report.txt
-- browser_test_candidates.m3u
-- channel_sources.json
+v3 adds:
+- English-focused filtering
+- Conservative foreign-language detection
+- Provider/source metadata
+- Alternate/fallback feed retention
+- Known-dead stream rejection
+- Fallback promotion when a primary is known dead
+- Representative server-side health testing
+- Detailed reporting
+
+IMPORTANT:
+Server validation does NOT determine browser compatibility.
+APTV / Apple native HLS is the authoritative playback target.
 """
 
 from __future__ import annotations
@@ -33,7 +35,6 @@ import json
 import re
 import sys
 import urllib.error
-import urllib.parse
 import urllib.request
 from collections import Counter, defaultdict
 from pathlib import Path
@@ -45,12 +46,9 @@ TEST_FILE = Path("browser_test_candidates.m3u")
 SOURCES_FILE = Path("channel_sources.json")
 
 
-USER_AGENT = "Mozilla/5.0 CarPlay-TV-Playlist-Builder/2.0"
+USER_AGENT = "Mozilla/5.0 CarPlay-TV-Playlist-Builder/3.0"
 
 VALIDATION_TIMEOUT = 12
-
-# Validate only a representative sample during every automated build.
-# Validating 1,500+ streams every day would be unnecessarily heavy.
 VALIDATION_SAMPLE_PER_SOURCE = 12
 
 
@@ -103,18 +101,95 @@ SOURCES = [
 ]
 
 
+# ------------------------------------------------------------
+# LANGUAGE FILTERING
+# ------------------------------------------------------------
+
+# Strong category indicators. If one of these appears in the
+# provider's group/category, we can safely classify it as
+# non-English for this user's playlist.
+NON_ENGLISH_GROUP_TERMS = [
+    "español",
+    "en español",
+    "latino",
+    "latina",
+    "spanish",
+    "français",
+    "french",
+    "português",
+    "portuguese",
+    "deutsch",
+    "german",
+    "italiano",
+    "italian",
+    "한국",
+    "korean",
+    "日本",
+    "japanese",
+    "中文",
+    "chinese",
+    "hindi",
+    "punjabi",
+    "urdu",
+    "arabic",
+    "العربية",
+    "filipino",
+    "tagalog",
+    "vietnamese",
+    "thai",
+]
+
+
+# Strong name indicators.
+#
+# Keep this conservative. We do NOT reject a channel simply
+# because its title happens to contain a foreign word.
+NON_ENGLISH_NAME_PATTERNS = [
+    r"\ben español\b",
+    r"\bespañol\b",
+    r"\bespanol\b",
+    r"\bspanish\b",
+    r"\ben français\b",
+    r"\bfrançais\b",
+    r"\bportuguês\b",
+    r"\bem português\b",
+    r"\bauf deutsch\b",
+    r"\bin italiano\b",
+    r"\ben hindi\b",
+    r"\ben español latino\b",
+]
+
+
+# Some channel names strongly identify Spanish-language feeds
+# even when the provider category is poor.
+STRONG_SPANISH_FEED_PATTERNS = [
+    r"\bnoticias\b",
+    r"\bdeportes en español\b",
+    r"\bcine en español\b",
+    r"\bpelículas en español\b",
+    r"\bpeliculas en español\b",
+    r"\btelenovelas\b",
+    r"\bnovelas\b",
+]
+
+
+# ------------------------------------------------------------
+# KNOWN DEAD STREAMS
+# ------------------------------------------------------------
+
+# Confirmed both by our server test and actual user playback.
+#
+# Use normalized channel names.
+KNOWN_DEAD_CHANNELS = {
+    "unbeatensports",
+}
+
+
 def request_url(
     url: str,
     timeout: int = 60,
     max_bytes: int | None = None,
 ):
-    """
-    Download a URL with a browser-like user agent.
-
-    max_bytes allows validation to read only the beginning of
-    a response rather than downloading unnecessary data.
-    """
-
     request = urllib.request.Request(
         url,
         headers={
@@ -134,6 +209,7 @@ def request_url(
         data = response.read(max_bytes)
 
     final_url = response.geturl()
+
     content_type = response.headers.get(
         "Content-Type",
         "",
@@ -173,9 +249,6 @@ def parse_attribute(
 
 
 def parse_playlist(text: str) -> list[dict]:
-    """
-    Parse EXTINF entries while preserving useful metadata.
-    """
 
     lines = text.splitlines()
 
@@ -259,19 +332,13 @@ def parse_playlist(text: str) -> list[dict]:
 
 
 def normalize_name(name: str) -> str:
-    """
-    Conservative duplicate matching.
-
-    We intentionally do NOT try to merge semantic aliases such as:
-        ACCDN
-        ACC Digital Network
-
-    False duplicates are worse than a small number of duplicates.
-    """
 
     value = name.casefold()
 
-    value = value.replace("&", "and")
+    value = value.replace(
+        "&",
+        "and",
+    )
 
     value = re.sub(
         r"\b(?:hd|fhd|uhd|4k|fast)\b",
@@ -288,14 +355,68 @@ def normalize_name(name: str) -> str:
     return value
 
 
+def is_non_english(
+    name: str,
+    group: str,
+) -> tuple[bool, str]:
+
+    """
+    Conservative language filtering.
+
+    Returns:
+        (should_filter, reason)
+    """
+
+    name_lower = name.casefold()
+    group_lower = group.casefold()
+
+
+    for term in NON_ENGLISH_GROUP_TERMS:
+
+        if term.casefold() in group_lower:
+
+            return (
+                True,
+                f"category '{group}'",
+            )
+
+
+    for pattern in NON_ENGLISH_NAME_PATTERNS:
+
+        if re.search(
+            pattern,
+            name_lower,
+            flags=re.IGNORECASE,
+        ):
+
+            return (
+                True,
+                f"name '{name}'",
+            )
+
+
+    for pattern in STRONG_SPANISH_FEED_PATTERNS:
+
+        if re.search(
+            pattern,
+            name_lower,
+            flags=re.IGNORECASE,
+        ):
+
+            return (
+                True,
+                f"name '{name}'",
+            )
+
+
+    return False, ""
+
+
 def add_metadata(
     extinf: str,
     source: str,
     fallback_count: int,
 ) -> str:
-    """
-    Add our own metadata while preserving upstream EXTINF fields.
-    """
 
     comma_position = extinf.rfind(",")
 
@@ -303,7 +424,10 @@ def add_metadata(
         return extinf
 
     before_name = extinf[:comma_position]
-    channel_name = extinf[comma_position:]
+
+    channel_name = extinf[
+        comma_position:
+    ]
 
     return (
         f'{before_name} '
@@ -314,16 +438,6 @@ def add_metadata(
 
 
 def validate_stream(url: str) -> dict:
-    """
-    Server-side stream validation.
-
-    IMPORTANT:
-    A PASS here does NOT prove browser compatibility.
-
-    Browsers enforce CORS and other client-side restrictions that
-    Python does not. Final compatibility must be tested in our
-    GitHub Pages player / APTV browser.
-    """
 
     result = {
         "status": "unknown",
@@ -353,22 +467,38 @@ def validate_stream(url: str) -> dict:
 
         looks_like_hls = (
             "#EXTM3U" in text
-            or "mpegurl" in content_type.lower()
-            or ".m3u8" in final_url.lower()
+            or "mpegurl"
+            in content_type.casefold()
+            or ".m3u8"
+            in final_url.casefold()
         )
 
-        result["looks_like_hls"] = looks_like_hls
+        result["looks_like_hls"] = (
+            looks_like_hls
+        )
 
         if looks_like_hls:
-            result["status"] = "server-pass"
-            result["reason"] = (
-                "Manifest reachable and appears to be HLS"
+
+            result["status"] = (
+                "server-pass"
             )
+
+            result["reason"] = (
+                "Manifest reachable and "
+                "appears to be HLS"
+            )
+
         else:
-            result["status"] = "server-warning"
-            result["reason"] = (
-                "URL reachable but response was not clearly HLS"
+
+            result["status"] = (
+                "server-warning"
             )
+
+            result["reason"] = (
+                "URL reachable but response "
+                "was not clearly HLS"
+            )
+
 
     except urllib.error.HTTPError as exc:
 
@@ -378,6 +508,7 @@ def validate_stream(url: str) -> dict:
             f"HTTP {exc.code}"
         )
 
+
     except urllib.error.URLError as exc:
 
         result["status"] = "server-fail"
@@ -386,11 +517,13 @@ def validate_stream(url: str) -> dict:
             f"URL error: {exc.reason}"
         )
 
+
     except Exception as exc:
 
         result["status"] = "server-fail"
 
         result["reason"] = str(exc)
+
 
     return result
 
@@ -398,21 +531,18 @@ def validate_stream(url: str) -> dict:
 def choose_validation_samples(
     channels: list[dict],
 ) -> list[dict]:
-    """
-    Pick representative channels from each provider.
-
-    We spread samples through each provider's contribution rather
-    than simply checking the first N channels.
-    """
 
     by_source = defaultdict(list)
 
     for channel in channels:
-        by_source[channel["source"]].append(
-            channel
-        )
+
+        by_source[
+            channel["source"]
+        ].append(channel)
+
 
     selected = []
+
 
     for source in [
         item["short"]
@@ -433,8 +563,13 @@ def choose_validation_samples(
         )
 
         if sample_size == 1:
-            selected.append(candidates[0])
+
+            selected.append(
+                candidates[0]
+            )
+
             continue
+
 
         indexes = {
             round(
@@ -442,37 +577,173 @@ def choose_validation_samples(
                 * (len(candidates) - 1)
                 / (sample_size - 1)
             )
-            for i in range(sample_size)
+            for i in range(
+                sample_size
+            )
         }
 
+
         for index in sorted(indexes):
+
             selected.append(
                 candidates[index]
             )
 
+
     return selected
+
+
+def rebuild_extinf_for_promoted_feed(
+    primary: dict,
+    promoted: dict,
+) -> str:
+
+    """
+    If a fallback is promoted, preserve the original primary's
+    metadata where useful but replace fields we know from the
+    promoted feed.
+    """
+
+    extinf = primary["extinf"]
+
+    if promoted.get("logo"):
+
+        if 'tvg-logo="' in extinf:
+
+            extinf = re.sub(
+                r'tvg-logo="[^"]*"',
+                (
+                    'tvg-logo="'
+                    + promoted["logo"]
+                    + '"'
+                ),
+                extinf,
+                count=1,
+            )
+
+
+    if promoted.get("tvg_id"):
+
+        if 'tvg-id="' in extinf:
+
+            extinf = re.sub(
+                r'tvg-id="[^"]*"',
+                (
+                    'tvg-id="'
+                    + promoted["tvg_id"]
+                    + '"'
+                ),
+                extinf,
+                count=1,
+            )
+
+
+    return extinf
+
+
+def promote_known_dead_primaries(
+    channels: list[dict],
+) -> list[dict]:
+
+    promoted_count = 0
+    removed_count = 0
+
+    result = []
+
+    for channel in channels:
+
+        key = normalize_name(
+            channel["name"]
+        )
+
+        if key not in KNOWN_DEAD_CHANNELS:
+
+            result.append(channel)
+            continue
+
+
+        if channel["fallbacks"]:
+
+            old_primary = {
+                "source": channel["source"],
+                "name": channel["name"],
+                "url": channel["url"],
+                "logo": channel["logo"],
+                "group": channel["group"],
+                "tvg_id": channel["tvg_id"],
+            }
+
+            promoted = (
+                channel["fallbacks"].pop(0)
+            )
+
+            channel["source"] = (
+                promoted["source"]
+            )
+
+            channel["url"] = (
+                promoted["url"]
+            )
+
+            channel["logo"] = (
+                promoted.get("logo", "")
+                or channel["logo"]
+            )
+
+            channel["tvg_id"] = (
+                promoted.get("tvg_id", "")
+                or channel["tvg_id"]
+            )
+
+            channel["extinf"] = (
+                rebuild_extinf_for_promoted_feed(
+                    channel,
+                    promoted,
+                )
+            )
+
+            # Keep the old feed out of fallbacks because it is
+            # already confirmed dead.
+            promoted_count += 1
+
+            result.append(channel)
+
+        else:
+
+            removed_count += 1
+
+
+    return (
+        result,
+        promoted_count,
+        removed_count,
+    )
 
 
 def build_master():
 
     primary_by_key = {}
-
     ordered_keys = []
-
-    source_stats = {}
 
     total_downloaded = 0
 
+    language_filtered = Counter()
+
+    language_examples = defaultdict(list)
+
 
     report = [
-        "CARPLAY TV MASTER PLAYLIST REPORT V2",
-        "=" * 60,
+        "CARPLAY TV MASTER PLAYLIST REPORT V3",
+        "=" * 64,
+        "",
+        "Target: APTV / Apple native HLS / CarPlay",
+        "Language preference: English-only",
         "",
     ]
 
 
     #
-    # Download and merge providers
+    # DOWNLOAD + LANGUAGE FILTER + DEDUPLICATE
     #
 
     for source in SOURCES:
@@ -484,7 +755,9 @@ def build_master():
             f"Downloading {source_name}..."
         )
 
+
         try:
+
             text = download_text(
                 source["url"]
             )
@@ -508,17 +781,69 @@ def build_master():
             continue
 
 
-        channels = parse_playlist(text)
+        raw_channels = parse_playlist(
+            text
+        )
 
-        total_downloaded += len(channels)
+        total_downloaded += len(
+            raw_channels
+        )
+
+
+        accepted_channels = []
+
+        filtered_here = 0
+
+
+        for channel in raw_channels:
+
+            filtered, reason = (
+                is_non_english(
+                    channel["name"],
+                    channel["group"],
+                )
+            )
+
+            if filtered:
+
+                filtered_here += 1
+
+                language_filtered[
+                    source_short
+                ] += 1
+
+                if (
+                    len(
+                        language_examples[
+                            source_short
+                        ]
+                    )
+                    < 20
+                ):
+
+                    language_examples[
+                        source_short
+                    ].append(
+                        (
+                            channel["name"],
+                            channel["group"],
+                            reason,
+                        )
+                    )
+
+                continue
+
+
+            accepted_channels.append(
+                channel
+            )
+
 
         added = 0
         duplicate_count = 0
 
-        duplicate_examples = []
 
-
-        for channel in channels:
+        for channel in accepted_channels:
 
             key = normalize_name(
                 channel["name"]
@@ -526,6 +851,7 @@ def build_master():
 
             if not key:
                 continue
+
 
             feed = {
                 "source": source_short,
@@ -539,24 +865,28 @@ def build_master():
 
             if key not in primary_by_key:
 
-                channel["source"] = source_short
+                channel["source"] = (
+                    source_short
+                )
+
                 channel["fallbacks"] = []
 
-                primary_by_key[key] = channel
+                primary_by_key[key] = (
+                    channel
+                )
 
                 ordered_keys.append(key)
 
                 added += 1
 
+
             else:
 
                 duplicate_count += 1
 
-                primary = primary_by_key[key]
-
-                #
-                # Don't store an identical URL as a fallback.
-                #
+                primary = (
+                    primary_by_key[key]
+                )
 
                 existing_urls = {
                     primary["url"]
@@ -568,30 +898,14 @@ def build_master():
                     in primary["fallbacks"]
                 )
 
-                if feed["url"] not in existing_urls:
+                if (
+                    feed["url"]
+                    not in existing_urls
+                ):
 
-                    primary["fallbacks"].append(
-                        feed
-                    )
-
-                if len(
-                    duplicate_examples
-                ) < 20:
-
-                    duplicate_examples.append(
-                        (
-                            channel["name"],
-                            primary["name"],
-                            primary["source"],
-                        )
-                    )
-
-
-        source_stats[source_short] = {
-            "downloaded": len(channels),
-            "added": added,
-            "duplicates": duplicate_count,
-        }
+                    primary[
+                        "fallbacks"
+                    ].append(feed)
 
 
         report.extend(
@@ -599,58 +913,43 @@ def build_master():
                 source_name,
                 "-" * len(source_name),
                 (
-                    "Channels in source: "
-                    f"{len(channels)}"
+                    "Raw channels: "
+                    f"{len(raw_channels)}"
+                ),
+                (
+                    "Non-English filtered: "
+                    f"{filtered_here}"
+                ),
+                (
+                    "English candidates: "
+                    f"{len(accepted_channels)}"
                 ),
                 (
                     "New unique channels added: "
                     f"{added}"
                 ),
                 (
-                    "Duplicates / alternate feeds: "
+                    "Alternate feeds retained: "
                     f"{duplicate_count}"
                 ),
+                "",
             ]
         )
 
 
-        if duplicate_examples:
-
-            report.extend(
-                [
-                    "",
-                    "Sample alternate feeds:",
-                ]
-            )
-
-            for (
-                duplicate_name,
-                kept_name,
-                kept_source,
-            ) in duplicate_examples:
-
-                report.append(
-                    "  "
-                    f"{duplicate_name}"
-                    " -> primary "
-                    f"{kept_name}"
-                    f" from {kept_source}"
-                )
-
-
-        report.append("")
-
-
         print(
-            f"  {len(channels)} entries"
+            f"  raw: "
+            f"{len(raw_channels)}"
         )
 
         print(
-            f"  {added} unique channels added"
+            f"  language filtered: "
+            f"{filtered_here}"
         )
 
         print(
-            f"  {duplicate_count} alternate feeds"
+            f"  unique added: "
+            f"{added}"
         )
 
 
@@ -661,13 +960,26 @@ def build_master():
 
 
     #
-    # Server-side validation sample
+    # KNOWN DEAD PRIMARY HANDLING
+    #
+
+    (
+        master_channels,
+        dead_promoted,
+        dead_removed,
+    ) = promote_known_dead_primaries(
+        master_channels
+    )
+
+
+    #
+    # VALIDATION SAMPLE
     #
 
     print("")
     print(
         "Running representative "
-        "server-side stream validation..."
+        "server-side validation..."
     )
 
 
@@ -679,6 +991,7 @@ def build_master():
 
 
     validation_results = []
+
 
     for number, channel in enumerate(
         validation_samples,
@@ -692,22 +1005,30 @@ def build_master():
             f"{channel['name']}"
         )
 
+
         result = validate_stream(
             channel["url"]
         )
 
+
         validation_results.append(
             {
-                "source": channel["source"],
-                "name": channel["name"],
-                "url": channel["url"],
+                "source": (
+                    channel["source"]
+                ),
+                "name": (
+                    channel["name"]
+                ),
+                "url": (
+                    channel["url"]
+                ),
                 **result,
             }
         )
 
 
     #
-    # Write master M3U
+    # MASTER M3U
     #
 
     output_lines = [
@@ -746,30 +1067,32 @@ def build_master():
 
 
     #
-    # Write browser test candidate playlist
+    # BROWSER/APTV TEST PLAYLIST
     #
 
     test_lines = [
         "#EXTM3U",
     ]
 
-    for item in validation_results:
 
-        channel = next(
-            (
-                channel
-                for channel
-                in master_channels
-                if channel["source"]
-                == item["source"]
-                and channel["name"]
-                == item["name"]
-            ),
-            None,
+    validation_names = {
+        (
+            item["source"],
+            item["name"],
         )
+        for item in validation_results
+    }
 
-        if channel is None:
+
+    for channel in master_channels:
+
+        if (
+            channel["source"],
+            channel["name"],
+        ) not in validation_names:
+
             continue
+
 
         test_lines.append(
             add_metadata(
@@ -800,29 +1123,40 @@ def build_master():
 
 
     #
-    # Write source/fallback database
+    # SOURCE / FALLBACK DATABASE
     #
 
     source_database = []
+
 
     for channel in master_channels:
 
         source_database.append(
             {
-                "name": channel["name"],
+                "name": (
+                    channel["name"]
+                ),
                 "normalized_name": (
                     normalize_name(
                         channel["name"]
                     )
                 ),
-                "group": channel["group"],
-                "logo": channel["logo"],
-                "tvg_id": channel["tvg_id"],
+                "group": (
+                    channel["group"]
+                ),
+                "logo": (
+                    channel["logo"]
+                ),
+                "tvg_id": (
+                    channel["tvg_id"]
+                ),
                 "primary": {
                     "source": (
                         channel["source"]
                     ),
-                    "url": channel["url"],
+                    "url": (
+                        channel["url"]
+                    ),
                 },
                 "fallbacks": (
                     channel["fallbacks"]
@@ -843,7 +1177,7 @@ def build_master():
 
 
     #
-    # Reporting
+    # REPORT
     #
 
     source_counts = Counter(
@@ -852,18 +1186,13 @@ def build_master():
         in master_channels
     )
 
+
     group_counts = Counter(
         channel["group"]
         for channel
         in master_channels
     )
 
-    channels_with_fallbacks = sum(
-        1
-        for channel
-        in master_channels
-        if channel["fallbacks"]
-    )
 
     total_fallbacks = sum(
         len(
@@ -871,6 +1200,14 @@ def build_master():
         )
         for channel
         in master_channels
+    )
+
+
+    channels_with_fallbacks = sum(
+        1
+        for channel
+        in master_channels
+        if channel["fallbacks"]
     )
 
 
@@ -883,28 +1220,98 @@ def build_master():
 
     report.extend(
         [
-            "=" * 60,
+            "=" * 64,
+            "LANGUAGE FILTER SUMMARY",
+            "=" * 64,
+            "",
+        ]
+    )
+
+
+    total_language_filtered = sum(
+        language_filtered.values()
+    )
+
+
+    report.append(
+        "Total non-English entries filtered: "
+        f"{total_language_filtered}"
+    )
+
+    report.append("")
+
+
+    for source in [
+        item["short"]
+        for item in SOURCES
+    ]:
+
+        report.append(
+            f"{source}: "
+            f"{language_filtered.get(source, 0)}"
+        )
+
+
+        examples = (
+            language_examples.get(
+                source,
+                [],
+            )
+        )
+
+
+        for (
+            name,
+            group,
+            reason,
+        ) in examples:
+
+            report.append(
+                f"  FILTERED: {name} "
+                f"[{group}] "
+                f"because {reason}"
+            )
+
+
+        report.append("")
+
+
+    report.extend(
+        [
+            "=" * 64,
             "MASTER PLAYLIST SUMMARY",
-            "=" * 60,
+            "=" * 64,
             "",
             (
-                "Total upstream channel entries: "
+                "Total upstream entries: "
                 f"{total_downloaded}"
             ),
             (
-                "Final unique channels: "
+                "Non-English entries filtered: "
+                f"{total_language_filtered}"
+            ),
+            (
+                "Final unique English-focused channels: "
                 f"{len(master_channels)}"
             ),
             (
-                "Alternate feed entries retained: "
+                "Alternate feeds retained: "
                 f"{total_fallbacks}"
             ),
             (
-                "Channels with at least one fallback: "
+                "Channels with fallback feeds: "
                 f"{channels_with_fallbacks}"
             ),
+            (
+                "Known-dead primaries promoted: "
+                f"{dead_promoted}"
+            ),
+            (
+                "Known-dead channels removed: "
+                f"{dead_removed}"
+            ),
             "",
-            "Final primary channels by source:",
+            "Primary channels by source:",
         ]
     )
 
@@ -940,17 +1347,20 @@ def build_master():
     report.extend(
         [
             "",
-            "=" * 60,
+            "=" * 64,
             "SERVER-SIDE VALIDATION SAMPLE",
-            "=" * 60,
+            "=" * 64,
             "",
             (
-                "IMPORTANT: A server-pass does NOT "
-                "prove browser/APTV compatibility."
+                "Target playback environment: "
+                "APTV / Apple native HLS."
             ),
             (
-                "Actual browser playback remains "
-                "the final compatibility test."
+                "Server validation is health checking only."
+            ),
+            (
+                "Chrome/hls.js failure does NOT automatically "
+                "exclude a channel."
             ),
             "",
             (
@@ -988,36 +1398,33 @@ def build_master():
 
 
     REPORT_FILE.write_text(
-        "\n".join(
-            report
-        )
-        + "\n",
+        "\n".join(report) + "\n",
         encoding="utf-8",
     )
 
 
     print("")
     print(
-        "=" * 60
+        "=" * 64
     )
 
     print(
-        "MASTER PLAYLIST V2 COMPLETE"
+        "CARPLAY TV MASTER V3 COMPLETE"
     )
 
     print(
-        f"Unique channels: "
+        "Final English-focused channels: "
         f"{len(master_channels)}"
     )
 
     print(
-        f"Alternate feeds retained: "
-        f"{total_fallbacks}"
+        "Non-English entries filtered: "
+        f"{total_language_filtered}"
     )
 
     print(
-        f"Validation samples: "
-        f"{len(validation_results)}"
+        "Alternate feeds retained: "
+        f"{total_fallbacks}"
     )
 
     print(
@@ -1037,13 +1444,14 @@ def build_master():
     )
 
     print(
-        "=" * 60
+        "=" * 64
     )
 
 
 if __name__ == "__main__":
 
     try:
+
         build_master()
 
     except KeyboardInterrupt:
