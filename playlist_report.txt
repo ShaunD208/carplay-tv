@@ -38,15 +38,67 @@ Sample duplicates:
   Bad Girls Club -> already kept as Bad Girls Club from Samsung
   Bellator MMA -> already kept as Bellator MMA from Samsung
 
-ERROR downloading Roku: HTTP Error 404: Not Found
+Roku
+----
+Channels in source: 247
+New unique channels added: 152
+Duplicates skipped: 95
 
-ERROR downloading Tubi: HTTP Error 404: Not Found
+Sample duplicates:
+  Curiosity Explora -> already kept as Curiosity Explora from Samsung
+  Dog Whisperer With Cesar Millan -> already kept as Dog Whisperer with Cesar Millan from Pluto
+  MagellanTV Wildest -> already kept as MagellanTV Wildest from Samsung
+  WildEarth -> already kept as WildEarth from Samsung
+  Sonic The Hedgehog -> already kept as Sonic The Hedgehog from Samsung
+  Crunchyroll -> already kept as Crunchyroll from Samsung
+  The Bob Ross Channel -> already kept as The Bob Ross Channel from Samsung
+  PBS Antiques Roadshow -> already kept as PBS Antiques Roadshow from Samsung
+  Storage Wars by A&E -> already kept as Storage Wars by A&E from Pluto
+  Monster Jam -> already kept as Monster Jam from Pluto
+  POWERNATION -> already kept as POWERNATION from Samsung
+  Triton Poker -> already kept as Triton Poker from Samsung
+  Always Funny Videos -> already kept as Always Funny Videos from Samsung
+  Degrassi -> already kept as Degrassi from Samsung
+  LOL Network -> already kept as LOL! Network from Samsung
+  Tastemade Home -> already kept as Tastemade Home from Samsung
+  Dr. G: Medical Examiner -> already kept as Dr. G: Medical Examiner from Samsung
+  Live PD: Presents -> already kept as Live PD Presents from Samsung
+  Misterios sin resolver -> already kept as Misterios sin resolver from Pluto
+  Unsolved Mysteries -> already kept as Unsolved Mysteries from Samsung
+
+Tubi
+----
+Channels in source: 278
+New unique channels added: 156
+Duplicates skipped: 122
+
+Sample duplicates:
+  A&E Crime 360 -> already kept as A&E Crime 360 from Pluto
+  ABC News Live -> already kept as ABC News Live from Samsung
+  Alien Nation by DUST -> already kept as Alien Nation by DUST from Samsung
+  Always Funny -> already kept as Always Funny from Pluto
+  America's Test Kitchen -> already kept as America's Test Kitchen from Samsung
+  Anger Management -> already kept as Anger Management from Samsung
+  Antiques Road Trip -> already kept as Antiques Road Trip from Pluto
+  Are We There Yet -> already kept as Are We There Yet? from Samsung
+  Ax Men -> already kept as Ax Men from Samsung
+  Baywatch -> already kept as Baywatch from Samsung
+  BBC Earth -> already kept as BBC Earth from Samsung
+  beIN Sports XTRA -> already kept as beIN SPORTS XTRA from Samsung
+  Big 12 Studios -> already kept as Big 12 Studios from Samsung
+  Bloomberg Originals -> already kept as Bloomberg Originals from Samsung
+  Bloomberg TV+ -> already kept as Bloomberg TV+ from Samsung
+  Bounce XL -> already kept as Bounce XL from Samsung
+  BritBox Mysteries -> already kept as BritBox Mysteries from Samsung
+  BUZZR -> already kept as BUZZR from Samsung
+  CBC News -> already kept as CBC News from Samsung
+  Cheaters -> already kept as Cheaters from Samsung
 
 Plex
 ----
 Channels in source: 694
-New unique channels added: 411
-Duplicates skipped: 283
+New unique channels added: 325
+Duplicates skipped: 369
 
 Sample duplicates:
   21 Jump Street -> already kept as 21 Jump Street from Samsung
@@ -57,8 +109,10 @@ Sample duplicates:
   A&E Alaska State Troopers -> already kept as A&E Alaska State Troopers from Samsung
   A&E Crime 360 -> already kept as A&E Crime 360 from Pluto
   A&E Live PD Greatest Shifts -> already kept as A&E Live PD: Greatest Shifts from Samsung
+  ACCDN -> already kept as ACCDN from Tubi
   AccuWeather NOW -> already kept as AccuWeather NOW from Samsung
   Acorn TV Mysteries -> already kept as Acorn TV Mysteries from Samsung
+  ALF -> already kept as ALF from Roku
   Alien Nation by DUST -> already kept as Alien Nation by DUST from Samsung
   All Reality We TV -> already kept as All Reality We TV from Samsung
   All Weddings We TV -> already kept as All Weddings We TV from Samsung
@@ -67,50 +121,50 @@ Sample duplicates:
   AMC en Español -> already kept as AMC en Español from Samsung
   American Crimes -> already kept as American Crimes from Samsung
   America’s Funniest Home Videos -> already kept as America’s Funniest Home Videos from Samsung
-  Ancient Aliens -> already kept as Ancient Aliens from Samsung
-  Andromeda -> already kept as Andromeda from Pluto
 
 ==================================================
 MASTER PLAYLIST SUMMARY
 ==================================================
 
-Total upstream channel entries: 1708
-Final unique channels: 1283
-Duplicates removed: 425
+Total upstream channel entries: 2233
+Final unique channels: 1505
+Duplicates removed: 728
 
 Final channels by source:
   Samsung: 584
   Pluto: 288
-  Plex: 411
+  Roku: 152
+  Tubi: 156
+  Plex: 325
 
 Top categories:
-  United States: 411
+  United States: 325
+  Local News: 119
+  Comedy: 65
   Kids: 58
   Sports & Outdoors: 53
-  Comedy: 51
-  Music: 49
-  Movies: 48
+  Music: 53
+  TV & Entertainment: 53
+  Movies: 51
+  Crime: 45
   Action & Drama: 42
   Latino: 40
   Home & Food: 39
   Reality TV: 38
-  Crime: 36
+  Sports: 35
   En Español: 35
   Nature, History & Science: 29
   Lifestyle & Pop Culture: 27
   News & Opinion: 26
+  Reality: 25
+  Classic TV: 22
   Reality Competition: 20
-  Classic TV: 20
-  Reality: 20
   Sci-Fi & Horror: 19
   Ambiance: 17
   Daytime + Game Shows: 16
   Drama: 16
   Western & Classic TV: 15
   Sci-Fi: 15
-  Local News: 15
   Anime & Gaming: 14
   Motor Sports: 14
   Home + Food: 14
-  Game Shows: 11
-  Sports: 11
