@@ -1,0 +1,116 @@
+CARPLAY TV MASTER PLAYLIST REPORT
+==================================================
+
+Samsung TV Plus
+---------------
+Channels in source: 585
+New unique channels added: 584
+Duplicates skipped: 1
+
+Sample duplicates:
+  beIN Sports XTRA ñ -> already kept as beIN SPORTS XTRA from Samsung
+
+Pluto TV
+--------
+Channels in source: 429
+New unique channels added: 288
+Duplicates skipped: 141
+
+Sample duplicates:
+  48 Hours -> already kept as 48 Hours from Samsung
+  50 Cent Action -> already kept as 50 Cent Action from Samsung
+  ABC News Live -> already kept as ABC News Live from Samsung
+  ALLBLK Gems -> already kept as ALLBLK Gems from Samsung
+  ANIME x HIDIVE -> already kept as ANIME x HIDIVE from Samsung
+  All Reality WE tv -> already kept as All Reality We TV from Samsung
+  America's Funniest Home Videos -> already kept as America’s Funniest Home Videos from Samsung
+  America's Test Kitchen -> already kept as America's Test Kitchen from Samsung
+  American Crimes -> already kept as American Crimes from Samsung
+  Ancient Aliens -> already kept as Ancient Aliens from Samsung
+  Antiques Roadshow UK -> already kept as Antiques Roadshow UK from Samsung
+  BBC Earth -> already kept as BBC Earth from Samsung
+  BBC News -> already kept as BBC News from Samsung
+  BET Pluto TV -> already kept as BET Pluto TV from Samsung
+  BET x Tyler Perry Comedy -> already kept as BET x Tyler Perry Comedy from Samsung
+  BET x Tyler Perry Drama -> already kept as BET x Tyler Perry Drama from Samsung
+  BUZZR -> already kept as BUZZR from Samsung
+  Baby Shark TV -> already kept as BABY SHARK TV from Samsung
+  Bad Girls Club -> already kept as Bad Girls Club from Samsung
+  Bellator MMA -> already kept as Bellator MMA from Samsung
+
+ERROR downloading Roku: HTTP Error 404: Not Found
+
+ERROR downloading Tubi: HTTP Error 404: Not Found
+
+Plex
+----
+Channels in source: 694
+New unique channels added: 411
+Duplicates skipped: 283
+
+Sample duplicates:
+  21 Jump Street -> already kept as 21 Jump Street from Samsung
+  48 Hours -> already kept as 48 Hours from Samsung
+  4UV -> already kept as 4UV from Samsung
+  50 Cent Action -> already kept as 50 Cent Action from Samsung
+  60 Minutes -> already kept as 60 Minutes from Pluto
+  A&E Alaska State Troopers -> already kept as A&E Alaska State Troopers from Samsung
+  A&E Crime 360 -> already kept as A&E Crime 360 from Pluto
+  A&E Live PD Greatest Shifts -> already kept as A&E Live PD: Greatest Shifts from Samsung
+  AccuWeather NOW -> already kept as AccuWeather NOW from Samsung
+  Acorn TV Mysteries -> already kept as Acorn TV Mysteries from Samsung
+  Alien Nation by DUST -> already kept as Alien Nation by DUST from Samsung
+  All Reality We TV -> already kept as All Reality We TV from Samsung
+  All Weddings We TV -> already kept as All Weddings We TV from Samsung
+  ALLBLK Gems -> already kept as ALLBLK Gems from Samsung
+  Always Funny -> already kept as Always Funny from Pluto
+  AMC en Español -> already kept as AMC en Español from Samsung
+  American Crimes -> already kept as American Crimes from Samsung
+  America’s Funniest Home Videos -> already kept as America’s Funniest Home Videos from Samsung
+  Ancient Aliens -> already kept as Ancient Aliens from Samsung
+  Andromeda -> already kept as Andromeda from Pluto
+
+==================================================
+MASTER PLAYLIST SUMMARY
+==================================================
+
+Total upstream channel entries: 1708
+Final unique channels: 1283
+Duplicates removed: 425
+
+Final channels by source:
+  Samsung: 584
+  Pluto: 288
+  Plex: 411
+
+Top categories:
+  United States: 411
+  Kids: 58
+  Sports & Outdoors: 53
+  Comedy: 51
+  Music: 49
+  Movies: 48
+  Action & Drama: 42
+  Latino: 40
+  Home & Food: 39
+  Reality TV: 38
+  Crime: 36
+  En Español: 35
+  Nature, History & Science: 29
+  Lifestyle & Pop Culture: 27
+  News & Opinion: 26
+  Reality Competition: 20
+  Classic TV: 20
+  Reality: 20
+  Sci-Fi & Horror: 19
+  Ambiance: 17
+  Daytime + Game Shows: 16
+  Drama: 16
+  Western & Classic TV: 15
+  Sci-Fi: 15
+  Local News: 15
+  Anime & Gaming: 14
+  Motor Sports: 14
+  Home + Food: 14
+  Game Shows: 11
+  Sports: 11
