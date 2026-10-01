@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+  />
+
+  <title>CarPlay TV Compatibility Test</title>
+
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #0b0d10;
+      color: white;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      background: #11151a;
+      padding: 12px;
+      border-bottom: 1px solid #292f36;
+    }
+
+    h1 {
+      margin: 0 0 5px;
+      font-size: 21px;
+    }
+
+    .subtitle {
+      color: #9ba5b1;
+      font-size: 13px;
+      margin-bottom: 10px;
+    }
+
+    #status {
+      font-size: 13px;
+      color: #aeb7c2;
+      margin-bottom: 10px;
+    }
+
+    #search {
+      width: 100%;
+      padding: 12px 14px;
+      border-radius: 10px;
+      border: 1px solid #343b44;
+      background: #1a1f25;
+      color: white;
+      font-size: 16px;
+    }
+
+    .player-wrap {
+      width: 100%;
+      background: black;
+    }
+
+    video {
+      display: block;
+      width: 100%;
+      max-height: 45vh;
+      background: black;
+    }
+
+    #nowPlaying {
+      background: #11151a;
+      padding: 10px 14px;
+      min-height: 52px;
+    }
+
+    #nowName {
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    #nowMeta {
+      color: #aeb7c2;
+      font-size: 13px;
+      margin-top: 3px;
+    }
+
+    #providers {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      padding: 10px 12px;
+      background: #0b0d10;
+      border-bottom: 1px solid #20262c;
+    }
+
+    .provider-button {
+      flex: 0 0 auto;
+      min-height: 42px;
+      padding: 8px 14px;
+      border: 1px solid #343b44;
+      border-radius: 999px;
+      background: #171b20;
+      color: white;
+      font-size: 14px;
+      cursor: pointer;
+    }
+
+    .provider-button.active {
+      background: white;
+      color: black;
+    }
+
+    #channels {
+      padding: 8px 12px 30px;
+    }
+
+    .channel {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      min-height: 74px;
+      padding: 9px;
+      margin-bottom: 8px;
+      border: 1px solid #262c33;
+      border-radius: 12px;
+      background: #171b20;
+      cursor: pointer;
+    }
+
+    .channel:active {
+      transform: scale(0.99);
+    }
+
+    .channel img {
+      flex: 0 0 auto;
+      width: 58px;
+      height: 58px;
+      object-fit: contain;
+      padding: 4px;
+      border-radius: 9px;
+      background: white;
+    }
+
+    .channel-info {
+      min-width: 0;
+      flex: 1;
+    }
+
+    .channel-name {
+      font-size: 16px;
+      font-weight: 650;
+    }
+
+    .channel-meta {
+      margin-top: 4px;
+      color: #9ba5b1;
+      font-size: 13px;
+    }
+
+    .source {
+      display: inline-block;
+      margin-top: 5px;
+      padding: 3px 7px;
+      border: 1px solid #3a424b;
+      border-radius: 6px;
+      color: #d8dee6;
+      font-size: 11px;
+      font-weight: 700;
+    }
+
+    #message {
+      display: none;
+      margin: 10px 12px;
+      padding: 10px 12px;
+      border-radius: 8px;
+      background: #2b2020;
+      color: #ffd0d0;
+      font-size: 13px;
+    }
+
+    .test-note {
+      margin: 8px 12px;
+      padding: 10px;
+      border-radius: 9px;
+      background: #151b20;
+      color: #b8c2cc;
+      font-size: 12px;
+      line-height: 1.4;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>CarPlay TV Compatibility Test</h1>
+
+  <div class="subtitle">
+    Browser/APTV validation — production player is untouched
+  </div>
+
+  <div id="status">
+    Loading test channels…
+  </div>
+
+  <input
+    id="search"
+    type="search"
+    placeholder="Search test channels…"
+  />
+</header>
+
+<div class="player-wrap">
+  <video
+    id="video"
+    controls
+    playsinline
+  ></video>
+</div>
+
+<div id="nowPlaying">
+  <div id="nowName">
+    Select a test channel
+  </div>
+
+  <div id="nowMeta">
+    Provider and category will appear here
+  </div>
+</div>
+
+<div id="message"></div>
+
+<div id="providers"></div>
+
+<div class="test-note">
+  Test several channels from Pluto, Roku, Tubi and Plex.
+  Samsung is included as our known-good control.
+  A server-side PASS does not guarantee browser playback.
+</div>
+
+<div id="channels"></div>
+
+<script>
+const PLAYLIST =
+  "browser_test_candidates.m3u";
+
+let allChannels = [];
+let selectedProvider = "All";
+let hls = null;
+
+const video =
+  document.getElementById("video");
+
+const channelsEl =
+  document.getElementById("channels");
+
+const providersEl =
+  document.getElementById("providers");
+
+const searchEl =
+  document.getElementById("search");
+
+const statusEl =
+  document.getElementById("status");
+
+const nowNameEl =
+  document.getElementById("nowName");
+
+const nowMetaEl =
+  document.getElementById("nowMeta");
+
+const messageEl =
+  document.getElementById("message");
+
+
+function parseAttribute(
+  text,
+  attribute
+) {
+  const expression =
+    new RegExp(
+      attribute + '="([^"]*)"',
+      "i"
+    );
+
+  const match =
+    text.match(expression);
+
+  return match
+    ? match[1].trim()
+    : "";
+}
+
+
+function parseM3U(text) {
+
+  const lines =
+    text.split(/\r?\n/);
+
+  const channels = [];
+
+  for (
+    let i = 0;
+    i < lines.length;
+    i++
+  ) {
+
+    const line =
+      lines[i].trim();
+
+    if (
+      !line.startsWith("#EXTINF")
+    ) {
+      continue;
+    }
+
+    const name =
+      line.substring(
+        line.lastIndexOf(",") + 1
+      ).trim();
+
+    const logo =
+      parseAttribute(
+        line,
+        "tvg-logo"
+      );
+
+    const group =
+      parseAttribute(
+        line,
+        "group-title"
+      ) || "Other";
+
+    const source =
+      parseAttribute(
+        line,
+        "source"
+      ) || "Unknown";
+
+    let stream = "";
+
+    for (
+      let j = i + 1;
+      j < lines.length;
+      j++
+    ) {
+
+      const candidate =
+        lines[j].trim();
+
+      if (!candidate) {
+        continue;
+      }
+
+      if (
+        candidate.startsWith(
+          "#EXTINF"
+        )
+      ) {
+        break;
+      }
+
+      if (
+        !candidate.startsWith("#")
+      ) {
+        stream = candidate;
+        break;
+      }
+    }
+
+    if (
+      name &&
+      stream
+    ) {
+
+      channels.push({
+        name,
+        logo,
+        group,
+        source,
+        stream
+      });
+    }
+  }
+
+  return channels;
+}
+
+
+function showMessage(text) {
+
+  if (!text) {
+    messageEl.style.display =
+      "none";
+
+    messageEl.textContent = "";
+
+    return;
+  }
+
+  messageEl.textContent = text;
+
+  messageEl.style.display =
+    "block";
+}
+
+
+function renderProviders() {
+
+  const preferredOrder = [
+    "All",
+    "Samsung",
+    "Pluto",
+    "Roku",
+    "Tubi",
+    "Plex"
+  ];
+
+  const available =
+    new Set(
+      allChannels.map(
+        channel =>
+          channel.source
+      )
+    );
+
+  const providers =
+    preferredOrder.filter(
+      provider =>
+        provider === "All" ||
+        available.has(provider)
+    );
+
+  providersEl.innerHTML = "";
+
+  providers.forEach(
+    provider => {
+
+      const count =
+        provider === "All"
+          ? allChannels.length
+          : allChannels.filter(
+              channel =>
+                channel.source ===
+                provider
+            ).length;
+
+      const button =
+        document.createElement(
+          "button"
+        );
+
+      button.className =
+        "provider-button" +
+        (
+          provider ===
+          selectedProvider
+            ? " active"
+            : ""
+        );
+
+      button.textContent =
+        `${provider} (${count})`;
+
+      button.onclick = () => {
+
+        selectedProvider =
+          provider;
+
+        renderProviders();
+        renderChannels();
+      };
+
+      providersEl.appendChild(
+        button
+      );
+    }
+  );
+}
+
+
+function renderChannels() {
+
+  const query =
+    searchEl.value
+      .toLowerCase()
+      .trim();
+
+  const filtered =
+    allChannels.filter(
+      channel => {
+
+        const providerMatch =
+          selectedProvider ===
+            "All" ||
+          channel.source ===
+            selectedProvider;
+
+        const searchMatch =
+          !query ||
+          channel.name
+            .toLowerCase()
+            .includes(query) ||
+          channel.group
+            .toLowerCase()
+            .includes(query) ||
+          channel.source
+            .toLowerCase()
+            .includes(query);
+
+        return (
+          providerMatch &&
+          searchMatch
+        );
+      }
+    );
+
+  channelsEl.innerHTML = "";
+
+  filtered.forEach(
+    channel => {
+
+      const item =
+        document.createElement(
+          "div"
+        );
+
+      item.className =
+        "channel";
+
+      const logo =
+        document.createElement(
+          "img"
+        );
+
+      if (channel.logo) {
+        logo.src =
+          channel.logo;
+      }
+
+      logo.alt = "";
+
+      const info =
+        document.createElement(
+          "div"
+        );
+
+      info.className =
+        "channel-info";
+
+      const name =
+        document.createElement(
+          "div"
+        );
+
+      name.className =
+        "channel-name";
+
+      name.textContent =
+        channel.name;
+
+      const meta =
+        document.createElement(
+          "div"
+        );
+
+      meta.className =
+        "channel-meta";
+
+      meta.textContent =
+        channel.group;
+
+      const source =
+        document.createElement(
+          "div"
+        );
+
+      source.className =
+        "source";
+
+      source.textContent =
+        channel.source;
+
+      info.appendChild(name);
+      info.appendChild(meta);
+      info.appendChild(source);
+
+      item.appendChild(logo);
+      item.appendChild(info);
+
+      item.onclick = () =>
+        playChannel(channel);
+
+      channelsEl.appendChild(
+        item
+      );
+    }
+  );
+
+  statusEl.textContent =
+    `${filtered.length} of ` +
+    `${allChannels.length} ` +
+    `test channels`;
+}
+
+
+function resetPlayer() {
+
+  showMessage("");
+
+  if (hls) {
+    hls.destroy();
+    hls = null;
+  }
+
+  video.pause();
+
+  video.removeAttribute(
+    "src"
+  );
+
+  video.load();
+}
+
+
+function playChannel(channel) {
+
+  resetPlayer();
+
+  nowNameEl.textContent =
+    channel.name;
+
+  nowMetaEl.textContent =
+    `${channel.source} • ` +
+    `${channel.group}`;
+
+  /*
+   * Apple browsers normally support
+   * HLS natively. We prefer that path.
+   */
+
+  if (
+    video.canPlayType(
+      "application/vnd.apple.mpegurl"
+    )
+  ) {
+
+    video.src =
+      channel.stream;
+
+    video.play().catch(
+      error => {
+
+        showMessage(
+          `${channel.name}: ` +
+          `playback did not start ` +
+          `automatically. ` +
+          `Press Play or try another channel.`
+        );
+
+        console.error(error);
+      }
+    );
+
+    return;
+  }
+
+
+  /*
+   * Desktop browsers generally use
+   * hls.js.
+   */
+
+  if (
+    window.Hls &&
+    Hls.isSupported()
+  ) {
+
+    hls =
+      new Hls({
+        enableWorker: true
+      });
+
+    hls.loadSource(
+      channel.stream
+    );
+
+    hls.attachMedia(video);
+
+    hls.on(
+      Hls.Events.MANIFEST_PARSED,
+      () => {
+
+        video.play().catch(
+          error => {
+
+            console.error(error);
+
+            showMessage(
+              `${channel.name}: ` +
+              `press Play to begin.`
+            );
+          }
+        );
+      }
+    );
+
+    hls.on(
+      Hls.Events.ERROR,
+      (
+        event,
+        data
+      ) => {
+
+        console.error(
+          "HLS error",
+          data
+        );
+
+        if (data.fatal) {
+
+          showMessage(
+            `${channel.name} ` +
+            `could not be played ` +
+            `in this browser. ` +
+            `Provider: ` +
+            `${channel.source}`
+          );
+        }
+      }
+    );
+
+    return;
+  }
+
+
+  showMessage(
+    "This browser does not " +
+    "support HLS playback."
+  );
+}
+
+
+searchEl.addEventListener(
+  "input",
+  renderChannels
+);
+
+
+async function loadPlaylist() {
+
+  try {
+
+    const response =
+      await fetch(
+        PLAYLIST,
+        {
+          cache: "no-store"
+        }
+      );
+
+    if (!response.ok) {
+
+      throw new Error(
+        `HTTP ${response.status}`
+      );
+    }
+
+    const text =
+      await response.text();
+
+    allChannels =
+      parseM3U(text);
+
+    if (
+      !allChannels.length
+    ) {
+
+      throw new Error(
+        "No test channels found"
+      );
+    }
+
+    renderProviders();
+    renderChannels();
+
+  } catch (error) {
+
+    console.error(error);
+
+    statusEl.textContent =
+      "Test playlist failed to load";
+
+    showMessage(
+      "Could not load " +
+      "browser_test_candidates.m3u: " +
+      error.message
+    );
+  }
+}
+
+
+loadPlaylist();
+</script>
+
+</body>
+</html>
