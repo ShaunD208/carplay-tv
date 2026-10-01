@@ -57,7 +57,7 @@ SOURCES = [
         "url": (
             "https://raw.githubusercontent.com/"
             "BuddyChewChew/app-m3u-generator/main/"
-            "playlists/roku.m3u"
+            "playlists/roku_all.m3u"
         ),
     },
     {
@@ -66,7 +66,7 @@ SOURCES = [
         "url": (
             "https://raw.githubusercontent.com/"
             "BuddyChewChew/app-m3u-generator/main/"
-            "playlists/tubi.m3u"
+            "playlists/tubi_all.m3u"
         ),
     },
     {
