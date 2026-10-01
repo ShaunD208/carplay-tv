@@ -1,159 +1,179 @@
-CARPLAY TV MASTER PLAYLIST REPORT V2
-============================================================
+CARPLAY TV MASTER PLAYLIST REPORT V3
+================================================================
+
+Target: APTV / Apple native HLS / CarPlay
+Language preference: English-only
 
 Samsung TV Plus
 ---------------
-Channels in source: 585
-New unique channels added: 584
-Duplicates / alternate feeds: 1
-
-Sample alternate feeds:
-  beIN Sports XTRA ñ -> primary beIN SPORTS XTRA from Samsung
+Raw channels: 585
+Non-English filtered: 42
+English candidates: 543
+New unique channels added: 543
+Alternate feeds retained: 0
 
 Pluto TV
 --------
-Channels in source: 429
-New unique channels added: 288
-Duplicates / alternate feeds: 141
-
-Sample alternate feeds:
-  48 Hours -> primary 48 Hours from Samsung
-  50 Cent Action -> primary 50 Cent Action from Samsung
-  ABC News Live -> primary ABC News Live from Samsung
-  ALLBLK Gems -> primary ALLBLK Gems from Samsung
-  ANIME x HIDIVE -> primary ANIME x HIDIVE from Samsung
-  All Reality WE tv -> primary All Reality We TV from Samsung
-  America's Funniest Home Videos -> primary America’s Funniest Home Videos from Samsung
-  America's Test Kitchen -> primary America's Test Kitchen from Samsung
-  American Crimes -> primary American Crimes from Samsung
-  Ancient Aliens -> primary Ancient Aliens from Samsung
-  Antiques Roadshow UK -> primary Antiques Roadshow UK from Samsung
-  BBC Earth -> primary BBC Earth from Samsung
-  BBC News -> primary BBC News from Samsung
-  BET Pluto TV -> primary BET Pluto TV from Samsung
-  BET x Tyler Perry Comedy -> primary BET x Tyler Perry Comedy from Samsung
-  BET x Tyler Perry Drama -> primary BET x Tyler Perry Drama from Samsung
-  BUZZR -> primary BUZZR from Samsung
-  Baby Shark TV -> primary BABY SHARK TV from Samsung
-  Bad Girls Club -> primary Bad Girls Club from Samsung
-  Bellator MMA -> primary Bellator MMA from Samsung
+Raw channels: 429
+Non-English filtered: 40
+English candidates: 389
+New unique channels added: 250
+Alternate feeds retained: 139
 
 Roku
 ----
-Channels in source: 247
-New unique channels added: 152
-Duplicates / alternate feeds: 95
-
-Sample alternate feeds:
-  Curiosity Explora -> primary Curiosity Explora from Samsung
-  Dog Whisperer With Cesar Millan -> primary Dog Whisperer with Cesar Millan from Pluto
-  MagellanTV Wildest -> primary MagellanTV Wildest from Samsung
-  WildEarth -> primary WildEarth from Samsung
-  Sonic The Hedgehog -> primary Sonic The Hedgehog from Samsung
-  Crunchyroll -> primary Crunchyroll from Samsung
-  The Bob Ross Channel -> primary The Bob Ross Channel from Samsung
-  PBS Antiques Roadshow -> primary PBS Antiques Roadshow from Samsung
-  Storage Wars by A&E -> primary Storage Wars by A&E from Pluto
-  Monster Jam -> primary Monster Jam from Pluto
-  POWERNATION -> primary POWERNATION from Samsung
-  Triton Poker -> primary Triton Poker from Samsung
-  Always Funny Videos -> primary Always Funny Videos from Samsung
-  Degrassi -> primary Degrassi from Samsung
-  LOL Network -> primary LOL! Network from Samsung
-  Tastemade Home -> primary Tastemade Home from Samsung
-  Dr. G: Medical Examiner -> primary Dr. G: Medical Examiner from Samsung
-  Live PD: Presents -> primary Live PD Presents from Samsung
-  Misterios sin resolver -> primary Misterios sin resolver from Pluto
-  Unsolved Mysteries -> primary Unsolved Mysteries from Samsung
+Raw channels: 247
+Non-English filtered: 14
+English candidates: 233
+New unique channels added: 153
+Alternate feeds retained: 80
 
 Tubi
 ----
-Channels in source: 278
-New unique channels added: 156
-Duplicates / alternate feeds: 122
-
-Sample alternate feeds:
-  A&E Crime 360 -> primary A&E Crime 360 from Pluto
-  ABC News Live -> primary ABC News Live from Samsung
-  Alien Nation by DUST -> primary Alien Nation by DUST from Samsung
-  Always Funny -> primary Always Funny from Pluto
-  America's Test Kitchen -> primary America's Test Kitchen from Samsung
-  Anger Management -> primary Anger Management from Samsung
-  Antiques Road Trip -> primary Antiques Road Trip from Pluto
-  Are We There Yet -> primary Are We There Yet? from Samsung
-  Ax Men -> primary Ax Men from Samsung
-  Baywatch -> primary Baywatch from Samsung
-  BBC Earth -> primary BBC Earth from Samsung
-  beIN Sports XTRA -> primary beIN SPORTS XTRA from Samsung
-  Big 12 Studios -> primary Big 12 Studios from Samsung
-  Bloomberg Originals -> primary Bloomberg Originals from Samsung
-  Bloomberg TV+ -> primary Bloomberg TV+ from Samsung
-  Bounce XL -> primary Bounce XL from Samsung
-  BritBox Mysteries -> primary BritBox Mysteries from Samsung
-  BUZZR -> primary BUZZR from Samsung
-  CBC News -> primary CBC News from Samsung
-  Cheaters -> primary Cheaters from Samsung
+Raw channels: 278
+Non-English filtered: 9
+English candidates: 269
+New unique channels added: 152
+Alternate feeds retained: 117
 
 Plex
 ----
-Channels in source: 694
-New unique channels added: 325
-Duplicates / alternate feeds: 369
+Raw channels: 694
+Non-English filtered: 18
+English candidates: 676
+New unique channels added: 321
+Alternate feeds retained: 355
 
-Sample alternate feeds:
-  21 Jump Street -> primary 21 Jump Street from Samsung
-  48 Hours -> primary 48 Hours from Samsung
-  4UV -> primary 4UV from Samsung
-  50 Cent Action -> primary 50 Cent Action from Samsung
-  60 Minutes -> primary 60 Minutes from Pluto
-  A&E Alaska State Troopers -> primary A&E Alaska State Troopers from Samsung
-  A&E Crime 360 -> primary A&E Crime 360 from Pluto
-  A&E Live PD Greatest Shifts -> primary A&E Live PD: Greatest Shifts from Samsung
-  ACCDN -> primary ACCDN from Tubi
-  AccuWeather NOW -> primary AccuWeather NOW from Samsung
-  Acorn TV Mysteries -> primary Acorn TV Mysteries from Samsung
-  ALF -> primary ALF from Roku
-  Alien Nation by DUST -> primary Alien Nation by DUST from Samsung
-  All Reality We TV -> primary All Reality We TV from Samsung
-  All Weddings We TV -> primary All Weddings We TV from Samsung
-  ALLBLK Gems -> primary ALLBLK Gems from Samsung
-  Always Funny -> primary Always Funny from Pluto
-  AMC en Español -> primary AMC en Español from Samsung
-  American Crimes -> primary American Crimes from Samsung
-  America’s Funniest Home Videos -> primary America’s Funniest Home Videos from Samsung
+================================================================
+LANGUAGE FILTER SUMMARY
+================================================================
 
-============================================================
+Total non-English entries filtered: 123
+
+Samsung: 42
+  FILTERED: 40 y 20 [Latino] because category 'Latino'
+  FILTERED: AMC en Español [Latino] because category 'Latino'
+  FILTERED: Angelique [Latino] because category 'Latino'
+  FILTERED: beIN Sports XTRA ñ [Latino] because category 'Latino'
+  FILTERED: Canal ViX [Latino] because category 'Latino'
+  FILTERED: Canela.TV [Latino] because category 'Latino'
+  FILTERED: Caso Cerrado [Latino] because category 'Latino'
+  FILTERED: CG MMA En Español [Latino] because category 'Latino'
+  FILTERED: Cine de Oro [Latino] because category 'Latino'
+  FILTERED: Cine Retro [Latino] because category 'Latino'
+  FILTERED: Cine Romantico [Latino] because category 'Latino'
+  FILTERED: CJ ENM K-Novela en Espanol [Latino] because category 'Latino'
+  FILTERED: Como Dice el Dicho [Latino] because category 'Latino'
+  FILTERED: Curiosity Animales [Latino] because category 'Latino'
+  FILTERED: Curiosity Explora [Latino] because category 'Latino'
+  FILTERED: Curiosity Motores [Latino] because category 'Latino'
+  FILTERED: Dramon [Latino] because category 'Latino'
+  FILTERED: El Señor de los Cielos [Latino] because category 'Latino'
+  FILTERED: Escape Perfecto [Latino] because category 'Latino'
+  FILTERED: Estrella Games [Latino] because category 'Latino'
+
+Pluto: 40
+  FILTERED: Acapulco Shore [En Español] because category 'En Español'
+  FILTERED: CBS en español [En Español] because category 'En Español'
+  FILTERED: CNN Noticias [En Español] because category 'En Español'
+  FILTERED: CSI en Español [En Español] because category 'En Español'
+  FILTERED: CSI: Miami en español [En Español] because category 'En Español'
+  FILTERED: CSI: NY en español [En Español] because category 'En Español'
+  FILTERED: Casos de la Dra. Polo [En Español] because category 'En Español'
+  FILTERED: Celia [En Español] because category 'En Español'
+  FILTERED: Cine Amor [En Español] because category 'En Español'
+  FILTERED: Cine Premiere [En Español] because category 'En Español'
+  FILTERED: Cine adrenalina [En Español] because category 'En Español'
+  FILTERED: Cine aventura [En Español] because category 'En Español'
+  FILTERED: Cine comedia [En Español] because category 'En Español'
+  FILTERED: Cine en español [En Español] because category 'En Español'
+  FILTERED: Cine terror [En Español] because category 'En Español'
+  FILTERED: Comedy Central en español [En Español] because category 'En Español'
+  FILTERED: Construcciones Asombrosas [En Español] because category 'En Español'
+  FILTERED: Crimen [En Español] because category 'En Español'
+  FILTERED: Crímenes imperfectos [En Español] because category 'En Español'
+  FILTERED: El Capo [En Español] because category 'En Español'
+
+Roku: 14
+  FILTERED: Iron Chef en Español [Cooking] because name 'Iron Chef en Español'
+  FILTERED: COPS en Español [Crime] because name 'COPS en Español'
+  FILTERED: Azteca Noticias [News] because name 'Azteca Noticias'
+  FILTERED: Euronews Español [News] because name 'Euronews Español'
+  FILTERED: Noticias Telemundo AHORA [News] because name 'Noticias Telemundo AHORA'
+  FILTERED: RCN Noticias [News] because name 'RCN Noticias'
+  FILTERED: ViX Novelas de romance [Romance] because name 'ViX Novelas de romance'
+  FILTERED: QVC en Español [Shopping] because name 'QVC en Español'
+  FILTERED: Cheaters en Español [TV & Entertainment] because name 'Cheaters en Español'
+  FILTERED: Real America's Voice en Español [TV & Entertainment] because name 'Real America's Voice en Español'
+  FILTERED: Runtime Español [TV & Entertainment] because name 'Runtime Español'
+  FILTERED: Todo Novelas Más Pasiones [TV & Entertainment] because name 'Todo Novelas Más Pasiones'
+  FILTERED: ViX Novelas de oro [TV & Entertainment] because name 'ViX Novelas de oro'
+  FILTERED: ViX Novelas en familia [TV & Entertainment] because name 'ViX Novelas en familia'
+
+Tubi: 9
+  FILTERED: beIN Sports XTRA En Español [Español] because category 'Español'
+  FILTERED: Cine EstrellaTV [Español] because category 'Español'
+  FILTERED: Estrella Games [Español] because category 'Español'
+  FILTERED: Estrella News [Español] because category 'Español'
+  FILTERED: EstrellaTV [Español] because category 'Español'
+  FILTERED: Fox Sports En Español [Español] because category 'Español'
+  FILTERED: Lucha Plus [Español] because category 'Español'
+  FILTERED: Todo Cine [Español] because category 'Español'
+  FILTERED: Todo Novelas más Pasiones [Español] because category 'Español'
+
+Plex: 18
+  FILTERED: ADN NOTICIAS [United States] because name 'ADN NOTICIAS'
+  FILTERED: AMC en Español [United States] because name 'AMC en Español'
+  FILTERED: beIN Sports Xtra en Español [United States] because name 'beIN Sports Xtra en Español'
+  FILTERED: Billboard Español TV [United States] because name 'Billboard Español TV'
+  FILTERED: Canela.TV Novelas y Dramas [United States] because name 'Canela.TV Novelas y Dramas'
+  FILTERED: Cheaters en Español [United States] because name 'Cheaters en Español'
+  FILTERED: Cine en Español [United States] because name 'Cine en Español'
+  FILTERED: Cops en Español [United States] because name 'Cops en Español'
+  FILTERED: ElectricNOW en Español [United States] because name 'ElectricNOW en Español'
+  FILTERED: Ice Pilots NWT (en español) [United States] because name 'Ice Pilots NWT (en español)'
+  FILTERED: Iron Chef en español [United States] because name 'Iron Chef en español'
+  FILTERED: Noticias Telemundo AHORA [United States] because name 'Noticias Telemundo AHORA'
+  FILTERED: Novelas de Siempre [United States] because name 'Novelas de Siempre'
+  FILTERED: RCN Noticias [United States] because name 'RCN Noticias'
+  FILTERED: Runtime Español [United States] because name 'Runtime Español'
+  FILTERED: The Walking Dead Espanol [United States] because name 'The Walking Dead Espanol'
+  FILTERED: Todo Novelas más Pasiones [United States] because name 'Todo Novelas más Pasiones'
+  FILTERED: Western Bound Español [United States] because name 'Western Bound Español'
+
+================================================================
 MASTER PLAYLIST SUMMARY
-============================================================
+================================================================
 
-Total upstream channel entries: 2233
-Final unique channels: 1505
-Alternate feed entries retained: 728
-Channels with at least one fallback: 480
+Total upstream entries: 2233
+Non-English entries filtered: 123
+Final unique English-focused channels: 1418
+Alternate feeds retained: 691
+Channels with fallback feeds: 458
+Known-dead primaries promoted: 0
+Known-dead channels removed: 1
 
-Final primary channels by source:
-  Samsung: 584
-  Pluto: 288
+Primary channels by source:
+  Samsung: 543
+  Pluto: 250
   Roku: 152
-  Tubi: 156
-  Plex: 325
+  Tubi: 152
+  Plex: 321
 
 Top categories:
-  United States: 325
+  United States: 321
   Local News: 119
   Comedy: 65
-  Kids: 58
+  Kids: 55
+  TV & Entertainment: 54
   Sports & Outdoors: 53
   Music: 53
-  TV & Entertainment: 53
   Movies: 51
   Crime: 45
   Action & Drama: 42
-  Latino: 40
   Home & Food: 39
   Reality TV: 38
   Sports: 35
-  En Español: 35
   Nature, History & Science: 29
   Lifestyle & Pop Culture: 27
   News & Opinion: 26
@@ -162,10 +182,10 @@ Top categories:
   Reality Competition: 20
   Sci-Fi & Horror: 19
   Ambiance: 17
-  Daytime + Game Shows: 16
   Drama: 16
   Western & Classic TV: 15
   Sci-Fi: 15
+  Daytime + Game Shows: 15
   Anime & Gaming: 14
   Motor Sports: 14
   Home + Food: 14
@@ -179,86 +199,89 @@ Top categories:
   News: 7
   Competition Reality: 6
   Anime: 6
+  Big Brother Live: 5
+  Documentary: 5
 
-============================================================
+================================================================
 SERVER-SIDE VALIDATION SAMPLE
-============================================================
+================================================================
 
-IMPORTANT: A server-pass does NOT prove browser/APTV compatibility.
-Actual browser playback remains the final compatibility test.
+Target playback environment: APTV / Apple native HLS.
+Server validation is health checking only.
+Chrome/hls.js failure does NOT automatically exclude a channel.
 
 Samples tested: 60
-Server pass: 59
+Server pass: 60
 Server warning: 0
-Server fail: 1
+Server fail: 0
 
 [server-pass] Samsung - 21 Jump Street
   Manifest reachable and appears to be HLS
-[server-pass] Samsung - BBC Food
+[server-pass] Samsung - BBC Earth
   Manifest reachable and appears to be HLS
-[server-pass] Samsung - CINEVAULT: Westerns
+[server-pass] Samsung - CJ ENM K-POP
   Manifest reachable and appears to be HLS
-[server-pass] Samsung - DraftKings Network
+[server-pass] Samsung - Dungeons & Dragons: Adventures
   Manifest reachable and appears to be HLS
-[server-pass] Samsung - Grizzy and the Lemmings
+[server-pass] Samsung - Heartland
   Manifest reachable and appears to be HLS
-[server-pass] Samsung - Letterman TV
+[server-pass] Samsung - LiveNOW from FOX
   Manifest reachable and appears to be HLS
-[server-pass] Samsung - Mythical 24/7
+[server-pass] Samsung - Nash Bridges
   Manifest reachable and appears to be HLS
-[server-pass] Samsung - POWERNATION
+[server-pass] Samsung - Pursuit UP
   Manifest reachable and appears to be HLS
-[server-pass] Samsung - Stingray DJAZZ
+[server-pass] Samsung - Stingray Easy Listening
   Manifest reachable and appears to be HLS
-[server-pass] Samsung - The Jack Hanna Channel
+[server-pass] Samsung - The Incredible Dr. Pol
   Manifest reachable and appears to be HLS
-[server-pass] Samsung - Vevo Latino
+[server-pass] Samsung - Vevo Country
   Manifest reachable and appears to be HLS
-[server-pass] Samsung - ¿Qué Culpa Tiene Fatmagül?
+[server-pass] Samsung - ZooMoo
   Manifest reachable and appears to be HLS
 [server-pass] Pluto - 00s Replay
   Manifest reachable and appears to be HLS
-[server-pass] Pluto - Beverly Hills 90210
+[server-pass] Pluto - Best of Dr. Phil
   Manifest reachable and appears to be HLS
-[server-pass] Pluto - CBS News Pittsburgh
+[server-pass] Pluto - CBS News Detroit
   Manifest reachable and appears to be HLS
-[server-pass] Pluto - Cine en español
+[server-pass] Pluto - Classic TV Drama
   Manifest reachable and appears to be HLS
-[server-pass] Pluto - Ebony TV Drama
+[server-pass] Pluto - Forever Kids
   Manifest reachable and appears to be HLS
-[server-pass] Pluto - Inuyasha
+[server-pass] Pluto - KIRO Seattle
   Manifest reachable and appears to be HLS
-[server-pass] Pluto - More TV Drama
+[server-pass] Pluto - NBC Los Angeles News
   Manifest reachable and appears to be HLS
-[server-pass] Pluto - Pluto TV Anime
+[server-pass] Pluto - Pluto TV Cars
   Manifest reachable and appears to be HLS
-[server-pass] Pluto - Pluto TV Romance
+[server-pass] Pluto - Pluto TV Royal Drama
   Manifest reachable and appears to be HLS
 [server-pass] Pluto - Spike Pluto TV
   Manifest reachable and appears to be HLS
-[server-pass] Pluto - The Walking Dead en español
+[server-pass] Pluto - The Twilight Zone
   Manifest reachable and appears to be HLS
 [server-pass] Pluto - iCarly TV
   Manifest reachable and appears to be HLS
-[server-fail] Roku - Unbeaten Sports
-  HTTP 404
+[server-pass] Roku - Curiosity Explora
+  Manifest reachable and appears to be HLS
 [server-pass] Roku - Fluffy TV
   Manifest reachable and appears to be HLS
-[server-pass] Roku - COPS en Español
+[server-pass] Roku - FilmRise Forensic Files
   Manifest reachable and appears to be HLS
-[server-pass] Roku - TruBlu Crime Channel
+[server-pass] Roku - Space Live
   Manifest reachable and appears to be HLS
-[server-pass] Roku - Scares by Shudder
+[server-pass] Roku - FreeTV Hits
   Manifest reachable and appears to be HLS
-[server-pass] Roku - Ninja Kidz TV
+[server-pass] Roku - CW Presents WWE NXT
   Manifest reachable and appears to be HLS
-[server-pass] Roku - FreeTV Acción
+[server-pass] Roku - FreeTV Asia
   Manifest reachable and appears to be HLS
-[server-pass] Roku - ViX Lo Mejor de Liga MX
+[server-pass] Roku - Xena
   Manifest reachable and appears to be HLS
-[server-pass] Roku - FilmRise Classic TV
+[server-pass] Roku - FilmRise British TV
   Manifest reachable and appears to be HLS
-[server-pass] Roku - Life with Derek
+[server-pass] Roku - Kalogeras Sisters TV
   Manifest reachable and appears to be HLS
 [server-pass] Roku - The Dick Van Dyke Show
   Manifest reachable and appears to be HLS
@@ -266,23 +289,23 @@ Server fail: 1
   Manifest reachable and appears to be HLS
 [server-pass] Tubi - 25 News KXXV / KRHD
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - Crime Scenes
+[server-pass] Tubi - Def Jam
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - FOX LOCAL Minnesota
+[server-pass] Tubi - FOX LOCAL New York
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - Ghosts are Real
+[server-pass] Tubi - HBO Boxing
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - KETV Very Omaha 7
+[server-pass] Tubi - KGUN 9 Tucson News
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - KOAT Very New Mexico 7
+[server-pass] Tubi - KPAX Missoula
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - Lucha Plus
+[server-pass] Tubi - MADtv
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - Sweet Escapes
+[server-pass] Tubi - Tampa Bay 28
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - Very Boston WCVB
+[server-pass] Tubi - WAPT Very Jackson 16
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - WISN Very Milwaukee 12
+[server-pass] Tubi - WJCL Very Savannah 22
   Manifest reachable and appears to be HLS
 [server-pass] Tubi - WPXI Pittsburgh
   Manifest reachable and appears to be HLS
@@ -290,19 +313,19 @@ Server fail: 1
   Manifest reachable and appears to be HLS
 [server-pass] Plex - 123GO!
   Manifest reachable and appears to be HLS
-[server-pass] Plex - Beyond Paranormal
+[server-pass] Plex - Bizaar
   Manifest reachable and appears to be HLS
-[server-pass] Plex - Corazón
+[server-pass] Plex - Corner Gas
   Manifest reachable and appears to be HLS
-[server-pass] Plex - F1 Channel
+[server-pass] Plex - Farscape
   Manifest reachable and appears to be HLS
 [server-pass] Plex - Glewed TV
   Manifest reachable and appears to be HLS
-[server-pass] Plex - Impossible - Quiz Show
+[server-pass] Plex - In The Heat Of The Night by MGM
   Manifest reachable and appears to be HLS
 [server-pass] Plex - MI-5
   Manifest reachable and appears to be HLS
-[server-pass] Plex - Perform by Lifetime
+[server-pass] Plex - PickleTV
   Manifest reachable and appears to be HLS
 [server-pass] Plex - Silent Witness|New Tricks
   Manifest reachable and appears to be HLS
