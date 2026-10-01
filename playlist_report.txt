@@ -335,3 +335,34 @@ Server fail: 0
   Manifest reachable and appears to be HLS
 [server-pass] Plex - ÚN TV
   Manifest reachable and appears to be HLS
+
+================================================================
+V4 NORMALIZED CATEGORY SUMMARY
+================================================================
+
+Display taxonomy: 21 CarPlay categories
+Channels categorized: 1418
+Generic categories recovered from fallback metadata: 0
+United States display category: 0
+
+  News: 47
+  Local News: 119
+  Sports: 124
+  Movies: 62
+  TV: 116
+  Comedy: 66
+  Crime: 62
+  Reality: 95
+  Classics: 37
+  Sci-Fi & Horror: 45
+  Kids: 59
+  Music: 72
+  Food & Home: 63
+  Lifestyle: 32
+  Nature & Travel: 4
+  History & Science: 50
+  Documentary: 5
+  Anime: 21
+  Game Shows: 28
+  Westerns: 10
+  Other: 301
