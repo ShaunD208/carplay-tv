@@ -23,7 +23,6 @@ CATEGORIES = [
     "Game Shows", "Westerns", "Other",
 ]
 
-# Provider category aliases -> our stable CarPlay taxonomy.
 ALIASES = {
     "local news": "Local News",
     "news": "News", "news & opinion": "News", "news + opinion": "News",
@@ -54,8 +53,6 @@ ALIASES = {
     "westerns": "Westerns", "western": "Westerns",
 }
 
-# Conservative rules for generic provider buckets (especially Plex "United States").
-# First matching rule wins. These intentionally favor precision over coverage.
 NAME_RULES = [
     ("Local News", r"\b(?:local|news)\b.*\b(?:[kw][a-z]{2,4}|fox|abc|cbs|nbc)\b|\b(?:fox|abc|cbs|nbc)\s+(?:local|news)\b|\bvery\s+(?:boston|omaha|milwaukee|new mexico|s\. carolina)\b"),
     ("News", r"\b(?:news|newsmax|bloomberg|reuters|euronews|weather|accuweather|court tv)\b"),
@@ -85,7 +82,6 @@ def normalize_group(group: str, name: str) -> str:
     g = (group or "").strip().casefold()
     if g in ALIASES:
         return ALIASES[g]
-    # Try useful substring aliases before name inference.
     for raw, normalized in ALIASES.items():
         if raw and raw in g and g not in GENERIC:
             return normalized
@@ -114,36 +110,38 @@ def main():
     category_by_name = {}
     counts = Counter()
     recovered = 0
-    inferred = 0
+    other_audit = []
 
     for item in database:
         name = item.get("name", "")
         original = item.get("group", "Other")
         item["original_group"] = original
 
-        # If the primary category is generic, first look at retained alternate feeds
-        # for real provider metadata before applying conservative name rules.
         useful_group = original
+        recovered_from = ""
         if original.strip().casefold() in GENERIC:
             for fallback in item.get("fallbacks", []):
                 fg = (fallback.get("group") or "").strip()
                 if fg.casefold() not in GENERIC:
                     useful_group = fg
+                    recovered_from = fallback.get("source", "fallback")
                     recovered += 1
                     break
 
         category = normalize_group(useful_group, name)
-        if category == "Other" and useful_group.strip().casefold() in GENERIC:
-            # normalize_group already attempted name rules; track unresolved generic.
-            pass
-        elif useful_group == original and original.strip().casefold() in GENERIC:
-            inferred += 1
-
         item["display_category"] = category
         category_by_name[name] = category
         counts[category] += 1
 
-    # Rewrite the M3U group-title shown by the player.
+        if category == "Other":
+            other_audit.append({
+                "name": name,
+                "source": item.get("primary", {}).get("source", "Unknown"),
+                "original_group": original,
+                "useful_group": useful_group,
+                "recovered_from": recovered_from,
+            })
+
     lines = MASTER.read_text(encoding="utf-8").splitlines()
     out = []
     for line in lines:
@@ -156,7 +154,6 @@ def main():
 
     SOURCES.write_text(json.dumps(database, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
-    # Append a v4 summary to the existing v3 report without destroying its diagnostics.
     report = REPORT.read_text(encoding="utf-8")
     marker = "\n================================================================\nV4 NORMALIZED CATEGORY SUMMARY\n"
     if marker in report:
@@ -169,11 +166,24 @@ def main():
     report += "United States display category: 0\n\n"
     for category in CATEGORIES:
         report += f"  {category}: {counts.get(category, 0)}\n"
+
+    report += "\n================================================================\n"
+    report += "V4 OTHER CHANNEL AUDIT\n"
+    report += "================================================================\n\n"
+    report += f"Unresolved Other channels: {len(other_audit)}\n"
+    report += "These are intentionally listed so category rules can be improved from real channels rather than guesses.\n\n"
+    for entry in other_audit:
+        report += (
+            f"  {entry['name']} | source={entry['source']} | "
+            f"original={entry['original_group']} | useful={entry['useful_group']}\n"
+        )
+
     REPORT.write_text(report, encoding="utf-8")
 
     print("V4 category normalization complete")
     print(f"Channels categorized: {sum(counts.values())}")
     print(f"Fallback metadata recoveries: {recovered}")
+    print(f"Unresolved Other channels: {len(other_audit)}")
     print("United States display category: 0")
     for category in CATEGORIES:
         print(f"  {category}: {counts.get(category, 0)}")
