@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """CarPlay TV v4 category normalizer.
 
-Runs after build_playlist.py. It preserves v3 provider priority, language filtering,
-fallbacks and validation, while replacing inconsistent upstream group-title values
-with one 21-category CarPlay taxonomy. Original categories remain in
-channel_sources.json as original_group.
+Runs after build_playlist.py. Preserves the v3 playlist/fallback architecture while
+normalizing display groups into the 21-category CarPlay taxonomy. Original provider
+categories remain in channel_sources.json. Rules intentionally prefer useful provider
+metadata first, then conservative channel-name inference.
 """
 
 import json
@@ -25,54 +25,102 @@ CATEGORIES = [
 
 ALIASES = {
     "local news": "Local News",
-    "news": "News", "news & opinion": "News", "news + opinion": "News",
+    "weather": "News",
+    "news": "News", "national news": "News", "news & opinion": "News", "news + opinion": "News",
     "sports": "Sports", "sports & outdoors": "Sports", "sports on now": "Sports",
-    "motor sports": "Sports", "motorsports": "Sports",
-    "movies": "Movies", "movie": "Movies",
-    "tv & entertainment": "TV", "action & drama": "TV", "drama": "TV",
-    "hit tv": "TV", "daytime tv": "TV", "daytime": "TV",
+    "motor sports": "Sports", "motorsports": "Sports", "pro wrestling": "Sports",
+    "games & competition": "Reality",
+    "movies": "Movies", "movie": "Movies", "romance": "TV",
+    "tv & entertainment": "TV", "entertainment": "TV", "action & drama": "TV", "drama": "TV",
+    "hit tv": "TV", "daytime tv": "TV", "daytime": "TV", "mystery": "Crime",
     "comedy": "Comedy",
     "crime": "Crime", "true crime": "Crime",
     "reality": "Reality", "reality tv": "Reality", "reality competition": "Reality",
     "competition reality": "Reality", "big brother live": "Reality",
-    "classic tv": "Classics", "classics": "Classics",
-    "western & classic tv": "Classics",
+    "classic tv": "Classics", "classics": "Classics", "western & classic tv": "Classics",
     "sci-fi": "Sci-Fi & Horror", "sci-fi & horror": "Sci-Fi & Horror",
     "horror": "Sci-Fi & Horror", "chills & thrills": "Sci-Fi & Horror",
-    "kids": "Kids", "kids & family": "Kids",
+    "kids": "Kids", "kids & family": "Kids", "animated": "Kids", "faith & family": "Lifestyle",
     "music": "Music", "music videos": "Music",
-    "home & food": "Food & Home", "home + food": "Food & Home",
-    "food & home": "Food & Home", "cooking": "Food & Home",
-    "lifestyle": "Lifestyle", "lifestyle & pop culture": "Lifestyle",
-    "nature, history & science": "History & Science",
-    "history + science": "History & Science", "history & science": "History & Science",
-    "nature & travel": "Nature & Travel", "travel": "Nature & Travel",
+    "home & food": "Food & Home", "home + food": "Food & Home", "food & home": "Food & Home",
+    "cooking": "Food & Home", "good eats": "Food & Home", "home improvement": "Food & Home",
+    "lifestyle": "Lifestyle", "lifestyle & pop culture": "Lifestyle", "pop culture": "Lifestyle",
+    "health": "Lifestyle", "auction": "Lifestyle",
+    "animals": "Nature & Travel", "animals + nature": "Nature & Travel", "science & nature": "Nature & Travel",
+    "environment": "Nature & Travel", "nature & travel": "Nature & Travel", "travel": "Nature & Travel",
+    "nature, history & science": "History & Science", "history + science": "History & Science",
+    "history & science": "History & Science", "educational": "History & Science", "gaming & tech": "History & Science",
     "documentary": "Documentary", "documentaries": "Documentary",
     "anime": "Anime", "anime & gaming": "Anime", "anime+": "Anime",
     "game shows": "Game Shows", "daytime + game shows": "Game Shows",
     "westerns": "Westerns", "western": "Westerns",
+    "ambiance": "Lifestyle",
+}
+
+# Exact overrides are used only where the audit exposed well-known channels whose
+# names do not contain enough generic words for a reliable regex classification.
+EXACT = {
+    "dora tv": "Kids", "like nastya": "Kids", "ninja kidz tv": "Kids",
+    "garfield": "Kids", "pitufo tv": "Kids", "super mario brothers": "Kids",
+    "beyblade": "Kids", "pink panther": "Kids", "the wiggles": "Kids",
+    "mr. bean": "Comedy", "mr. bean live action": "Comedy", "corner gas": "Comedy",
+    "green acres": "Classics", "dick van dyke": "Classics", "that girl": "Classics",
+    "farscape": "Sci-Fi & Horror", "continuum": "Sci-Fi & Horror", "stargate by mgm": "Sci-Fi & Horror",
+    "the outer limits": "Sci-Fi & Horror", "the outpost": "Sci-Fi & Horror",
+    "dateline": "Crime", "prime suspect": "Crime", "silent witness|new tricks": "Crime",
+    "silent witness and new tricks": "Crime", "on patrol: live": "Crime", "women behind bars": "Crime",
+    "judge judy": "TV", "judge faith": "TV", "dr. phil": "TV", "wendy williams": "TV",
+    "the bold and the beautiful": "TV", "mi-5": "TV", "rookie blue": "TV", "scandal": "TV",
+    "nip/tuck": "TV", "mcLeods daughters": "TV", "love thy neighbor": "TV",
+    "dance moms by lifetime": "Reality", "duck dynasty by a&e": "Reality", "the osbournes": "Reality",
+    "say yes to the dress": "Reality", "love after lockup we tv": "Reality", "four in a bed": "Reality",
+    "come dine with me": "Reality", "american gladiators by mgm": "Reality", "hard knocks": "Reality",
+    "the biggest loser": "Reality", "fear factor usa": "Reality",
+    "france 24": "News", "weathernation": "News", "local now charlotte": "Local News",
+    "wsoc channel 9": "Local News", "very carolina by wxii": "Local News", "very carolina by wyff 4": "Local News",
+    "the repair shop": "Food & Home", "property brothers channel": "Food & Home",
+    "the great british baking channel": "Food & Home", "the emeril lagasse channel": "Food & Home",
+    "great british menu": "Food & Home", "gordon ramsay": "Food & Home", "so yummy": "Food & Home",
+    "bizarre foods with andrew zimmern": "Food & Home",
+    "easy listening": "Music", "smooth jazz": "Music", "today's k-pop": "Music", "qwest tv": "Music",
+    "classic rock": "Music", "hip-hop/r&b": "Music", "euro hits": "Music", "metal.rocks": "Music",
+    "world surf league 24/7": "Sports", "unbeaten": "Sports", "fight network": "Sports",
+    "glory kickboxing": "Sports", "strongman champions": "Sports", "acl cornhole tv": "Sports",
+    "bowling tv": "Sports", "cricket gold": "Sports", "speed sport 1": "Sports", "speedvision": "Sports",
+    "wired2fish": "Sports", "pickletv": "Sports", "swac tv": "Sports",
+    "earthxtra": "Nature & Travel", "real wild": "Nature & Travel", "go wild": "Nature & Travel",
+    "gotraveler": "Nature & Travel", "journy": "Nature & Travel", "the wicked tuna channel": "Nature & Travel",
+    "cesar's pack leader tv": "Nature & Travel", "dog whisperer with cesar millan": "Nature & Travel",
+    "pet collective": "Nature & Travel", "paws & claws": "Nature & Travel", "naturescape": "Nature & Travel",
+    "get.factual": "Documentary", "cosmic frontiers": "History & Science", "startalk tv": "History & Science",
+    "this old house classic": "Food & Home", "this old house shorts": "Food & Home",
+    "mecum tv": "Lifestyle", "fashiontv": "Lifestyle", "the doctors": "Lifestyle",
+    "5-minute crafts": "Lifestyle", "123go!": "Lifestyle", "creator television": "Lifestyle",
+    "bbc game shows": "Game Shows", "estella games": "Game Shows", "estrella games": "Game Shows",
+    "bonanza-billies tv": "Westerns",
 }
 
 NAME_RULES = [
-    ("Local News", r"\b(?:local|news)\b.*\b(?:[kw][a-z]{2,4}|fox|abc|cbs|nbc)\b|\b(?:fox|abc|cbs|nbc)\s+(?:local|news)\b|\bvery\s+(?:boston|omaha|milwaukee|new mexico|s\. carolina)\b"),
-    ("News", r"\b(?:news|newsmax|bloomberg|reuters|euronews|weather|accuweather|court tv)\b"),
-    ("Sports", r"\b(?:sports|nfl|nba|mlb|nhl|f1|formula 1|football|soccer|golf|tennis|poker|racing|mma|ufc|wrestling|boxing|pickleball|billiards|darts)\b"),
-    ("Kids", r"\b(?:kids|junior|cartoon|nickelodeon|nick jr|baby shark|teletubbies|barney|lego|sonic|pokemon|paw patrol)\b"),
+    ("Local News", r"\b(?:local now|very (?:carolina|boston|omaha|milwaukee|new mexico|s\. carolina)|fox local)\b|\b(?:w[a-z]{2,3}|k[a-z]{2,3})\s+(?:channel|news)\b"),
+    ("News", r"\b(?:news|newsmax|bloomberg|reuters|euronews|weather|accuweather|court tv|france 24|telemundo al dia|entravision ahora)\b"),
+    ("Sports", r"\b(?:sports?|deportes|nfl|nba|mlb|nhl|f1|formula 1|football|soccer|golf|tennis|poker|racing|mma|ufc|wrestling|boxing|kickboxing|pickleball|billiards|darts|cornhole|bowling|cricket|surf|fight|strongman|wwe|speedvision)\b"),
+    ("Kids", r"\b(?:kids?|kidz|junior|cartoon|animated|nickelodeon|nick jr|baby shark|teletubbies|barney|lego|sonic|pokemon|paw patrol|wiggles|beyblade|garfield|hasbro|wonderland)\b"),
     ("Anime", r"\b(?:anime|crunchyroll|hidive)\b"),
-    ("Game Shows", r"\b(?:game show|gameshow|quiz|family feud|deal or no deal|price is right|wheel of fortune|jeopardy)\b"),
-    ("Crime", r"\b(?:crime|cops|forensic|investigation|mysteries|mystery|cold case|court|law & crime|law and crime|true crime)\b"),
-    ("Sci-Fi & Horror", r"\b(?:sci[- ]?fi|horror|paranormal|ghost|shudder|alien|thriller|dystopia)\b"),
-    ("Westerns", r"\b(?:western|westerns|cowboy|gunsmoke)\b"),
-    ("Classics", r"\b(?:classic tv|classics|retro tv|oldies|vintage tv)\b"),
-    ("Food & Home", r"\b(?:food|cooking|cook|kitchen|chef|tastemade|home|diy|garden|renovation)\b"),
-    ("Nature & Travel", r"\b(?:nature|wildlife|travel|outdoors|earth|animal|adventure)\b"),
-    ("History & Science", r"\b(?:history|science|space|nasa|curiosity|smithsonian)\b"),
-    ("Documentary", r"\b(?:documentary|documentaries|docurama|docs)\b"),
-    ("Music", r"\b(?:music|vevo|mtv|stingray|concert|karaoke|billboard)\b"),
-    ("Comedy", r"\b(?:comedy|funny|laugh|lol)\b"),
-    ("Reality", r"\b(?:reality|housewives|bachelor|survivor|big brother|cheaters)\b"),
-    ("Lifestyle", r"\b(?:lifestyle|fashion|weddings|wellness|fitness|perform by lifetime)\b"),
-    ("Movies", r"\b(?:movie|movies|cinema|cinevault|filmrise|film|miramax)\b"),
+    ("Game Shows", r"\b(?:game shows?|gameshow|quiz|family feud|deal or no deal|price is right|wheel of fortune|jeopardy)\b"),
+    ("Crime", r"\b(?:crime|crimen|detectives?|cops|forensic|investigation|mysteries|mystery|cold case|court|law & crime|law and crime|true crime|sheriffs?|patrol|behind bars|delito|suspect)\b"),
+    ("Sci-Fi & Horror", r"\b(?:sci[- ]?fi|horror|paranormal|ghost|shudder|alien|thriller|dystopia|scream|fright|dread|monsters?|stargate|outer limits|dark matter|spoopy|halloween)\b"),
+    ("Westerns", r"\b(?:western|westerns|cowboy|gunsmoke|películas del oeste|peliculas del oeste)\b"),
+    ("Classics", r"\b(?:classic tv|classics|clásico|clasico|retro|oldies|vintage tv|flashback 70s|80's sitcom|remember the .80s)\b"),
+    ("Food & Home", r"\b(?:food|kfood|cooking|cook|kitchen|chef|tastemade|home|diy|garden|renovation|baking|emeril|property brothers|repair shop|crafts|yummy|dine)\b"),
+    ("Nature & Travel", r"\b(?:nature|naturaleza|wildlife|travel|traveler|outdoors|earth|animal|adventure|wild|paws|pack leader|wicked tuna|alive|survive or die)\b"),
+    ("History & Science", r"\b(?:history|science|space|nasa|curiosity|smithsonian|cosmic|startalk|factual)\b"),
+    ("Documentary", r"\b(?:documentary|documentaries|docurama|docs|factual)\b"),
+    ("Music", r"\b(?:music|vevo|mtv|stingray|concert|karaoke|billboard|xite|k-pop|hip-hop|r&b|jazz|rock|hits|y2k|trace urban|qwest)\b"),
+    ("Comedy", r"\b(?:comedy|funny|laugh|lol|sitcom|mr\. bean|corner gas)\b"),
+    ("Reality", r"\b(?:reality|housewives|bachelor|survivor|big brother|cheaters|dance moms|duck dynasty|osbournes|lockup|bride|gladiators|biggest loser|fear factor|growing up hip hop)\b"),
+    ("Lifestyle", r"\b(?:lifestyle|fashion|weddings|wellness|fitness|perform by lifetime|pop culture|creator|crafts|prof g|medical|doctors?)\b"),
+    ("Movies", r"\b(?:movie|movies|cinema|cinevault|cinelife|filmrise|films?|miramax|mgm presents|tribeca|blackpix|pelimex|movieitaly|ifc films)\b"),
+    ("TV", r"\b(?:drama|k-drama|soap|primetime|free ?tv|tv live|thrillers|hunter|librarians|weeds|nurse jackie|heat of the night)\b"),
 ]
 
 GENERIC = {"united states", "other", "global", "international", "featured", ""}
@@ -85,7 +133,9 @@ def normalize_group(group: str, name: str) -> str:
     for raw, normalized in ALIASES.items():
         if raw and raw in g and g not in GENERIC:
             return normalized
-    n = (name or "").casefold()
+    n = (name or "").strip().casefold()
+    if n in EXACT:
+        return EXACT[n]
     for category, pattern in NAME_RULES:
         if re.search(pattern, n, re.IGNORECASE):
             return category
@@ -171,7 +221,7 @@ def main():
     report += "V4 OTHER CHANNEL AUDIT\n"
     report += "================================================================\n\n"
     report += f"Unresolved Other channels: {len(other_audit)}\n"
-    report += "These are intentionally listed so category rules can be improved from real channels rather than guesses.\n\n"
+    report += "Remaining entries are intentionally left unresolved rather than forcing a low-confidence category.\n\n"
     for entry in other_audit:
         report += (
             f"  {entry['name']} | source={entry['source']} | "
