@@ -345,333 +345,133 @@ Channels categorized: 1418
 Generic categories recovered from fallback metadata: 0
 United States display category: 0
 
-  News: 47
-  Local News: 119
-  Sports: 124
-  Movies: 62
-  TV: 116
-  Comedy: 66
-  Crime: 62
-  Reality: 95
-  Classics: 37
-  Sci-Fi & Horror: 45
-  Kids: 59
-  Music: 72
-  Food & Home: 63
-  Lifestyle: 32
-  Nature & Travel: 4
-  History & Science: 50
-  Documentary: 5
+  News: 51
+  Local News: 124
+  Sports: 143
+  Movies: 69
+  TV: 148
+  Comedy: 69
+  Crime: 72
+  Reality: 109
+  Classics: 45
+  Sci-Fi & Horror: 57
+  Kids: 71
+  Music: 82
+  Food & Home: 74
+  Lifestyle: 61
+  Nature & Travel: 20
+  History & Science: 54
+  Documentary: 6
   Anime: 21
-  Game Shows: 28
-  Westerns: 10
-  Other: 301
+  Game Shows: 29
+  Westerns: 12
+  Other: 101
 
 ================================================================
 V4 OTHER CHANNEL AUDIT
 ================================================================
 
-Unresolved Other channels: 301
-These are intentionally listed so category rules can be improved from real channels rather than guesses.
+Unresolved Other channels: 101
+Remaining entries are intentionally left unresolved rather than forcing a low-confidence category.
 
-  Beach Bonfire Vibes | source=Samsung | original=Ambiance | useful=Ambiance
-  Campfire Vibes | source=Samsung | original=Ambiance | useful=Ambiance
-  Cosmos | source=Samsung | original=Ambiance | useful=Ambiance
-  Cozy Vibes | source=Samsung | original=Ambiance | useful=Ambiance
-  Fall Vibes | source=Samsung | original=Ambiance | useful=Ambiance
-  Fireplace Vibes | source=Samsung | original=Ambiance | useful=Ambiance
-  Halloween Vibes | source=Samsung | original=Ambiance | useful=Ambiance
-  Island Vibes | source=Samsung | original=Ambiance | useful=Ambiance
-  Loupe 4K | source=Samsung | original=Ambiance | useful=Ambiance
-  Luxe Fireplace Vibes | source=Samsung | original=Ambiance | useful=Ambiance
-  Ocean Vibes | source=Samsung | original=Ambiance | useful=Ambiance
-  Rainy Day Vibes | source=Samsung | original=Ambiance | useful=Ambiance
-  Storm Vibes | source=Samsung | original=Ambiance | useful=Ambiance
-  Dog Whisperer with Cesar Millan | source=Pluto | original=Animals + Nature | useful=Animals + Nature
-  Dora TV | source=Pluto | original=Hispanic Heritage Month | useful=Hispanic Heritage Month
-  Logo Pluto TV | source=Pluto | original=Entertainment | useful=Entertainment
-  Naturescape | source=Pluto | original=Animals + Nature | useful=Animals + Nature
-  Paramount+ Picks | source=Pluto | original=Entertainment | useful=Entertainment
   Pluto TV Hispanic Favorites | source=Pluto | original=Hispanic Heritage Month | useful=Hispanic Heritage Month
-  Pluto TV Pride | source=Pluto | original=Entertainment | useful=Entertainment
-  Pet Collective | source=Roku | original=Animals | useful=Animals
-  Fairground AI Creator TV | source=Roku | original=Animated | useful=Animated
-  Garfield | source=Roku | original=Animated | useful=Animated
-  Pitufo TV | source=Roku | original=Animated | useful=Animated
-  Super Mario Brothers | source=Roku | original=Animated | useful=Animated
-  Mecum TV | source=Roku | original=Auction | useful=Auction
-  This Old House Classic | source=Roku | original=Educational | useful=Educational
-  This Old House Shorts | source=Roku | original=Educational | useful=Educational
-  EarthDay 365 | source=Roku | original=Environment | useful=Environment
-  Dove | source=Roku | original=Faith & Family | useful=Faith & Family
-  Joel Osteen Network | source=Roku | original=Faith & Family | useful=Faith & Family
-  Preston & Brianna | source=Roku | original=Gaming & Tech | useful=Gaming & Tech
-  The Doctors | source=Roku | original=Health | useful=Health
-  Places & Spaces | source=Roku | original=Home Improvement | useful=Home Improvement
-  Like Nastya | source=Roku | original=Other | useful=Other
-  Ninja Kidz TV | source=Roku | original=Other | useful=Other
-  CW Presents WWE NXT | source=Roku | original=Pro Wrestling | useful=Pro Wrestling
-  Cine Romantico | source=Roku | original=Romance | useful=Romance
-  Novelísima | source=Roku | original=Romance | useful=Romance
-  SPARK TV | source=Roku | original=Romance | useful=Romance
-  Weathernation | source=Roku | original=Weather | useful=Weather
-  Def Jam | source=Tubi | original=Pop Culture | useful=Pop Culture
-  Fear Factor USA | source=Tubi | original=Games & Competition | useful=Games & Competition
-  Gordon Ramsay | source=Tubi | original=Good Eats | useful=Good Eats
-  Jubilee | source=Tubi | original=Pop Culture | useful=Pop Culture
-  Paws & Claws | source=Tubi | original=Science & Nature | useful=Science & Nature
-  Silent Witness and New Tricks | source=Tubi | original=Mystery | useful=Mystery
-  Sweet Escapes | source=Tubi | original=Good Eats | useful=Good Eats
-  The Biggest Loser | source=Tubi | original=Games & Competition | useful=Games & Competition
-  123GO! | source=Plex | original=United States | useful=United States
   365BLK [FAST] | source=Plex | original=United States | useful=United States
-  5-Minute Crafts | source=Plex | original=United States | useful=United States
-  80's Sitcom Flashback | source=Plex | original=United States | useful=United States
   A Touch of Frost | source=Plex | original=United States | useful=United States
-  ACL Cornhole TV | source=Plex | original=United States | useful=United States
   AddictaTV | source=Plex | original=United States | useful=United States
   AfroLandTV | source=Plex | original=United States | useful=United States
   Aliwko | source=Plex | original=United States | useful=United States
   Alternative | source=Plex | original=United States | useful=United States
   Amasian TV | source=Plex | original=United States | useful=United States
-  AMC Thrillers | source=Plex | original=United States | useful=United States
-  American Gladiators by MGM | source=Plex | original=United States | useful=United States
-  Asian Drama | source=Plex | original=United States | useful=United States
   AsianCrush | source=Plex | original=United States | useful=United States
   Autopista al Cielo | source=Plex | original=United States | useful=United States
-  Azteca Deportes Network | source=Plex | original=United States | useful=United States
-  BBC Game Shows | source=Plex | original=United States | useful=United States
-  Beyblade | source=Plex | original=United States | useful=United States
   Beyond Belief | source=Plex | original=United States | useful=United States
   Bizaar | source=Plex | original=United States | useful=United States
-  Bizarre Foods with Andrew Zimmern | source=Plex | original=United States | useful=United States
-  BlackPix | source=Plex | original=United States | useful=United States
-  Bloodline Detectives Hosted by Nancy Grace | source=Plex | original=United States | useful=United States
-  Bonanza-Billies TV | source=Plex | original=United States | useful=United States
   BOOT | source=Plex | original=United States | useful=United States
-  Bowling TV | source=Plex | original=United States | useful=United States
   Buen Viaje | source=Plex | original=United States | useful=United States
-  Camp Spoopy | source=Plex | original=United States | useful=United States
   Canela.TV Clásicos | source=Plex | original=United States | useful=United States
-  Canela.TV Deportes | source=Plex | original=United States | useful=United States
   Canela.TV Hollywood y Más | source=Plex | original=United States | useful=United States
   Caught in Providence | source=Plex | original=United States | useful=United States
-  Cesar's Pack Leader TV | source=Plex | original=United States | useful=United States
   Cine EstrellaTV | source=Plex | original=United States | useful=United States
   Cine Romántico | source=Plex | original=United States | useful=United States
-  CineLife | source=Plex | original=United States | useful=United States
   Circle Country | source=Plex | original=United States | useful=United States
   Classic Car Auctions | source=Plex | original=United States | useful=United States
-  Classic Rock | source=Plex | original=United States | useful=United States
   Clic | source=Plex | original=United States | useful=United States
-  Combat War Channel | source=Plex | original=United States | useful=United States
   CombaTV | source=Plex | original=United States | useful=United States
-  Come Dine With Me | source=Plex | original=United States | useful=United States
-  Continuum | source=Plex | original=United States | useful=United States
   Corazón | source=Plex | original=United States | useful=United States
-  Corner Gas | source=Plex | original=United States | useful=United States
-  Cosmic Frontiers | source=Plex | original=United States | useful=United States
-  Creator Television | source=Plex | original=United States | useful=United States
-  Cricket Gold | source=Plex | original=United States | useful=United States
-  Dance Moms by Lifetime | source=Plex | original=United States | useful=United States
-  Dark Matter TV | source=Plex | original=United States | useful=United States
-  Dateline | source=Plex | original=United States | useful=United States
-  Delito | source=Plex | original=United States | useful=United States
-  Dick Van Dyke | source=Plex | original=United States | useful=United States
-  Don't Tell The Bride | source=Plex | original=United States | useful=United States
-  Dr. Phil | source=Plex | original=United States | useful=United States
-  DREAD TV | source=Plex | original=United States | useful=United States
-  Duck Dynasty by A&E | source=Plex | original=United States | useful=United States
-  EarthXtra | source=Plex | original=United States | useful=United States
-  Easy Listening | source=Plex | original=United States | useful=United States
-  Eddie's Wonderland | source=Plex | original=United States | useful=United States
   El Conflicto TV | source=Plex | original=United States | useful=United States
   Emoción Atres | source=Plex | original=United States | useful=United States
   Entertains | source=Plex | original=United States | useful=United States
-  Entravision Ahora | source=Plex | original=United States | useful=United States
-  Estrella Games | source=Plex | original=United States | useful=United States
-  Euro Hits | source=Plex | original=United States | useful=United States
   Extreme Jobs | source=Plex | original=United States | useful=United States
-  Farscape | source=Plex | original=United States | useful=United States
-  FashionTV | source=Plex | original=United States | useful=United States
   Fifth Gear (UK) | source=Plex | original=United States | useful=United States
-  Fight Network | source=Plex | original=United States | useful=United States
-  Flashback 70s | source=Plex | original=United States | useful=United States
-  Four in a Bed | source=Plex | original=United States | useful=United States
-  FRANCE 24 | source=Plex | original=United States | useful=United States
-  FreeTV Banda | source=Plex | original=United States | useful=United States
-  FreeTV Clásico | source=Plex | original=United States | useful=United States
-  FreeTV Drama | source=Plex | original=United States | useful=United States
-  FreeTV Familia | source=Plex | original=United States | useful=United States
-  FreeTV Live | source=Plex | original=United States | useful=United States
   FrightFlix | source=Plex | original=United States | useful=United States
   GameTVGO | source=Plex | original=United States | useful=United States
   Gata Salvaje | source=Plex | original=United States | useful=United States
   GET | source=Plex | original=United States | useful=United States
-  Get.Factual | source=Plex | original=United States | useful=United States
   Glewed TV | source=Plex | original=United States | useful=United States
-  GLORY Kickboxing | source=Plex | original=United States | useful=United States
-  Go Wild | source=Plex | original=United States | useful=United States
-  GoTraveler | source=Plex | original=United States | useful=United States
-  Great British Menu | source=Plex | original=United States | useful=United States
-  Green Acres | source=Plex | original=United States | useful=United States
-  Grjngo - Películas Del Oeste | source=Plex | original=United States | useful=United States
-  Growing Up Hip Hop | source=Plex | original=United States | useful=United States
-  Halloween Plus | source=Plex | original=United States | useful=United States
-  Hard Knocks | source=Plex | original=United States | useful=United States
-  Hasbro Legends | source=Plex | original=United States | useful=United States
   Hi-YAH! | source=Plex | original=United States | useful=United States
-  Hip-Hop/R&B | source=Plex | original=United States | useful=United States
   Historias de Corazón | source=Plex | original=United States | useful=United States
   Hit List | source=Plex | original=United States | useful=United States
-  Hong Kong Fight Club | source=Plex | original=United States | useful=United States
-  Hunter | source=Plex | original=United States | useful=United States
-  I Shouldn't Be Alive | source=Plex | original=United States | useful=United States
   Ice Pilots NWT | source=Plex | original=United States | useful=United States
   Ideas En 5 Minutos | source=Plex | original=United States | useful=United States
-  IFC Films Picks | source=Plex | original=United States | useful=United States
-  In The Heat Of The Night by MGM | source=Plex | original=United States | useful=United States
   INTER 24/7 | source=Plex | original=United States | useful=United States
-  ITV Deportes | source=Plex | original=United States | useful=United States
   Jade Fever | source=Plex | original=United States | useful=United States
-  Journy | source=Plex | original=United States | useful=United States
   JoySauce | source=Plex | original=United States | useful=United States
   Jubao | source=Plex | original=United States | useful=United States
-  Judge Faith | source=Plex | original=United States | useful=United States
-  Judge Judy | source=Plex | original=United States | useful=United States
   KidsFlix | source=Plex | original=United States | useful=United States
   Kim's Convenience | source=Plex | original=United States | useful=United States
   La Fiebre del Jade | source=Plex | original=United States | useful=United States
   LATV | source=Plex | original=United States | useful=United States
   Lawless | source=Plex | original=United States | useful=United States
   Legacy | source=Plex | original=United States | useful=United States
-  Local Now Charlotte | source=Plex | original=United States | useful=United States
   Lone Star | source=Plex | original=United States | useful=United States
-  Love After Lockup We TV | source=Plex | original=United States | useful=United States
-  Love Thy Neighbor | source=Plex | original=United States | useful=United States
   Lucha Plus | source=Plex | original=United States | useful=United States
   Made In Hollywood | source=Plex | original=United States | useful=United States
   McLeods Daughters | source=Plex | original=United States | useful=United States
-  Medical Incredible | source=Plex | original=United States | useful=United States
   Mera Mera TV | source=Plex | original=United States | useful=United States
-  Metal.Rocks | source=Plex | original=United States | useful=United States
-  MGM Presents | source=Plex | original=United States | useful=United States
-  MGM Presents: Action | source=Plex | original=United States | useful=United States
   Mi Casa | source=Plex | original=United States | useful=United States
-  MI-5 | source=Plex | original=United States | useful=United States
-  Monsters are Real | source=Plex | original=United States | useful=United States
   More U | source=Plex | original=United States | useful=United States
-  Movieitaly Channel | source=Plex | original=United States | useful=United States
-  Mr. Bean | source=Plex | original=United States | useful=United States
-  Mr. Bean Live Action | source=Plex | original=United States | useful=United States
   Mysteria | source=Plex | original=United States | useful=United States
-  Naturaleza | source=Plex | original=United States | useful=United States
-  NEW KFOOD | source=Plex | original=United States | useful=United States
-  Nip/Tuck | source=Plex | original=United States | useful=United States
   Nolly Africa HD | source=Plex | original=United States | useful=United States
   Non-Stop '90s | source=Plex | original=United States | useful=United States
   Nosey Escándalos | source=Plex | original=United States | useful=United States
   Nothin' But 90s | source=Plex | original=United States | useful=United States
   Novelisima | source=Plex | original=United States | useful=United States
-  On Patrol: Live | source=Plex | original=United States | useful=United States
   OuterSphere by Lionsgate | source=Plex | original=United States | useful=United States
   Outlaw | source=Plex | original=United States | useful=United States
   Outside | source=Plex | original=United States | useful=United States
-  PBS Retro | source=Plex | original=United States | useful=United States
-  PeliMex | source=Plex | original=United States | useful=United States
   People are Awesome | source=Plex | original=United States | useful=United States
-  PickleTV | source=Plex | original=United States | useful=United States
-  Pink Panther | source=Plex | original=United States | useful=United States
   Plex24 | source=Plex | original=United States | useful=United States
   Pop Adult | source=Plex | original=United States | useful=United States
-  Prime Suspect | source=Plex | original=United States | useful=United States
-  Primetime Soaps | source=Plex | original=United States | useful=United States
-  Property Brothers Channel | source=Plex | original=United States | useful=United States
   Pulse | source=Plex | original=United States | useful=United States
-  Qwest TV | source=Plex | original=United States | useful=United States
   Rakuten Viki | source=Plex | original=United States | useful=United States
   RCM | source=Plex | original=United States | useful=United States
   RCN Más | source=Plex | original=United States | useful=United States
   Real Emergency | source=Plex | original=United States | useful=United States
-  Real Wild | source=Plex | original=United States | useful=United States
-  Remember the ‘80s | source=Plex | original=United States | useful=United States
   Revry Latinx | source=Plex | original=United States | useful=United States
   Robot Wars by Mech+ | source=Plex | original=United States | useful=United States
-  ROMCOM K-Drama | source=Plex | original=United States | useful=United States
-  Rookie Blue | source=Plex | original=United States | useful=United States
-  Say Yes to the Dress | source=Plex | original=United States | useful=United States
-  Scandal | source=Plex | original=United States | useful=United States
-  Scream Factory TV | source=Plex | original=United States | useful=United States
   Screambox TV | source=Plex | original=United States | useful=United States
   Shemaroo Bollywood | source=Plex | original=United States | useful=United States
-  Sheriffs: El Dorado County | source=Plex | original=United States | useful=United States
-  Silent Witness|New Tricks | source=Plex | original=United States | useful=United States
   SKWAD | source=Plex | original=United States | useful=United States
   Slightly Off IFC | source=Plex | original=United States | useful=United States
   SLOPES | source=Plex | original=United States | useful=United States
-  Smooth Jazz | source=Plex | original=United States | useful=United States
-  So Yummy | source=Plex | original=United States | useful=United States
   Spark TV Light & Love | source=Plex | original=United States | useful=United States
   Spark TV Luz y Amor | source=Plex | original=United States | useful=United States
-  Speed Sport 1 | source=Plex | original=United States | useful=United States
-  SPEEDVISION | source=Plex | original=United States | useful=United States
   SPIN | source=Plex | original=United States | useful=United States
-  Stargate by MGM | source=Plex | original=United States | useful=United States
-  Startalk TV | source=Plex | original=United States | useful=United States
-  Strongman Champions | source=Plex | original=United States | useful=United States
-  Survive or Die | source=Plex | original=United States | useful=United States
-  SWAC TV | source=Plex | original=United States | useful=United States
   Tarima TV | source=Plex | original=United States | useful=United States
   Teen Wolf by MGM | source=Plex | original=United States | useful=United States
-  Telemundo al Dia | source=Plex | original=United States | useful=United States
   Teleonce America | source=Plex | original=United States | useful=United States
-  That Girl | source=Plex | original=United States | useful=United States
   The Black Effect | source=Plex | original=United States | useful=United States
-  The Bold and the Beautiful | source=Plex | original=United States | useful=United States
-  The Emeril Lagasse Channel | source=Plex | original=United States | useful=United States
-  The Great British Baking Channel | source=Plex | original=United States | useful=United States
-  The Librarians | source=Plex | original=United States | useful=United States
-  The Osbournes | source=Plex | original=United States | useful=United States
-  The Outer Limits | source=Plex | original=United States | useful=United States
-  The Outpost | source=Plex | original=United States | useful=United States
-  The Prof G Channel | source=Plex | original=United States | useful=United States
-  The Repair Shop | source=Plex | original=United States | useful=United States
   The Sherlock Holmes Channel | source=Plex | original=United States | useful=United States
   The Spa | source=Plex | original=United States | useful=United States
-  The Wicked Tuna Channel | source=Plex | original=United States | useful=United States
-  The Wiggles | source=Plex | original=United States | useful=United States
-  Today's K-Pop | source=Plex | original=United States | useful=United States
-  Todo Crimen | source=Plex | original=United States | useful=United States
-  Todo Drama | source=Plex | original=United States | useful=United States
   TRACE Brazuca | source=Plex | original=United States | useful=United States
   TRACE Latina | source=Plex | original=United States | useful=United States
-  TRACE Urban | source=Plex | original=United States | useful=United States
   Trailer Park Boys: The SwearNet Show | source=Plex | original=United States | useful=United States
   Trailers From Hell | source=Plex | original=United States | useful=United States
-  Tribeca Channel | source=Plex | original=United States | useful=United States
-  TVB Pearl Drama | source=Plex | original=United States | useful=United States
-  Unbeaten | source=Plex | original=United States | useful=United States
-  Very Carolina by WXII | source=Plex | original=United States | useful=United States
-  Very Carolina by WYFF 4 | source=Plex | original=United States | useful=United States
-  Vive Kanal D Drama | source=Plex | original=United States | useful=United States
   VR+ | source=Plex | original=United States | useful=United States
   WAPA+ | source=Plex | original=United States | useful=United States
-  Watch it SCREAM | source=Plex | original=United States | useful=United States
   Wedotv Amor Piel Salvaje | source=Plex | original=United States | useful=United States
-  Weeds & Nurse Jackie | source=Plex | original=United States | useful=United States
-  Wendy Williams | source=Plex | original=United States | useful=United States
-  Wired2Fish | source=Plex | original=United States | useful=United States
-  Women Behind Bars | source=Plex | original=United States | useful=United States
   Wonder | source=Plex | original=United States | useful=United States
-  World Surf League 24/7 | source=Plex | original=United States | useful=United States
-  WSOC Channel 9 | source=Plex | original=United States | useful=United States
   Wu Tang Collection | source=Plex | original=United States | useful=United States
-  XITE 60s & 70s Groove | source=Plex | original=United States | useful=United States
-  XITE Celebrates | source=Plex | original=United States | useful=United States
-  XITE Hip-Hop Evolution | source=Plex | original=United States | useful=United States
-  XITE R&B Feels | source=Plex | original=United States | useful=United States
-  XITE Rap Game | source=Plex | original=United States | useful=United States
-  Y2K | source=Plex | original=United States | useful=United States
   Zona Investigación | source=Plex | original=United States | useful=United States
   Éxitos del Momento | source=Plex | original=United States | useful=United States
   ÚN TV | source=Plex | original=United States | useful=United States

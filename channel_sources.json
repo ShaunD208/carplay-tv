@@ -1253,7 +1253,7 @@
     },
     "fallbacks": [],
     "original_group": "Ambiance",
-    "display_category": "Other"
+    "display_category": "Lifestyle"
   },
   {
     "name": "beIN SPORTS XTRA",
@@ -1922,7 +1922,7 @@
     },
     "fallbacks": [],
     "original_group": "Ambiance",
-    "display_category": "Other"
+    "display_category": "Lifestyle"
   },
   {
     "name": "Cars",
@@ -2495,7 +2495,7 @@
     },
     "fallbacks": [],
     "original_group": "Ambiance",
-    "display_category": "Other"
+    "display_category": "Lifestyle"
   },
   {
     "name": "Court TV",
@@ -2548,7 +2548,7 @@
     },
     "fallbacks": [],
     "original_group": "Ambiance",
-    "display_category": "Other"
+    "display_category": "Lifestyle"
   },
   {
     "name": "CraftsyTV",
@@ -3566,7 +3566,7 @@
     },
     "fallbacks": [],
     "original_group": "Ambiance",
-    "display_category": "Other"
+    "display_category": "Lifestyle"
   },
   {
     "name": "Family Feud",
@@ -3815,7 +3815,7 @@
     },
     "fallbacks": [],
     "original_group": "Ambiance",
-    "display_category": "Other"
+    "display_category": "Lifestyle"
   },
   {
     "name": "Flipping Nation",
@@ -4433,7 +4433,7 @@
     },
     "fallbacks": [],
     "original_group": "Ambiance",
-    "display_category": "Other"
+    "display_category": "Lifestyle"
   },
   {
     "name": "HappyKids",
@@ -5007,7 +5007,7 @@
     },
     "fallbacks": [],
     "original_group": "Ambiance",
-    "display_category": "Other"
+    "display_category": "Lifestyle"
   },
   {
     "name": "It’s Anime",
@@ -5636,7 +5636,7 @@
     },
     "fallbacks": [],
     "original_group": "Ambiance",
-    "display_category": "Other"
+    "display_category": "Lifestyle"
   },
   {
     "name": "Love & Hip Hop",
@@ -5749,7 +5749,7 @@
     },
     "fallbacks": [],
     "original_group": "Ambiance",
-    "display_category": "Other"
+    "display_category": "Lifestyle"
   },
   {
     "name": "MagellanTV Wildest",
@@ -7073,7 +7073,7 @@
     },
     "fallbacks": [],
     "original_group": "Ambiance",
-    "display_category": "Other"
+    "display_category": "Lifestyle"
   },
   {
     "name": "One Championship TV",
@@ -7891,7 +7891,7 @@
     },
     "fallbacks": [],
     "original_group": "Ambiance",
-    "display_category": "Other"
+    "display_category": "Lifestyle"
   },
   {
     "name": "Real America's Voice",
@@ -8894,7 +8894,7 @@
       }
     ],
     "original_group": "Ambiance",
-    "display_category": "Music"
+    "display_category": "Lifestyle"
   },
   {
     "name": "Stingray Hot Country",
@@ -8976,7 +8976,7 @@
       }
     ],
     "original_group": "Ambiance",
-    "display_category": "Music"
+    "display_category": "Lifestyle"
   },
   {
     "name": "Stingray Nothin' But 90s",
@@ -9060,7 +9060,7 @@
     },
     "fallbacks": [],
     "original_group": "Ambiance",
-    "display_category": "Music"
+    "display_category": "Lifestyle"
   },
   {
     "name": "Stingray Today's K-Pop",
@@ -9147,7 +9147,7 @@
     },
     "fallbacks": [],
     "original_group": "Ambiance",
-    "display_category": "Other"
+    "display_category": "Lifestyle"
   },
   {
     "name": "Strawberry Shortcake",
@@ -12103,7 +12103,7 @@
       }
     ],
     "original_group": "Ambiance",
-    "display_category": "Music"
+    "display_category": "Lifestyle"
   },
   {
     "name": "ZooMoo",
@@ -13448,7 +13448,7 @@
       }
     ],
     "original_group": "Animals + Nature",
-    "display_category": "Other"
+    "display_category": "Nature & Travel"
   },
   {
     "name": "Dora TV",
@@ -13462,7 +13462,7 @@
     },
     "fallbacks": [],
     "original_group": "Hispanic Heritage Month",
-    "display_category": "Other"
+    "display_category": "Kids"
   },
   {
     "name": "Dr. Quinn Medicine Woman",
@@ -14054,7 +14054,7 @@
     },
     "fallbacks": [],
     "original_group": "Entertainment",
-    "display_category": "Music"
+    "display_category": "TV"
   },
   {
     "name": "Living With Evil",
@@ -14099,7 +14099,7 @@
     },
     "fallbacks": [],
     "original_group": "Entertainment",
-    "display_category": "Other"
+    "display_category": "TV"
   },
   {
     "name": "MLB",
@@ -14404,7 +14404,7 @@
     },
     "fallbacks": [],
     "original_group": "Animals + Nature",
-    "display_category": "Other"
+    "display_category": "Nature & Travel"
   },
   {
     "name": "News 12 New York",
@@ -14605,7 +14605,7 @@
     },
     "fallbacks": [],
     "original_group": "Entertainment",
-    "display_category": "Other"
+    "display_category": "TV"
   },
   {
     "name": "Peppa Pig",
@@ -14997,7 +14997,7 @@
     },
     "fallbacks": [],
     "original_group": "Entertainment",
-    "display_category": "Other"
+    "display_category": "TV"
   },
   {
     "name": "Pluto TV ROCKY + Creed",
@@ -16285,7 +16285,7 @@
     },
     "fallbacks": [],
     "original_group": "Animals",
-    "display_category": "History & Science"
+    "display_category": "Nature & Travel"
   },
   {
     "name": "Love Nature English",
@@ -16313,7 +16313,7 @@
     },
     "fallbacks": [],
     "original_group": "Animals",
-    "display_category": "Other"
+    "display_category": "Nature & Travel"
   },
   {
     "name": "Fairground AI Creator TV",
@@ -16327,7 +16327,7 @@
     },
     "fallbacks": [],
     "original_group": "Animated",
-    "display_category": "Other"
+    "display_category": "Kids"
   },
   {
     "name": "Garfield",
@@ -16341,7 +16341,7 @@
     },
     "fallbacks": [],
     "original_group": "Animated",
-    "display_category": "Other"
+    "display_category": "Kids"
   },
   {
     "name": "Pitufo TV",
@@ -16364,7 +16364,7 @@
       }
     ],
     "original_group": "Animated",
-    "display_category": "Other"
+    "display_category": "Kids"
   },
   {
     "name": "Super Mario Brothers",
@@ -16378,7 +16378,7 @@
     },
     "fallbacks": [],
     "original_group": "Animated",
-    "display_category": "Other"
+    "display_category": "Kids"
   },
   {
     "name": "Mecum TV",
@@ -16392,7 +16392,7 @@
     },
     "fallbacks": [],
     "original_group": "Auction",
-    "display_category": "Other"
+    "display_category": "Lifestyle"
   },
   {
     "name": "FloRacing 24/7",
@@ -17024,7 +17024,7 @@
     },
     "fallbacks": [],
     "original_group": "Educational",
-    "display_category": "Other"
+    "display_category": "History & Science"
   },
   {
     "name": "This Old House Shorts",
@@ -17038,7 +17038,7 @@
     },
     "fallbacks": [],
     "original_group": "Educational",
-    "display_category": "Other"
+    "display_category": "History & Science"
   },
   {
     "name": "EarthDay 365",
@@ -17052,7 +17052,7 @@
     },
     "fallbacks": [],
     "original_group": "Environment",
-    "display_category": "Other"
+    "display_category": "Nature & Travel"
   },
   {
     "name": "Dove",
@@ -17075,7 +17075,7 @@
       }
     ],
     "original_group": "Faith & Family",
-    "display_category": "Other"
+    "display_category": "Lifestyle"
   },
   {
     "name": "Joel Osteen Network",
@@ -17089,7 +17089,7 @@
     },
     "fallbacks": [],
     "original_group": "Faith & Family",
-    "display_category": "Other"
+    "display_category": "Lifestyle"
   },
   {
     "name": "Preston & Brianna",
@@ -17112,7 +17112,7 @@
       }
     ],
     "original_group": "Gaming & Tech",
-    "display_category": "Other"
+    "display_category": "History & Science"
   },
   {
     "name": "The Doctors",
@@ -17135,7 +17135,7 @@
       }
     ],
     "original_group": "Health",
-    "display_category": "Other"
+    "display_category": "Lifestyle"
   },
   {
     "name": "Places & Spaces",
@@ -17158,7 +17158,7 @@
       }
     ],
     "original_group": "Home Improvement",
-    "display_category": "Other"
+    "display_category": "Food & Home"
   },
   {
     "name": "GARDEN with Monty Don",
@@ -17484,7 +17484,7 @@
     },
     "fallbacks": [],
     "original_group": "Other",
-    "display_category": "Other"
+    "display_category": "Kids"
   },
   {
     "name": "Moonbug Kids",
@@ -17512,7 +17512,7 @@
     },
     "fallbacks": [],
     "original_group": "Other",
-    "display_category": "Other"
+    "display_category": "Kids"
   },
   {
     "name": "CW Presents WWE NXT",
@@ -17535,7 +17535,7 @@
       }
     ],
     "original_group": "Pro Wrestling",
-    "display_category": "Other"
+    "display_category": "Sports"
   },
   {
     "name": "Cine Romantico",
@@ -17549,7 +17549,7 @@
     },
     "fallbacks": [],
     "original_group": "Romance",
-    "display_category": "Other"
+    "display_category": "TV"
   },
   {
     "name": "Novelísima",
@@ -17563,7 +17563,7 @@
     },
     "fallbacks": [],
     "original_group": "Romance",
-    "display_category": "Other"
+    "display_category": "TV"
   },
   {
     "name": "SPARK TV",
@@ -17577,7 +17577,7 @@
     },
     "fallbacks": [],
     "original_group": "Romance",
-    "display_category": "Other"
+    "display_category": "TV"
   },
   {
     "name": "Azteca Deportes Network LITE 3",
@@ -18979,7 +18979,7 @@
     },
     "fallbacks": [],
     "original_group": "Weather",
-    "display_category": "Other"
+    "display_category": "News"
   },
   {
     "name": "25 News KXXV / KRHD",
@@ -19238,7 +19238,7 @@
     },
     "fallbacks": [],
     "original_group": "Games & Competition",
-    "display_category": "Game Shows"
+    "display_category": "Reality"
   },
   {
     "name": "Def Jam",
@@ -19252,7 +19252,7 @@
     },
     "fallbacks": [],
     "original_group": "Pop Culture",
-    "display_category": "Other"
+    "display_category": "Lifestyle"
   },
   {
     "name": "Euronews",
@@ -19312,7 +19312,7 @@
     },
     "fallbacks": [],
     "original_group": "Games & Competition",
-    "display_category": "Other"
+    "display_category": "Reality"
   },
   {
     "name": "FOX 13 Salt Lake",
@@ -19652,7 +19652,7 @@
     },
     "fallbacks": [],
     "original_group": "Good Eats",
-    "display_category": "Other"
+    "display_category": "Food & Home"
   },
   {
     "name": "HBO Boxing",
@@ -19754,7 +19754,7 @@
     },
     "fallbacks": [],
     "original_group": "Pop Culture",
-    "display_category": "Other"
+    "display_category": "Lifestyle"
   },
   {
     "name": "KARE Minneapolis 11",
@@ -20406,7 +20406,7 @@
       }
     ],
     "original_group": "Science & Nature",
-    "display_category": "Other"
+    "display_category": "Nature & Travel"
   },
   {
     "name": "Q2 News Billings",
@@ -20462,7 +20462,7 @@
     },
     "fallbacks": [],
     "original_group": "Mystery",
-    "display_category": "Other"
+    "display_category": "Crime"
   },
   {
     "name": "Sweet Escapes",
@@ -20485,7 +20485,7 @@
       }
     ],
     "original_group": "Good Eats",
-    "display_category": "Other"
+    "display_category": "Food & Home"
   },
   {
     "name": "Tampa Bay 28",
@@ -20522,7 +20522,7 @@
       }
     ],
     "original_group": "Games & Competition",
-    "display_category": "Other"
+    "display_category": "Reality"
   },
   {
     "name": "The Breakfast Club on iHeartRadio",
@@ -21346,7 +21346,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Lifestyle"
   },
   {
     "name": "24 Hour Free Movies",
@@ -21388,7 +21388,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Lifestyle"
   },
   {
     "name": "80's Sitcom Flashback",
@@ -21402,7 +21402,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Classics"
   },
   {
     "name": "A Touch of Frost",
@@ -21430,7 +21430,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Sports"
   },
   {
     "name": "Action Hollywood Movies",
@@ -21528,7 +21528,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "TV"
   },
   {
     "name": "American Gladiators by MGM",
@@ -21542,7 +21542,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Reality"
   },
   {
     "name": "Anime 24/7",
@@ -21570,7 +21570,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "TV"
   },
   {
     "name": "AsianCrush",
@@ -21626,7 +21626,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Sports"
   },
   {
     "name": "Bachelor Nation",
@@ -21654,7 +21654,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Game Shows"
   },
   {
     "name": "BBC News (North America)",
@@ -21710,7 +21710,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Kids"
   },
   {
     "name": "Beyond Belief",
@@ -21766,7 +21766,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Food & Home"
   },
   {
     "name": "BlackPix",
@@ -21780,7 +21780,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Movies"
   },
   {
     "name": "Bloodline Detectives Hosted by Nancy Grace",
@@ -21794,7 +21794,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Crime"
   },
   {
     "name": "Bonanza-Billies TV",
@@ -21808,7 +21808,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Westerns"
   },
   {
     "name": "BOOT",
@@ -21836,7 +21836,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Sports"
   },
   {
     "name": "Buen Viaje",
@@ -21864,7 +21864,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Sci-Fi & Horror"
   },
   {
     "name": "Canela.TV Clásicos",
@@ -21892,7 +21892,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Sports"
   },
   {
     "name": "Canela.TV Hollywood y Más",
@@ -21934,7 +21934,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Nature & Travel"
   },
   {
     "name": "Chef vs Chef",
@@ -22018,7 +22018,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Movies"
   },
   {
     "name": "Circle Country",
@@ -22060,7 +22060,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Music"
   },
   {
     "name": "Clic",
@@ -22088,7 +22088,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Local News"
   },
   {
     "name": "CombaTV",
@@ -22116,7 +22116,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Reality"
   },
   {
     "name": "Continuum",
@@ -22130,7 +22130,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Sci-Fi & Horror"
   },
   {
     "name": "Corazón",
@@ -22158,7 +22158,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Comedy"
   },
   {
     "name": "Cosmic Frontiers",
@@ -22172,7 +22172,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "History & Science"
   },
   {
     "name": "Creator Television",
@@ -22186,7 +22186,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Lifestyle"
   },
   {
     "name": "Cricket Gold",
@@ -22200,7 +22200,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Sports"
   },
   {
     "name": "Crime & Justice",
@@ -22270,7 +22270,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Reality"
   },
   {
     "name": "Dark Matter TV",
@@ -22284,7 +22284,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Sci-Fi & Horror"
   },
   {
     "name": "Dateline",
@@ -22298,7 +22298,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Crime"
   },
   {
     "name": "Deal Zone Presented By History",
@@ -22326,7 +22326,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Crime"
   },
   {
     "name": "Dick Van Dyke",
@@ -22340,7 +22340,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Classics"
   },
   {
     "name": "Don't Tell The Bride",
@@ -22354,7 +22354,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Reality"
   },
   {
     "name": "Dr. Phil",
@@ -22368,7 +22368,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "TV"
   },
   {
     "name": "DREAD TV",
@@ -22382,7 +22382,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Sci-Fi & Horror"
   },
   {
     "name": "Duck Dynasty by A&E",
@@ -22396,7 +22396,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Reality"
   },
   {
     "name": "EarthXtra",
@@ -22410,7 +22410,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Nature & Travel"
   },
   {
     "name": "Easy Listening",
@@ -22424,7 +22424,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Music"
   },
   {
     "name": "Eddie's Wonderland",
@@ -22438,7 +22438,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Kids"
   },
   {
     "name": "El Conflicto TV",
@@ -22494,7 +22494,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "News"
   },
   {
     "name": "Estrella Games",
@@ -22508,7 +22508,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Game Shows"
   },
   {
     "name": "Euro Hits",
@@ -22522,7 +22522,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Music"
   },
   {
     "name": "Extreme Jobs",
@@ -22564,7 +22564,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Sci-Fi & Horror"
   },
   {
     "name": "FashionTV",
@@ -22578,7 +22578,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Lifestyle"
   },
   {
     "name": "Fifth Gear (UK)",
@@ -22606,7 +22606,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Sports"
   },
   {
     "name": "FilmRise Action",
@@ -22732,7 +22732,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Classics"
   },
   {
     "name": "Four in a Bed",
@@ -22746,7 +22746,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Reality"
   },
   {
     "name": "FRANCE 24",
@@ -22760,7 +22760,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "News"
   },
   {
     "name": "Free Movies Plus",
@@ -22788,7 +22788,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "TV"
   },
   {
     "name": "FreeTV Clásico",
@@ -22802,7 +22802,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Classics"
   },
   {
     "name": "FreeTV Drama",
@@ -22816,7 +22816,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "TV"
   },
   {
     "name": "FreeTV Familia",
@@ -22830,7 +22830,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "TV"
   },
   {
     "name": "FreeTV Horror",
@@ -22858,7 +22858,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "TV"
   },
   {
     "name": "FrightFlix",
@@ -22942,7 +22942,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Documentary"
   },
   {
     "name": "Ghost Hunters Channel",
@@ -22984,7 +22984,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Sports"
   },
   {
     "name": "Go Wild",
@@ -22998,7 +22998,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Nature & Travel"
   },
   {
     "name": "GoTraveler",
@@ -23012,7 +23012,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Nature & Travel"
   },
   {
     "name": "Great British Menu",
@@ -23026,7 +23026,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Food & Home"
   },
   {
     "name": "Green Acres",
@@ -23040,7 +23040,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Classics"
   },
   {
     "name": "Grjngo - Películas Del Oeste",
@@ -23054,7 +23054,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Westerns"
   },
   {
     "name": "Grjngo - Western Movies",
@@ -23082,7 +23082,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Reality"
   },
   {
     "name": "Halloween Plus",
@@ -23096,7 +23096,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Sci-Fi & Horror"
   },
   {
     "name": "Hard Knocks",
@@ -23110,7 +23110,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Reality"
   },
   {
     "name": "Hasbro Legends",
@@ -23124,7 +23124,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Kids"
   },
   {
     "name": "HBCUGO SPORTS",
@@ -23180,7 +23180,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Music"
   },
   {
     "name": "Historias de Corazón",
@@ -23264,7 +23264,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Sports"
   },
   {
     "name": "Horror Stories",
@@ -23292,7 +23292,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "TV"
   },
   {
     "name": "I Shouldn't Be Alive",
@@ -23306,7 +23306,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Nature & Travel"
   },
   {
     "name": "Ice Pilots NWT",
@@ -23348,7 +23348,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Movies"
   },
   {
     "name": "Impossible - Quiz Show",
@@ -23376,7 +23376,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "TV"
   },
   {
     "name": "INTER 24/7",
@@ -23404,7 +23404,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Sports"
   },
   {
     "name": "Jade Fever",
@@ -23432,7 +23432,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Nature & Travel"
   },
   {
     "name": "JoySauce",
@@ -23474,7 +23474,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "TV"
   },
   {
     "name": "Judge Judy",
@@ -23488,7 +23488,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "TV"
   },
   {
     "name": "KidsFlix",
@@ -23586,7 +23586,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Local News"
   },
   {
     "name": "Lone Star",
@@ -23614,7 +23614,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Reality"
   },
   {
     "name": "Love Thy Neighbor",
@@ -23628,7 +23628,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "TV"
   },
   {
     "name": "Lucha Plus",
@@ -23698,7 +23698,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Lifestyle"
   },
   {
     "name": "Mera Mera TV",
@@ -23726,7 +23726,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Music"
   },
   {
     "name": "MGM Presents",
@@ -23740,7 +23740,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Movies"
   },
   {
     "name": "MGM Presents: Action",
@@ -23754,7 +23754,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Movies"
   },
   {
     "name": "MGM Presents: Westerns",
@@ -23796,7 +23796,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "TV"
   },
   {
     "name": "Military Heroes Presented By History",
@@ -23838,7 +23838,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Sci-Fi & Horror"
   },
   {
     "name": "More U",
@@ -23880,7 +23880,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Movies"
   },
   {
     "name": "Mr. Bean",
@@ -23894,7 +23894,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Comedy"
   },
   {
     "name": "Mr. Bean Live Action",
@@ -23908,7 +23908,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Comedy"
   },
   {
     "name": "Murdoch Mysteries",
@@ -23950,7 +23950,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Nature & Travel"
   },
   {
     "name": "NEW KFOOD",
@@ -23964,7 +23964,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Food & Home"
   },
   {
     "name": "Nip/Tuck",
@@ -23978,7 +23978,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "TV"
   },
   {
     "name": "Nolly Africa HD",
@@ -24076,7 +24076,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Crime"
   },
   {
     "name": "OuterSphere by Lionsgate",
@@ -24146,7 +24146,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Classics"
   },
   {
     "name": "PeliMex",
@@ -24160,7 +24160,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Movies"
   },
   {
     "name": "People are Awesome",
@@ -24202,7 +24202,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Sports"
   },
   {
     "name": "Pink Panther",
@@ -24216,7 +24216,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Kids"
   },
   {
     "name": "Plex24",
@@ -24286,7 +24286,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Crime"
   },
   {
     "name": "Primetime Soaps",
@@ -24300,7 +24300,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "TV"
   },
   {
     "name": "Property Brothers Channel",
@@ -24314,7 +24314,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Food & Home"
   },
   {
     "name": "Pulse",
@@ -24342,7 +24342,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Music"
   },
   {
     "name": "Racing America",
@@ -24426,7 +24426,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Nature & Travel"
   },
   {
     "name": "Remember the ‘80s",
@@ -24440,7 +24440,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Classics"
   },
   {
     "name": "Revry Latinx",
@@ -24482,7 +24482,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "TV"
   },
   {
     "name": "Rookie Blue",
@@ -24496,7 +24496,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "TV"
   },
   {
     "name": "Say Yes to the Dress",
@@ -24510,7 +24510,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Reality"
   },
   {
     "name": "Scandal",
@@ -24524,7 +24524,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "TV"
   },
   {
     "name": "Scream Factory TV",
@@ -24538,7 +24538,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Sci-Fi & Horror"
   },
   {
     "name": "Screambox TV",
@@ -24580,7 +24580,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Crime"
   },
   {
     "name": "Shout! Movies",
@@ -24608,7 +24608,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Crime"
   },
   {
     "name": "SKWAD",
@@ -24678,7 +24678,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Music"
   },
   {
     "name": "So Yummy",
@@ -24692,7 +24692,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Food & Home"
   },
   {
     "name": "Sonic TV",
@@ -24762,7 +24762,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Sports"
   },
   {
     "name": "SPEEDVISION",
@@ -24776,7 +24776,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Sports"
   },
   {
     "name": "SPIN",
@@ -24818,7 +24818,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Sci-Fi & Horror"
   },
   {
     "name": "Startalk TV",
@@ -24832,7 +24832,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "History & Science"
   },
   {
     "name": "Stingray Classica Stream",
@@ -24888,7 +24888,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Sports"
   },
   {
     "name": "Surf Cinema",
@@ -24902,7 +24902,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Movies"
+    "display_category": "Sports"
   },
   {
     "name": "Survive or Die",
@@ -24916,7 +24916,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Nature & Travel"
   },
   {
     "name": "SWAC TV",
@@ -24930,7 +24930,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Sports"
   },
   {
     "name": "Tarima TV",
@@ -24972,7 +24972,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "News"
   },
   {
     "name": "Teleonce America",
@@ -25028,7 +25028,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Classics"
   },
   {
     "name": "The Black Effect",
@@ -25056,7 +25056,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "TV"
   },
   {
     "name": "The Doctor Blake Mysteries",
@@ -25084,7 +25084,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Food & Home"
   },
   {
     "name": "The Great British Baking Channel",
@@ -25098,7 +25098,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Food & Home"
   },
   {
     "name": "The Kids in the Hall",
@@ -25126,7 +25126,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "TV"
   },
   {
     "name": "The Osbournes",
@@ -25140,7 +25140,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Reality"
   },
   {
     "name": "The Outer Limits",
@@ -25154,7 +25154,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Sci-Fi & Horror"
   },
   {
     "name": "The Outpost",
@@ -25168,7 +25168,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Sci-Fi & Horror"
   },
   {
     "name": "The Prof G Channel",
@@ -25182,7 +25182,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Lifestyle"
   },
   {
     "name": "The Repair Shop",
@@ -25196,7 +25196,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Food & Home"
   },
   {
     "name": "The Reuters 60",
@@ -25252,7 +25252,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Nature & Travel"
   },
   {
     "name": "The Wiggles",
@@ -25266,7 +25266,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Kids"
   },
   {
     "name": "The World Poker Tour",
@@ -25303,7 +25303,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Music"
   },
   {
     "name": "Todo Crimen",
@@ -25317,7 +25317,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Crime"
   },
   {
     "name": "Todo Drama",
@@ -25331,7 +25331,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "TV"
   },
   {
     "name": "Torque Presented By History",
@@ -25387,7 +25387,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Music"
   },
   {
     "name": "Trailer Park Boys: The SwearNet Show",
@@ -25443,7 +25443,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Movies"
   },
   {
     "name": "True History",
@@ -25471,7 +25471,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "TV"
   },
   {
     "name": "Unbeaten",
@@ -25485,7 +25485,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Sports"
   },
   {
     "name": "Very Carolina by WXII",
@@ -25499,7 +25499,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Local News"
   },
   {
     "name": "Very Carolina by WYFF 4",
@@ -25513,7 +25513,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Local News"
   },
   {
     "name": "Vive Kanal D Drama",
@@ -25527,7 +25527,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "TV"
   },
   {
     "name": "VR+",
@@ -25569,7 +25569,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Sci-Fi & Horror"
   },
   {
     "name": "Wedotv Amor Piel Salvaje",
@@ -25597,7 +25597,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "TV"
   },
   {
     "name": "Wendy Williams",
@@ -25611,7 +25611,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "TV"
   },
   {
     "name": "Wired2Fish",
@@ -25625,7 +25625,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Sports"
   },
   {
     "name": "Women Behind Bars",
@@ -25639,7 +25639,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Crime"
   },
   {
     "name": "Wonder",
@@ -25681,7 +25681,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Sports"
   },
   {
     "name": "WSOC Channel 9",
@@ -25695,7 +25695,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Local News"
   },
   {
     "name": "Wu Tang Collection",
@@ -25723,7 +25723,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Music"
   },
   {
     "name": "XITE Celebrates",
@@ -25737,7 +25737,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Music"
   },
   {
     "name": "XITE Hip-Hop Evolution",
@@ -25751,7 +25751,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Music"
   },
   {
     "name": "XITE R&B Feels",
@@ -25765,7 +25765,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Music"
   },
   {
     "name": "XITE Rap Game",
@@ -25779,7 +25779,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Music"
   },
   {
     "name": "Y2K",
@@ -25793,7 +25793,7 @@
     },
     "fallbacks": [],
     "original_group": "United States",
-    "display_category": "Other"
+    "display_category": "Music"
   },
   {
     "name": "Zona Investigación",
