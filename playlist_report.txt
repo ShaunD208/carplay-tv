@@ -475,3 +475,49 @@ Remaining entries are intentionally left unresolved rather than forcing a low-co
   Zona Investigación | source=Plex | original=United States | useful=United States
   Éxitos del Momento | source=Plex | original=United States | useful=United States
   ÚN TV | source=Plex | original=United States | useful=United States
+
+================================================================
+FINAL ENGLISH-ONLY CLEANUP
+================================================================
+
+Channels before final cleanup: 1418
+Clearly non-English channels removed: 31
+Final English-focused channels: 1387
+
+Removed by primary source:
+  Plex: 13
+  Roku: 17
+  Samsung: 1
+
+Removed channels:
+  N+ Univision 24/7 | source=Samsung | original=News & Opinion
+  Caracol Mix | source=Roku | original=Comedy
+  ViX Cine Club | source=Roku | original=Comedy
+  Estrella News | source=Roku | original=News
+  Estrella TV | source=Roku | original=News
+  Telemundo Al Día | source=Roku | original=News
+  Cine Romantico | source=Roku | original=Romance
+  Novelísima | source=Roku | original=Romance
+  Azteca Deportes Network LITE 3 | source=Roku | original=Sports
+  Estrella TV Deportes | source=Roku | original=Sports
+  ViX Lo Mejor de Liga MX | source=Roku | original=Sports
+  Azteca Internacional | source=Roku | original=TV & Entertainment
+  Canal ViX | source=Roku | original=TV & Entertainment
+  Canela.TV Narco-Drama | source=Roku | original=TV & Entertainment
+  FilmRise Películas Gratis | source=Roku | original=TV & Entertainment
+  ViX Grandes Parejas | source=Roku | original=TV & Entertainment
+  ViX Jajaja | source=Roku | original=TV & Entertainment
+  ViX Villanos de Novela | source=Roku | original=TV & Entertainment
+  Azteca Deportes Network | source=Plex | original=United States
+  Canela.TV Clásicos | source=Plex | original=United States
+  Canela.TV Deportes | source=Plex | original=United States
+  Canela.TV Hollywood y Más | source=Plex | original=United States
+  Cine EstrellaTV | source=Plex | original=United States
+  Cine Romántico | source=Plex | original=United States
+  Estrella Games | source=Plex | original=United States
+  Gata Salvaje | source=Plex | original=United States
+  Grjngo - Películas Del Oeste | source=Plex | original=United States
+  Lucha Plus | source=Plex | original=United States
+  Novelisima | source=Plex | original=United States
+  RCN Más | source=Plex | original=United States
+  Telemundo al Dia | source=Plex | original=United States

@@ -6572,29 +6572,6 @@
     "display_category": "Movies"
   },
   {
-    "name": "N+ Univision 24/7",
-    "normalized_name": "nunivision247",
-    "group": "News & Opinion",
-    "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD1700014QU_20260929T235832SQUARE.png",
-    "tvg_id": "USBD1700014QU",
-    "primary": {
-      "source": "Samsung",
-      "url": "https://jmp2.uk/stvp-USBD1700014QU"
-    },
-    "fallbacks": [
-      {
-        "source": "Roku",
-        "name": "N+ Univision 24/7",
-        "url": "https://jmp2.uk/rok-5a28fbf15c135b51b3638e8bd02d6577.m3u8",
-        "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/5a28fbf15c135b51b3638e8bd02d6577/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1772737218229_NMasUnivision247_RokuHUD_260x147_White.png",
-        "group": "News",
-        "tvg_id": "5a28fbf15c135b51b3638e8bd02d6577"
-      }
-    ],
-    "original_group": "News & Opinion",
-    "display_category": "News"
-  },
-  {
     "name": "Naruto",
     "normalized_name": "naruto",
     "group": "Anime & Gaming",
@@ -16469,20 +16446,6 @@
     "display_category": "Comedy"
   },
   {
-    "name": "Caracol Mix",
-    "normalized_name": "caracolmix",
-    "group": "Comedy",
-    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/c5c6a54fbd0328b108453e2537b7eee1/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1774999084418_CMIX_Info_Hud_Log_260x147.png",
-    "tvg_id": "c5c6a54fbd0328b108453e2537b7eee1",
-    "primary": {
-      "source": "Roku",
-      "url": "https://jmp2.uk/rok-c5c6a54fbd0328b108453e2537b7eee1.m3u8"
-    },
-    "fallbacks": [],
-    "original_group": "Comedy",
-    "display_category": "Comedy"
-  },
-  {
     "name": "Ebony",
     "normalized_name": "ebony",
     "group": "Comedy",
@@ -16615,20 +16578,6 @@
     "primary": {
       "source": "Roku",
       "url": "https://jmp2.uk/rok-bdb3cb29453a137748dfaeadae2f9d2b.m3u8"
-    },
-    "fallbacks": [],
-    "original_group": "Comedy",
-    "display_category": "Comedy"
-  },
-  {
-    "name": "ViX Cine Club",
-    "normalized_name": "vixcineclub",
-    "group": "Comedy",
-    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/017397f76bae510a8a9800c4b94eaa40/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1704751574192_CineClub_RokuHub_260x147_White.png",
-    "tvg_id": "017397f76bae510a8a9800c4b94eaa40",
-    "primary": {
-      "source": "Roku",
-      "url": "https://jmp2.uk/rok-017397f76bae510a8a9800c4b94eaa40.m3u8"
     },
     "fallbacks": [],
     "original_group": "Comedy",
@@ -17371,52 +17320,6 @@
     "display_category": "News"
   },
   {
-    "name": "Estrella News",
-    "normalized_name": "estrellanews",
-    "group": "News",
-    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/0af429c36c6b517e8df2025e809b3964/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1652921499084_RoKu_260x147_Estrella_NEWS.png",
-    "tvg_id": "0af429c36c6b517e8df2025e809b3964",
-    "primary": {
-      "source": "Roku",
-      "url": "https://jmp2.uk/rok-0af429c36c6b517e8df2025e809b3964.m3u8"
-    },
-    "fallbacks": [
-      {
-        "source": "Plex",
-        "name": "Estrella News",
-        "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-60089d97f682a3002c34829b/?X-Plex-Token=g-izGcoQDgcBP-fX7YQM",
-        "logo": "https://provider-static.plex.tv/epg/images/ott_channels/logos/estrellanews_logo_dark.png",
-        "group": "United States",
-        "tvg_id": "6a1610bebdf296985fd95603-60089d97f682a3002c34829b"
-      }
-    ],
-    "original_group": "News",
-    "display_category": "News"
-  },
-  {
-    "name": "Estrella TV",
-    "normalized_name": "estrellatv",
-    "group": "News",
-    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/91dff2b8a62b5fe1bdf64de721032cba/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1652921946998_RoKu_260x147_Estrella_TV.png",
-    "tvg_id": "91dff2b8a62b5fe1bdf64de721032cba",
-    "primary": {
-      "source": "Roku",
-      "url": "https://jmp2.uk/rok-91dff2b8a62b5fe1bdf64de721032cba.m3u8"
-    },
-    "fallbacks": [
-      {
-        "source": "Plex",
-        "name": "Estrella TV",
-        "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-60089d98f682a3002c34829f/?X-Plex-Token=g-izGcoQDgcBP-fX7YQM",
-        "logo": "https://provider-static.plex.tv/epg/images/ott_channels/logos/estrellatv_logo_dark.png",
-        "group": "United States",
-        "tvg_id": "6a1610bebdf296985fd95603-60089d98f682a3002c34829f"
-      }
-    ],
-    "original_group": "News",
-    "display_category": "News"
-  },
-  {
     "name": "Euronews World",
     "normalized_name": "euronewsworld",
     "group": "News",
@@ -17439,20 +17342,6 @@
     "primary": {
       "source": "Roku",
       "url": "https://jmp2.uk/rok-ceb64d994c7756c2a8f09ace94c3e43f.m3u8"
-    },
-    "fallbacks": [],
-    "original_group": "News",
-    "display_category": "News"
-  },
-  {
-    "name": "Telemundo Al Día",
-    "normalized_name": "telemundoalda",
-    "group": "News",
-    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/8e0bb4b7ca7c5ea1af52427462297f38/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1746812594347_TELEMUNDO_AL_DIA_260x147_2x1_logo_center_align_EFEFEF_transparent_bkgd_roku.png",
-    "tvg_id": "8e0bb4b7ca7c5ea1af52427462297f38",
-    "primary": {
-      "source": "Roku",
-      "url": "https://jmp2.uk/rok-8e0bb4b7ca7c5ea1af52427462297f38.m3u8"
     },
     "fallbacks": [],
     "original_group": "News",
@@ -17538,34 +17427,6 @@
     "display_category": "Sports"
   },
   {
-    "name": "Cine Romantico",
-    "normalized_name": "cineromantico",
-    "group": "Romance",
-    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/79eb3a43680e5a9f9689fee074502a3b/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1661549410243_cineRomantico_HUDlogo_centered_260x147.png",
-    "tvg_id": "79eb3a43680e5a9f9689fee074502a3b",
-    "primary": {
-      "source": "Roku",
-      "url": "https://jmp2.uk/rok-79eb3a43680e5a9f9689fee074502a3b.m3u8"
-    },
-    "fallbacks": [],
-    "original_group": "Romance",
-    "display_category": "TV"
-  },
-  {
-    "name": "Novelísima",
-    "normalized_name": "novelsima",
-    "group": "Romance",
-    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/5d1c16bba82b53e69bf979c2fdca4ca8/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1707517468219_Novelisima_informational_HUD_centered.png",
-    "tvg_id": "5d1c16bba82b53e69bf979c2fdca4ca8",
-    "primary": {
-      "source": "Roku",
-      "url": "https://jmp2.uk/rok-5d1c16bba82b53e69bf979c2fdca4ca8.m3u8"
-    },
-    "fallbacks": [],
-    "original_group": "Romance",
-    "display_category": "TV"
-  },
-  {
     "name": "SPARK TV",
     "normalized_name": "sparktv",
     "group": "Romance",
@@ -17578,20 +17439,6 @@
     "fallbacks": [],
     "original_group": "Romance",
     "display_category": "TV"
-  },
-  {
-    "name": "Azteca Deportes Network LITE 3",
-    "normalized_name": "aztecadeportesnetworklite3",
-    "group": "Sports",
-    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/04be54c79d1f55d0909e684f64f9fb57/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1718994621239_AI_Roku_260x147_Mono_DEPORTES_TB_Oct23.png",
-    "tvg_id": "04be54c79d1f55d0909e684f64f9fb57",
-    "primary": {
-      "source": "Roku",
-      "url": "https://jmp2.uk/rok-04be54c79d1f55d0909e684f64f9fb57.m3u8"
-    },
-    "fallbacks": [],
-    "original_group": "Sports",
-    "display_category": "Sports"
   },
   {
     "name": "Bassmaster",
@@ -17662,20 +17509,6 @@
     "primary": {
       "source": "Roku",
       "url": "https://jmp2.uk/rok-5976983fa00953dab911a0ebea932943.m3u8"
-    },
-    "fallbacks": [],
-    "original_group": "Sports",
-    "display_category": "Sports"
-  },
-  {
-    "name": "Estrella TV Deportes",
-    "normalized_name": "estrellatvdeportes",
-    "group": "Sports",
-    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/b3c06fdf730b2bc048507d096111d6c5/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1787946349723_DETV_260x147_01_horizontal_DB_1CW_.png",
-    "tvg_id": "b3c06fdf730b2bc048507d096111d6c5",
-    "primary": {
-      "source": "Roku",
-      "url": "https://jmp2.uk/rok-b3c06fdf730b2bc048507d096111d6c5.m3u8"
     },
     "fallbacks": [],
     "original_group": "Sports",
@@ -17969,20 +17802,6 @@
     "display_category": "Sports"
   },
   {
-    "name": "ViX Lo Mejor de Liga MX",
-    "normalized_name": "vixlomejordeligamx",
-    "group": "Sports",
-    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/35633f08c98857cb9e85c91eae17c0d5/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1749856192932_LoMejorDeLigaMX_HUD_ChannelLogo_260x147px.png",
-    "tvg_id": "35633f08c98857cb9e85c91eae17c0d5",
-    "primary": {
-      "source": "Roku",
-      "url": "https://jmp2.uk/rok-35633f08c98857cb9e85c91eae17c0d5.m3u8"
-    },
-    "fallbacks": [],
-    "original_group": "Sports",
-    "display_category": "Sports"
-  },
-  {
     "name": "Xena",
     "normalized_name": "xena",
     "group": "Sports",
@@ -17995,29 +17814,6 @@
     "fallbacks": [],
     "original_group": "Sports",
     "display_category": "Sports"
-  },
-  {
-    "name": "Azteca Internacional",
-    "normalized_name": "aztecainternacional",
-    "group": "TV & Entertainment",
-    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/5e709cfe55d955ec899903cde681a5a4/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1698120582938_AI_Roku_260x147_Mono_INTERNACIONAL_CB_Oct23.png",
-    "tvg_id": "5e709cfe55d955ec899903cde681a5a4",
-    "primary": {
-      "source": "Roku",
-      "url": "https://jmp2.uk/rok-5e709cfe55d955ec899903cde681a5a4.m3u8"
-    },
-    "fallbacks": [
-      {
-        "source": "Plex",
-        "name": "Azteca Internacional",
-        "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-646d06c9b09f13b2d8af68d8/?X-Plex-Token=g-izGcoQDgcBP-fX7YQM",
-        "logo": "https://provider-static.plex.tv/epg/cms/production/1088747e-b11d-466c-b652-ca6b291ceae5/azteca_internacional_white_1500x1000.png",
-        "group": "United States",
-        "tvg_id": "6a1610bebdf296985fd95603-646d06c9b09f13b2d8af68d8"
-      }
-    ],
-    "original_group": "TV & Entertainment",
-    "display_category": "TV"
   },
   {
     "name": "Braxton Family Values",
@@ -18034,20 +17830,6 @@
     "display_category": "TV"
   },
   {
-    "name": "Canal ViX",
-    "normalized_name": "canalvix",
-    "group": "TV & Entertainment",
-    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/e3823bb513585861904499a21a736c4f/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1743194357309_CanalViX_HUD_ChannelLogo_260x147px.png",
-    "tvg_id": "e3823bb513585861904499a21a736c4f",
-    "primary": {
-      "source": "Roku",
-      "url": "https://jmp2.uk/rok-e3823bb513585861904499a21a736c4f.m3u8"
-    },
-    "fallbacks": [],
-    "original_group": "TV & Entertainment",
-    "display_category": "TV"
-  },
-  {
     "name": "Candyjar",
     "normalized_name": "candyjar",
     "group": "TV & Entertainment",
@@ -18056,20 +17838,6 @@
     "primary": {
       "source": "Roku",
       "url": "https://jmp2.uk/rok-e9d183acab06314b2bcddbb7ed391e70.m3u8"
-    },
-    "fallbacks": [],
-    "original_group": "TV & Entertainment",
-    "display_category": "TV"
-  },
-  {
-    "name": "Canela.TV Narco-Drama",
-    "normalized_name": "canelatvnarcodrama",
-    "group": "TV & Entertainment",
-    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/3bc1756db0ef525b9cab86edcd426c55/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1734562691721_ROKU-NarcoDrama-InfoHUD-1.png",
-    "tvg_id": "3bc1756db0ef525b9cab86edcd426c55",
-    "primary": {
-      "source": "Roku",
-      "url": "https://jmp2.uk/rok-3bc1756db0ef525b9cab86edcd426c55.m3u8"
     },
     "fallbacks": [],
     "original_group": "TV & Entertainment",
@@ -18318,29 +18086,6 @@
         "logo": "https://provider-static.plex.tv/epg/cms/production/cde90a84-972c-49ea-baf2-941a657dbeea/FilmRise_FreeMovies_1500x1000_logo_light.png",
         "group": "United States",
         "tvg_id": "6a1610bebdf296985fd95603-66ea085d9502c5778b828d41"
-      }
-    ],
-    "original_group": "TV & Entertainment",
-    "display_category": "TV"
-  },
-  {
-    "name": "FilmRise Películas Gratis",
-    "normalized_name": "filmrisepelculasgratis",
-    "group": "TV & Entertainment",
-    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/5b4b59af18ff5686916ef5eb3574de46/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1766158247861_RokuChannel_FilmRisePeliculasGratis_HUD_Logo_260x147.png",
-    "tvg_id": "5b4b59af18ff5686916ef5eb3574de46",
-    "primary": {
-      "source": "Roku",
-      "url": "https://jmp2.uk/rok-5b4b59af18ff5686916ef5eb3574de46.m3u8"
-    },
-    "fallbacks": [
-      {
-        "source": "Plex",
-        "name": "FilmRise Películas Gratis",
-        "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-6449369eb3ff17382cae57fc/?X-Plex-Token=g-izGcoQDgcBP-fX7YQM",
-        "logo": "https://provider-static.plex.tv/epg/cms/production/b1cbc30f-5888-431f-b2c2-2ac4fb59fae3/FilmRise_PeliculasGratis_1500x1000_logo_light.png",
-        "group": "United States",
-        "tvg_id": "6a1610bebdf296985fd95603-6449369eb3ff17382cae57fc"
       }
     ],
     "original_group": "TV & Entertainment",
@@ -18883,48 +18628,6 @@
     "primary": {
       "source": "Roku",
       "url": "https://jmp2.uk/rok-cc04d77fd589a818cd036c850b6be867.m3u8"
-    },
-    "fallbacks": [],
-    "original_group": "TV & Entertainment",
-    "display_category": "TV"
-  },
-  {
-    "name": "ViX Grandes Parejas",
-    "normalized_name": "vixgrandesparejas",
-    "group": "TV & Entertainment",
-    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/09430bcd30bf5b30a96ca22ecb87e3e1/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1678481080081_GrandesParejas_HUD_Logo_260x147.png",
-    "tvg_id": "09430bcd30bf5b30a96ca22ecb87e3e1",
-    "primary": {
-      "source": "Roku",
-      "url": "https://jmp2.uk/rok-09430bcd30bf5b30a96ca22ecb87e3e1.m3u8"
-    },
-    "fallbacks": [],
-    "original_group": "TV & Entertainment",
-    "display_category": "TV"
-  },
-  {
-    "name": "ViX Jajaja",
-    "normalized_name": "vixjajaja",
-    "group": "TV & Entertainment",
-    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/c51c18ade0bd5b68b5e9bfa83410e372/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1678481111596_JAJAJA_HUD_Logo_260x147.png",
-    "tvg_id": "c51c18ade0bd5b68b5e9bfa83410e372",
-    "primary": {
-      "source": "Roku",
-      "url": "https://jmp2.uk/rok-c51c18ade0bd5b68b5e9bfa83410e372.m3u8"
-    },
-    "fallbacks": [],
-    "original_group": "TV & Entertainment",
-    "display_category": "TV"
-  },
-  {
-    "name": "ViX Villanos de Novela",
-    "normalized_name": "vixvillanosdenovela",
-    "group": "TV & Entertainment",
-    "logo": "https://images.sr.roku.com/idType/roku-trc/context/trc/id/7b5699f58b2b54be9da4d23fe354fb59/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1678481229409_VillanosDeNovela_HUD_Logo_260x147.png",
-    "tvg_id": "7b5699f58b2b54be9da4d23fe354fb59",
-    "primary": {
-      "source": "Roku",
-      "url": "https://jmp2.uk/rok-7b5699f58b2b54be9da4d23fe354fb59.m3u8"
     },
     "fallbacks": [],
     "original_group": "TV & Entertainment",
@@ -21615,20 +21318,6 @@
     "display_category": "History & Science"
   },
   {
-    "name": "Azteca Deportes Network",
-    "normalized_name": "aztecadeportesnetwork",
-    "group": "United States",
-    "logo": "https://provider-static.plex.tv/epg/cms/production/3e151213-c794-4086-a772-92722251da39/Az_dep_blanco.png",
-    "tvg_id": "6a1610bebdf296985fd95603-6a4af875410e0eea561f76af",
-    "primary": {
-      "source": "Plex",
-      "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-6a4af875410e0eea561f76af/?X-Plex-Token=g-izGcoQDgcBP-fX7YQM"
-    },
-    "fallbacks": [],
-    "original_group": "United States",
-    "display_category": "Sports"
-  },
-  {
     "name": "Bachelor Nation",
     "normalized_name": "bachelornation",
     "group": "United States",
@@ -21867,48 +21556,6 @@
     "display_category": "Sci-Fi & Horror"
   },
   {
-    "name": "Canela.TV Clásicos",
-    "normalized_name": "canelatvclsicos",
-    "group": "United States",
-    "logo": "https://provider-static.plex.tv/epg/cms/production/3b35a0b8-05da-4dcb-ab8d-4155a92274eb/CM-Plex-dark_logo-CanelaTV-clasicos_-_Natalia_Rodriguez.png",
-    "tvg_id": "6a1610bebdf296985fd95603-64fba469bb3e0baa5dcc0947",
-    "primary": {
-      "source": "Plex",
-      "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-64fba469bb3e0baa5dcc0947/?X-Plex-Token=g-izGcoQDgcBP-fX7YQM"
-    },
-    "fallbacks": [],
-    "original_group": "United States",
-    "display_category": "Other"
-  },
-  {
-    "name": "Canela.TV Deportes",
-    "normalized_name": "canelatvdeportes",
-    "group": "United States",
-    "logo": "https://provider-static.plex.tv/epg/cms/production/f345c0b8-c5b8-49a4-82f2-28fa7fcfe7e8/CM-Plex-dark_logo-CanelaTV-deportes_-_Natalia_Rodriguez.png",
-    "tvg_id": "6a1610bebdf296985fd95603-64fba7b6bb3e0baa5dcc0949",
-    "primary": {
-      "source": "Plex",
-      "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-64fba7b6bb3e0baa5dcc0949/?X-Plex-Token=g-izGcoQDgcBP-fX7YQM"
-    },
-    "fallbacks": [],
-    "original_group": "United States",
-    "display_category": "Sports"
-  },
-  {
-    "name": "Canela.TV Hollywood y Más",
-    "normalized_name": "canelatvhollywoodyms",
-    "group": "United States",
-    "logo": "https://provider-static.plex.tv/epg/cms/production/c3cadef2-bd63-425b-a7d4-e48752f83c1d/CM-Plex-dark_logo-CanelaTV-hollywood_y_mas_-_Mariana_Gonzalez.png",
-    "tvg_id": "6a1610bebdf296985fd95603-64fba5f3214cf8b3b54b5ecc",
-    "primary": {
-      "source": "Plex",
-      "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-64fba5f3214cf8b3b54b5ecc/?X-Plex-Token=g-izGcoQDgcBP-fX7YQM"
-    },
-    "fallbacks": [],
-    "original_group": "United States",
-    "display_category": "Other"
-  },
-  {
     "name": "Caught in Providence",
     "normalized_name": "caughtinprovidence",
     "group": "United States",
@@ -21977,34 +21624,6 @@
     "fallbacks": [],
     "original_group": "United States",
     "display_category": "Sci-Fi & Horror"
-  },
-  {
-    "name": "Cine EstrellaTV",
-    "normalized_name": "cineestrellatv",
-    "group": "United States",
-    "logo": "https://provider-static.plex.tv/epg/cms/production/09f86900-5fce-4b68-944a-a52733ca2ec2/cine-logo_color_-_Erick_Ramirez1500x1000.png",
-    "tvg_id": "6a1610bebdf296985fd95603-64fb8ec0214cf8b3b54b5ec8",
-    "primary": {
-      "source": "Plex",
-      "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-64fb8ec0214cf8b3b54b5ec8/?X-Plex-Token=g-izGcoQDgcBP-fX7YQM"
-    },
-    "fallbacks": [],
-    "original_group": "United States",
-    "display_category": "Other"
-  },
-  {
-    "name": "Cine Romántico",
-    "normalized_name": "cineromntico",
-    "group": "United States",
-    "logo": "https://provider-static.plex.tv/epg/cms/production/2ab2cd76-5edc-40f5-bcc2-d8da795c0d9b/1500x1000.Cine_Romantico_Logo_All_White.png",
-    "tvg_id": "6a1610bebdf296985fd95603-67db0a3892cb453db28ab020",
-    "primary": {
-      "source": "Plex",
-      "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-67db0a3892cb453db28ab020/?X-Plex-Token=g-izGcoQDgcBP-fX7YQM"
-    },
-    "fallbacks": [],
-    "original_group": "United States",
-    "display_category": "Other"
   },
   {
     "name": "CineLife",
@@ -22497,20 +22116,6 @@
     "display_category": "News"
   },
   {
-    "name": "Estrella Games",
-    "normalized_name": "estrellagames",
-    "group": "United States",
-    "logo": "https://provider-static.plex.tv/epg/cms/production/441e119d-ac86-4737-a8d0-1e60f60cfd43/Estrella-Games_-_Erick_Ramirez_COLOR.png",
-    "tvg_id": "6a1610bebdf296985fd95603-64fb9149bb3e0baa5dcc0944",
-    "primary": {
-      "source": "Plex",
-      "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-64fb9149bb3e0baa5dcc0944/?X-Plex-Token=g-izGcoQDgcBP-fX7YQM"
-    },
-    "fallbacks": [],
-    "original_group": "United States",
-    "display_category": "Game Shows"
-  },
-  {
     "name": "Euro Hits",
     "normalized_name": "eurohits",
     "group": "United States",
@@ -22903,20 +22508,6 @@
     "display_category": "Other"
   },
   {
-    "name": "Gata Salvaje",
-    "normalized_name": "gatasalvaje",
-    "group": "United States",
-    "logo": "https://provider-static.plex.tv/epg/cms/production/d6690839-646f-43fc-bd75-b508f908d1ee/Plex_GataSalvaje_750x500_ChannelLogo_Light_RDX.png",
-    "tvg_id": "6a1610bebdf296985fd95603-67db5c68d66f778a752f8203",
-    "primary": {
-      "source": "Plex",
-      "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-67db5c68d66f778a752f8203/?X-Plex-Token=g-izGcoQDgcBP-fX7YQM"
-    },
-    "fallbacks": [],
-    "original_group": "United States",
-    "display_category": "Other"
-  },
-  {
     "name": "GET",
     "normalized_name": "get",
     "group": "United States",
@@ -23041,20 +22632,6 @@
     "fallbacks": [],
     "original_group": "United States",
     "display_category": "Classics"
-  },
-  {
-    "name": "Grjngo - Películas Del Oeste",
-    "normalized_name": "grjngopelculasdeloeste",
-    "group": "United States",
-    "logo": "https://provider-static.plex.tv/epg/cms/production/76964e60-8756-4551-8748-dbd7852bd0bd/Grjngo-Westernfilme_logo_light_-_Toni_Newesil__1_.png",
-    "tvg_id": "6a1610bebdf296985fd95603-63489eff90b96ef5e0eb3282",
-    "primary": {
-      "source": "Plex",
-      "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-63489eff90b96ef5e0eb3282/?X-Plex-Token=g-izGcoQDgcBP-fX7YQM"
-    },
-    "fallbacks": [],
-    "original_group": "United States",
-    "display_category": "Westerns"
   },
   {
     "name": "Grjngo - Western Movies",
@@ -23631,20 +23208,6 @@
     "display_category": "TV"
   },
   {
-    "name": "Lucha Plus",
-    "normalized_name": "luchaplus",
-    "group": "United States",
-    "logo": "https://provider-static.plex.tv/epg/cms/production/e8b87f4f-ebc1-4996-b732-b70118521f61/Plex_Channel_Logo_Color_-_Juan_Miguel_Bassalik_WHT_TEXT.png",
-    "tvg_id": "6a1610bebdf296985fd95603-67a1a8ef2358ef4dd5c3018e",
-    "primary": {
-      "source": "Plex",
-      "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-67a1a8ef2358ef4dd5c3018e/?X-Plex-Token=g-izGcoQDgcBP-fX7YQM"
-    },
-    "fallbacks": [],
-    "original_group": "United States",
-    "display_category": "Other"
-  },
-  {
     "name": "LX Home Streaming",
     "normalized_name": "lxhomestreaming",
     "group": "United States",
@@ -24051,20 +23614,6 @@
     "display_category": "Other"
   },
   {
-    "name": "Novelisima",
-    "normalized_name": "novelisima",
-    "group": "United States",
-    "logo": "https://provider-static.plex.tv/epg/cms/production/c02431c6-190a-426a-a652-38502fec17d8/Novelisima_logo_lightbakg_1500x1000_-_Ali_Clausen.png",
-    "tvg_id": "6a1610bebdf296985fd95603-64d4e82ac5d4668c9cb7b5df",
-    "primary": {
-      "source": "Plex",
-      "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-64d4e82ac5d4668c9cb7b5df/?X-Plex-Token=g-izGcoQDgcBP-fX7YQM"
-    },
-    "fallbacks": [],
-    "original_group": "United States",
-    "display_category": "Other"
-  },
-  {
     "name": "On Patrol: Live",
     "normalized_name": "onpatrollive",
     "group": "United States",
@@ -24381,20 +23930,6 @@
     "primary": {
       "source": "Plex",
       "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-66bfb17c144c201b8b61c10d/?X-Plex-Token=g-izGcoQDgcBP-fX7YQM"
-    },
-    "fallbacks": [],
-    "original_group": "United States",
-    "display_category": "Other"
-  },
-  {
-    "name": "RCN Más",
-    "normalized_name": "rcnms",
-    "group": "United States",
-    "logo": "https://provider-static.plex.tv/epg/cms/production/114ff770-db66-459b-bc19-3ef4bfffe712/rcn-mas.png",
-    "tvg_id": "6a1610bebdf296985fd95603-6244f2d33ef43121e567cf13",
-    "primary": {
-      "source": "Plex",
-      "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-6244f2d33ef43121e567cf13/?X-Plex-Token=g-izGcoQDgcBP-fX7YQM"
     },
     "fallbacks": [],
     "original_group": "United States",
@@ -24959,20 +24494,6 @@
     "fallbacks": [],
     "original_group": "United States",
     "display_category": "Other"
-  },
-  {
-    "name": "Telemundo al Dia",
-    "normalized_name": "telemundoaldia",
-    "group": "United States",
-    "logo": "https://provider-static.plex.tv/1/epg/channels/logos/gracenote/183209ec7041b4645921574cffd096f4.png",
-    "tvg_id": "6a1610bebdf296985fd95603-6478acb5c83f56da796f166f",
-    "primary": {
-      "source": "Plex",
-      "url": "https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-6478acb5c83f56da796f166f/?X-Plex-Token=g-izGcoQDgcBP-fX7YQM"
-    },
-    "fallbacks": [],
-    "original_group": "United States",
-    "display_category": "News"
   },
   {
     "name": "Teleonce America",
