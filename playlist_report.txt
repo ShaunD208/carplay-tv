@@ -14,41 +14,35 @@ Alternate feeds retained: 0
 
 Pluto TV
 --------
-Raw channels: 429
-Non-English filtered: 40
-English candidates: 389
-New unique channels added: 250
+Raw channels: 427
+Non-English filtered: 39
+English candidates: 388
+New unique channels added: 249
 Alternate feeds retained: 139
 
 Roku
 ----
-Raw channels: 247
+Raw channels: 245
 Non-English filtered: 14
-English candidates: 233
-New unique channels added: 153
+English candidates: 231
+New unique channels added: 151
 Alternate feeds retained: 80
 
-Tubi
-----
-Raw channels: 278
-Non-English filtered: 9
-English candidates: 269
-New unique channels added: 152
-Alternate feeds retained: 117
+ERROR downloading Tubi: HTTP Error 404: Not Found
 
 Plex
 ----
-Raw channels: 694
+Raw channels: 692
 Non-English filtered: 18
-English candidates: 676
-New unique channels added: 321
-Alternate feeds retained: 355
+English candidates: 674
+New unique channels added: 346
+Alternate feeds retained: 328
 
 ================================================================
 LANGUAGE FILTER SUMMARY
 ================================================================
 
-Total non-English entries filtered: 123
+Total non-English entries filtered: 113
 
 Samsung: 42
   FILTERED: 40 y 20 [Latino] because category 'Latino'
@@ -72,7 +66,7 @@ Samsung: 42
   FILTERED: Escape Perfecto [Latino] because category 'Latino'
   FILTERED: Estrella Games [Latino] because category 'Latino'
 
-Pluto: 40
+Pluto: 39
   FILTERED: Acapulco Shore [En Español] because category 'En Español'
   FILTERED: CBS en español [En Español] because category 'En Español'
   FILTERED: CNN Noticias [En Español] because category 'En Español'
@@ -110,16 +104,7 @@ Roku: 14
   FILTERED: ViX Novelas de oro [TV & Entertainment] because name 'ViX Novelas de oro'
   FILTERED: ViX Novelas en familia [TV & Entertainment] because name 'ViX Novelas en familia'
 
-Tubi: 9
-  FILTERED: beIN Sports XTRA En Español [Español] because category 'Español'
-  FILTERED: Cine EstrellaTV [Español] because category 'Español'
-  FILTERED: Estrella Games [Español] because category 'Español'
-  FILTERED: Estrella News [Español] because category 'Español'
-  FILTERED: EstrellaTV [Español] because category 'Español'
-  FILTERED: Fox Sports En Español [Español] because category 'Español'
-  FILTERED: Lucha Plus [Español] because category 'Español'
-  FILTERED: Todo Cine [Español] because category 'Español'
-  FILTERED: Todo Novelas más Pasiones [Español] because category 'Español'
+Tubi: 0
 
 Plex: 18
   FILTERED: ADN NOTICIAS [United States] because name 'ADN NOTICIAS'
@@ -145,30 +130,29 @@ Plex: 18
 MASTER PLAYLIST SUMMARY
 ================================================================
 
-Total upstream entries: 2233
-Non-English entries filtered: 123
-Final unique English-focused channels: 1418
-Alternate feeds retained: 691
-Channels with fallback feeds: 458
+Total upstream entries: 1949
+Non-English entries filtered: 113
+Final unique English-focused channels: 1288
+Alternate feeds retained: 547
+Channels with fallback feeds: 409
 Known-dead primaries promoted: 0
 Known-dead channels removed: 1
 
 Primary channels by source:
   Samsung: 543
-  Pluto: 250
-  Roku: 152
-  Tubi: 152
-  Plex: 321
+  Pluto: 249
+  Roku: 150
+  Tubi: 0
+  Plex: 346
 
 Top categories:
-  United States: 321
-  Local News: 119
-  Comedy: 65
+  United States: 346
+  Comedy: 61
   Kids: 55
   TV & Entertainment: 54
   Sports & Outdoors: 53
   Music: 53
-  Movies: 51
+  Movies: 52
   Crime: 45
   Action & Drama: 42
   Home & Food: 39
@@ -177,30 +161,31 @@ Top categories:
   Nature, History & Science: 29
   Lifestyle & Pop Culture: 27
   News & Opinion: 26
-  Reality: 25
-  Classic TV: 22
   Reality Competition: 20
+  Classic TV: 20
+  Reality: 20
   Sci-Fi & Horror: 19
   Ambiance: 17
   Drama: 16
   Western & Classic TV: 15
   Sci-Fi: 15
   Daytime + Game Shows: 15
+  Local News: 15
   Anime & Gaming: 14
   Motor Sports: 14
   Home + Food: 14
-  True Crime: 12
   Game Shows: 11
-  Sports On Now: 9
   History + Science: 8
   News + Opinion: 8
   Westerns: 8
   Music Videos: 8
-  News: 7
+  True Crime: 7
+  Anime: 7
   Competition Reality: 6
-  Anime: 6
-  Big Brother Live: 5
+  News: 6
   Documentary: 5
+  Entertainment: 4
+  Animated: 4
 
 ================================================================
 SERVER-SIDE VALIDATION SAMPLE
@@ -210,8 +195,8 @@ Target playback environment: APTV / Apple native HLS.
 Server validation is health checking only.
 Chrome/hls.js failure does NOT automatically exclude a channel.
 
-Samples tested: 60
-Server pass: 60
+Samples tested: 48
+Server pass: 48
 Server warning: 0
 Server fail: 0
 
@@ -241,19 +226,19 @@ Server fail: 0
   Manifest reachable and appears to be HLS
 [server-pass] Pluto - 00s Replay
   Manifest reachable and appears to be HLS
-[server-pass] Pluto - Best of Dr. Phil
+[server-pass] Pluto - Best of Bobby Flay by Food Network
   Manifest reachable and appears to be HLS
-[server-pass] Pluto - CBS News Detroit
+[server-pass] Pluto - CBS News New York
   Manifest reachable and appears to be HLS
-[server-pass] Pluto - Classic TV Drama
+[server-pass] Pluto - Comedy Central Pluto TV
   Manifest reachable and appears to be HLS
-[server-pass] Pluto - Forever Kids
+[server-pass] Pluto - Funny AF
   Manifest reachable and appears to be HLS
-[server-pass] Pluto - KIRO Seattle
+[server-pass] Pluto - Let's Make A Deal
   Manifest reachable and appears to be HLS
-[server-pass] Pluto - NBC Los Angeles News
+[server-pass] Pluto - Naturescape
   Manifest reachable and appears to be HLS
-[server-pass] Pluto - Pluto TV Cars
+[server-pass] Pluto - Pluto TV Crime Drama
   Manifest reachable and appears to be HLS
 [server-pass] Pluto - Pluto TV Royal Drama
   Manifest reachable and appears to be HLS
@@ -267,17 +252,17 @@ Server fail: 0
   Manifest reachable and appears to be HLS
 [server-pass] Roku - Fluffy TV
   Manifest reachable and appears to be HLS
-[server-pass] Roku - FilmRise Forensic Files
+[server-pass] Roku - FilmRise Mysteries
   Manifest reachable and appears to be HLS
-[server-pass] Roku - Space Live
+[server-pass] Roku - This Old House Classic
   Manifest reachable and appears to be HLS
 [server-pass] Roku - FreeTV Hits
   Manifest reachable and appears to be HLS
-[server-pass] Roku - CW Presents WWE NXT
+[server-pass] Roku - Cine Romantico
   Manifest reachable and appears to be HLS
-[server-pass] Roku - FreeTV Asia
+[server-pass] Roku - FUEL TV
   Manifest reachable and appears to be HLS
-[server-pass] Roku - Xena
+[server-pass] Roku - Azteca Internacional
   Manifest reachable and appears to be HLS
 [server-pass] Roku - FilmRise British TV
   Manifest reachable and appears to be HLS
@@ -287,51 +272,27 @@ Server fail: 0
   Manifest reachable and appears to be HLS
 [server-pass] Roku - Weathernation
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - 25 News KXXV / KRHD
-  Manifest reachable and appears to be HLS
-[server-pass] Tubi - Def Jam
-  Manifest reachable and appears to be HLS
-[server-pass] Tubi - FOX LOCAL New York
-  Manifest reachable and appears to be HLS
-[server-pass] Tubi - HBO Boxing
-  Manifest reachable and appears to be HLS
-[server-pass] Tubi - KGUN 9 Tucson News
-  Manifest reachable and appears to be HLS
-[server-pass] Tubi - KPAX Missoula
-  Manifest reachable and appears to be HLS
-[server-pass] Tubi - MADtv
-  Manifest reachable and appears to be HLS
-[server-pass] Tubi - Tampa Bay 28
-  Manifest reachable and appears to be HLS
-[server-pass] Tubi - WAPT Very Jackson 16
-  Manifest reachable and appears to be HLS
-[server-pass] Tubi - WJCL Very Savannah 22
-  Manifest reachable and appears to be HLS
-[server-pass] Tubi - WPXI Pittsburgh
-  Manifest reachable and appears to be HLS
-[server-pass] Tubi - WYFF Very S. Carolina 4
-  Manifest reachable and appears to be HLS
 [server-pass] Plex - 123GO!
   Manifest reachable and appears to be HLS
 [server-pass] Plex - Bizaar
   Manifest reachable and appears to be HLS
 [server-pass] Plex - Corner Gas
   Manifest reachable and appears to be HLS
-[server-pass] Plex - Farscape
+[server-pass] Plex - Family Unscripted
   Manifest reachable and appears to be HLS
-[server-pass] Plex - Glewed TV
+[server-pass] Plex - Ghosts Are Real
   Manifest reachable and appears to be HLS
 [server-pass] Plex - In The Heat Of The Night by MGM
   Manifest reachable and appears to be HLS
-[server-pass] Plex - MI-5
+[server-pass] Plex - Mi Casa
   Manifest reachable and appears to be HLS
-[server-pass] Plex - PickleTV
+[server-pass] Plex - Perform by Lifetime
   Manifest reachable and appears to be HLS
-[server-pass] Plex - Silent Witness|New Tricks
+[server-pass] Plex - SKWAD
   Manifest reachable and appears to be HLS
-[server-pass] Plex - Tennis+
+[server-pass] Plex - The Biggest Loser
   Manifest reachable and appears to be HLS
-[server-pass] Plex - Travel Escapes
+[server-pass] Plex - Tribeca Channel
   Manifest reachable and appears to be HLS
 [server-pass] Plex - ÚN TV
   Manifest reachable and appears to be HLS
@@ -341,42 +302,44 @@ V4 NORMALIZED CATEGORY SUMMARY
 ================================================================
 
 Display taxonomy: 21 CarPlay categories
-Channels categorized: 1418
+Channels categorized: 1288
 Generic categories recovered from fallback metadata: 0
 United States display category: 0
 
-  News: 51
-  Local News: 124
-  Sports: 143
-  Movies: 69
-  TV: 148
-  Comedy: 69
-  Crime: 72
-  Reality: 109
-  Classics: 45
-  Sci-Fi & Horror: 57
+  News: 48
+  Local News: 20
+  Sports: 136
+  Movies: 70
+  TV: 146
+  Comedy: 65
+  Crime: 67
+  Reality: 97
+  Classics: 43
+  Sci-Fi & Horror: 56
   Kids: 71
   Music: 82
-  Food & Home: 74
-  Lifestyle: 61
+  Food & Home: 73
+  Lifestyle: 56
   Nature & Travel: 20
   History & Science: 54
   Documentary: 6
-  Anime: 21
+  Anime: 22
   Game Shows: 29
   Westerns: 12
-  Other: 101
+  Other: 115
 
 ================================================================
 V4 OTHER CHANNEL AUDIT
 ================================================================
 
-Unresolved Other channels: 101
+Unresolved Other channels: 115
 Remaining entries are intentionally left unresolved rather than forcing a low-confidence category.
 
+  Dark Shadows | source=Pluto | original=Halloween Hits | useful=Halloween Hits
   Pluto TV Hispanic Favorites | source=Pluto | original=Hispanic Heritage Month | useful=Hispanic Heritage Month
   365BLK [FAST] | source=Plex | original=United States | useful=United States
   A Touch of Frost | source=Plex | original=United States | useful=United States
+  ACCDN | source=Plex | original=United States | useful=United States
   AddictaTV | source=Plex | original=United States | useful=United States
   AfroLandTV | source=Plex | original=United States | useful=United States
   Aliwko | source=Plex | original=United States | useful=United States
@@ -391,6 +354,7 @@ Remaining entries are intentionally left unresolved rather than forcing a low-co
   Canela.TV Clásicos | source=Plex | original=United States | useful=United States
   Canela.TV Hollywood y Más | source=Plex | original=United States | useful=United States
   Caught in Providence | source=Plex | original=United States | useful=United States
+  Cheddar | source=Plex | original=United States | useful=United States
   Cine EstrellaTV | source=Plex | original=United States | useful=United States
   Cine Romántico | source=Plex | original=United States | useful=United States
   Circle Country | source=Plex | original=United States | useful=United States
@@ -402,15 +366,18 @@ Remaining entries are intentionally left unresolved rather than forcing a low-co
   Emoción Atres | source=Plex | original=United States | useful=United States
   Entertains | source=Plex | original=United States | useful=United States
   Extreme Jobs | source=Plex | original=United States | useful=United States
+  Family Unscripted | source=Plex | original=United States | useful=United States
   Fifth Gear (UK) | source=Plex | original=United States | useful=United States
   FrightFlix | source=Plex | original=United States | useful=United States
   GameTVGO | source=Plex | original=United States | useful=United States
   Gata Salvaje | source=Plex | original=United States | useful=United States
   GET | source=Plex | original=United States | useful=United States
+  Ghosts Are Real | source=Plex | original=United States | useful=United States
   Glewed TV | source=Plex | original=United States | useful=United States
   Hi-YAH! | source=Plex | original=United States | useful=United States
   Historias de Corazón | source=Plex | original=United States | useful=United States
   Hit List | source=Plex | original=United States | useful=United States
+  How To | source=Plex | original=United States | useful=United States
   Ice Pilots NWT | source=Plex | original=United States | useful=United States
   Ideas En 5 Minutos | source=Plex | original=United States | useful=United States
   INTER 24/7 | source=Plex | original=United States | useful=United States
@@ -424,6 +391,7 @@ Remaining entries are intentionally left unresolved rather than forcing a low-co
   Lawless | source=Plex | original=United States | useful=United States
   Legacy | source=Plex | original=United States | useful=United States
   Lone Star | source=Plex | original=United States | useful=United States
+  Love & Marriage | source=Plex | original=United States | useful=United States
   Lucha Plus | source=Plex | original=United States | useful=United States
   Made In Hollywood | source=Plex | original=United States | useful=United States
   McLeods Daughters | source=Plex | original=United States | useful=United States
@@ -431,6 +399,8 @@ Remaining entries are intentionally left unresolved rather than forcing a low-co
   Mi Casa | source=Plex | original=United States | useful=United States
   More U | source=Plex | original=United States | useful=United States
   Mysteria | source=Plex | original=United States | useful=United States
+  Mysterious Worlds | source=Plex | original=United States | useful=United States
+  Nikita | source=Plex | original=United States | useful=United States
   Nolly Africa HD | source=Plex | original=United States | useful=United States
   Non-Stop '90s | source=Plex | original=United States | useful=United States
   Nosey Escándalos | source=Plex | original=United States | useful=United States
@@ -457,16 +427,21 @@ Remaining entries are intentionally left unresolved rather than forcing a low-co
   Spark TV Light & Love | source=Plex | original=United States | useful=United States
   Spark TV Luz y Amor | source=Plex | original=United States | useful=United States
   SPIN | source=Plex | original=United States | useful=United States
+  Sweet Escapes | source=Plex | original=United States | useful=United States
   Tarima TV | source=Plex | original=United States | useful=United States
   Teen Wolf by MGM | source=Plex | original=United States | useful=United States
   Teleonce America | source=Plex | original=United States | useful=United States
   The Black Effect | source=Plex | original=United States | useful=United States
+  The FBI | source=Plex | original=United States | useful=United States
+  The FBI Files | source=Plex | original=United States | useful=United States
+  The Grio | source=Plex | original=United States | useful=United States
   The Sherlock Holmes Channel | source=Plex | original=United States | useful=United States
   The Spa | source=Plex | original=United States | useful=United States
   TRACE Brazuca | source=Plex | original=United States | useful=United States
   TRACE Latina | source=Plex | original=United States | useful=United States
   Trailer Park Boys: The SwearNet Show | source=Plex | original=United States | useful=United States
   Trailers From Hell | source=Plex | original=United States | useful=United States
+  Unique Lives | source=Plex | original=United States | useful=United States
   VR+ | source=Plex | original=United States | useful=United States
   WAPA+ | source=Plex | original=United States | useful=United States
   Wedotv Amor Piel Salvaje | source=Plex | original=United States | useful=United States
@@ -480,9 +455,9 @@ Remaining entries are intentionally left unresolved rather than forcing a low-co
 FINAL ENGLISH-ONLY CLEANUP
 ================================================================
 
-Channels before final cleanup: 1418
+Channels before final cleanup: 1288
 Clearly non-English channels removed: 31
-Final English-focused channels: 1387
+Final English-focused channels: 1257
 
 Removed by primary source:
   Plex: 13
@@ -526,21 +501,16 @@ Removed channels:
 EPG / NOW PLAYING SUMMARY
 ================================================================
 
-Master channels: 1387
-Channels with guide data: 1382
-Channels without guide data: 5
-Channels using fallback-provider guide identity: 1
+Master channels: 1257
+Channels with guide data: 1256
+Channels without guide data: 1
+Channels using fallback-provider guide identity: 0
 Guide window: 3 hours past through 36 hours future
 
-Samsung: 542/542 IDs matched; 4634 programmes
-Pluto: 385/389 IDs matched; 7980 programmes
-Roku: 213/214 IDs matched; 10171 programmes
-Tubi: 269/269 IDs matched; 7387 programmes
-Plex: 656/659 IDs matched; 26469 programmes
+Samsung: 542/542 IDs matched; 4667 programmes
+Pluto: 388/388 IDs matched; 8016 programmes
+Roku: 211/212 IDs matched; 10037 programmes
+Plex: 657/657 IDs matched; 19373 programmes
 
 Sample channels without guide data:
-  Big Brother Camera 2
-  Big Brother Camera 3
-  Big Brother Camera 4
-  Big Brother Quad View
-  Crime Beat TV
+  The Red Green Channel
