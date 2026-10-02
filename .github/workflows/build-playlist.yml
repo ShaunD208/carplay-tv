@@ -30,17 +30,20 @@ jobs:
       - name: Final English-only cleanup
         run: python cleanup_language.py
 
+      - name: Build lightweight EPG
+        run: python build_epg.py
+
       - name: Commit updated playlist
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add master.m3u playlist_report.txt browser_test_candidates.m3u channel_sources.json
+          git add master.m3u playlist_report.txt browser_test_candidates.m3u channel_sources.json epg.json
 
           if git diff --cached --quiet; then
-            echo "No playlist changes detected."
+            echo "No playlist or EPG changes detected."
             exit 0
           fi
 
-          git commit -m "Update CarPlay TV master playlist"
+          git commit -m "Update CarPlay TV master playlist and EPG"
           git push
