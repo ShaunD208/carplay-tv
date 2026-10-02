@@ -2513,3 +2513,5 @@ https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-65f0da6f046e
 https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-62efba6588a16bb7d6b6fb58/?X-Plex-Token=ksfhr2TEfSgzQgEUdx6V
 #EXTINF:-1 channel-id="6a1610bebdf296985fd95603-65f0de01046e6131ecc31845" tvg-id="6a1610bebdf296985fd95603-65f0de01046e6131ecc31845" tvg-chno="" tvg-name="ÚN TV" tvg-logo="https://provider-static.plex.tv/epg/cms/production/e2392026-a01b-4e8e-a972-c2fc26f591cf/CONDISTA-UN_TV-1500X1000.png" group-title="Other" source="Plex" fallbacks="0",ÚN TV
 https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-65f0de01046e6131ecc31845/?X-Plex-Token=ksfhr2TEfSgzQgEUdx6V
+#EXTINF:-1 tvg-id="SchwabNetwork.us@SD" tvg-logo="" group-title="News" source="Schwab / VIZIO" fallbacks="0",Schwab Network
+https://tdameritrade-vizio.amagi.tv/playlistR1080p.m3u8

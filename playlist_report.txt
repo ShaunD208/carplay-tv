@@ -196,9 +196,9 @@ Server validation is health checking only.
 Chrome/hls.js failure does NOT automatically exclude a channel.
 
 Samples tested: 48
-Server pass: 48
+Server pass: 47
 Server warning: 0
-Server fail: 0
+Server fail: 1
 
 [server-pass] Samsung - 21 Jump Street
   Manifest reachable and appears to be HLS
@@ -250,8 +250,8 @@ Server fail: 0
   Manifest reachable and appears to be HLS
 [server-pass] Roku - Curiosity Explora
   Manifest reachable and appears to be HLS
-[server-pass] Roku - Fluffy TV
-  Manifest reachable and appears to be HLS
+[server-fail] Roku - Fluffy TV
+  HTTP 404
 [server-pass] Roku - FilmRise Mysteries
   Manifest reachable and appears to be HLS
 [server-pass] Roku - This Old House Classic
@@ -498,19 +498,27 @@ Removed channels:
   Telemundo al Dia | source=Plex | original=United States
 
 ================================================================
+CUSTOM CHANNELS
+================================================================
+
+  ADDED: Schwab Network
+
+Custom channels added: 1
+
+================================================================
 EPG / NOW PLAYING SUMMARY
 ================================================================
 
-Master channels: 1257
-Channels with guide data: 1256
+Master channels: 1258
+Channels with guide data: 1257
 Channels without guide data: 1
 Channels using fallback-provider guide identity: 0
 Guide window: 3 hours past through 36 hours future
 
-Samsung: 542/542 IDs matched; 4667 programmes
-Pluto: 388/388 IDs matched; 8016 programmes
-Roku: 211/212 IDs matched; 10037 programmes
-Plex: 657/657 IDs matched; 19373 programmes
+Samsung: 542/542 IDs matched; 4683 programmes
+Pluto: 388/388 IDs matched; 7828 programmes
+Roku: 212/212 IDs matched; 10462 programmes
+Plex: 657/657 IDs matched; 24420 programmes
 
 Sample channels without guide data:
-  The Red Green Channel
+  Schwab Network

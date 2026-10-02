@@ -22336,5 +22336,20 @@
     "fallbacks": [],
     "original_group": "United States",
     "display_category": "Other"
+  },
+  {
+    "name": "Schwab Network",
+    "normalized_name": "schwabnetwork",
+    "group": "News",
+    "logo": "",
+    "tvg_id": "SchwabNetwork.us@SD",
+    "primary": {
+      "source": "Schwab / VIZIO",
+      "url": "https://tdameritrade-vizio.amagi.tv/playlistR1080p.m3u8"
+    },
+    "fallbacks": [],
+    "original_group": "News",
+    "display_category": "News",
+    "custom": true
   }
 ]
