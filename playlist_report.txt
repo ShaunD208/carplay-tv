@@ -521,3 +521,26 @@ Removed channels:
   Novelisima | source=Plex | original=United States
   RCN Más | source=Plex | original=United States
   Telemundo al Dia | source=Plex | original=United States
+
+================================================================
+EPG / NOW PLAYING SUMMARY
+================================================================
+
+Master channels: 1387
+Channels with guide data: 1382
+Channels without guide data: 5
+Channels using fallback-provider guide identity: 1
+Guide window: 3 hours past through 36 hours future
+
+Samsung: 542/542 IDs matched; 4634 programmes
+Pluto: 385/389 IDs matched; 7980 programmes
+Roku: 213/214 IDs matched; 10171 programmes
+Tubi: 269/269 IDs matched; 7387 programmes
+Plex: 656/659 IDs matched; 26469 programmes
+
+Sample channels without guide data:
+  Big Brother Camera 2
+  Big Brother Camera 3
+  Big Brother Camera 4
+  Big Brother Quad View
+  Crime Beat TV
