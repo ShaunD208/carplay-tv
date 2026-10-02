@@ -30,6 +30,9 @@ jobs:
       - name: Final English-only cleanup
         run: python cleanup_language.py
 
+      - name: Add approved custom channels
+        run: python add_custom_channels.py
+
       - name: Build lightweight EPG
         run: python build_epg.py
 
