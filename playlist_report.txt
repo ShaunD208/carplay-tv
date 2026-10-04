@@ -22,11 +22,11 @@ Alternate feeds retained: 139
 
 Roku
 ----
-Raw channels: 242
+Raw channels: 239
 Non-English filtered: 14
-English candidates: 228
-New unique channels added: 150
-Alternate feeds retained: 78
+English candidates: 225
+New unique channels added: 148
+Alternate feeds retained: 77
 
 ERROR downloading Tubi: HTTP Error 404: Not Found
 
@@ -35,8 +35,8 @@ Plex
 Raw channels: 693
 Non-English filtered: 18
 English candidates: 675
-New unique channels added: 349
-Alternate feeds retained: 326
+New unique channels added: 347
+Alternate feeds retained: 328
 
 ================================================================
 LANGUAGE FILTER SUMMARY
@@ -130,34 +130,34 @@ Plex: 18
 MASTER PLAYLIST SUMMARY
 ================================================================
 
-Total upstream entries: 1947
+Total upstream entries: 1944
 Non-English entries filtered: 113
-Final unique English-focused channels: 1290
-Alternate feeds retained: 543
-Channels with fallback feeds: 406
+Final unique English-focused channels: 1286
+Alternate feeds retained: 544
+Channels with fallback feeds: 409
 Known-dead primaries promoted: 0
 Known-dead channels removed: 1
 
 Primary channels by source:
   Samsung: 543
   Pluto: 249
-  Roku: 149
+  Roku: 147
   Tubi: 0
-  Plex: 349
+  Plex: 347
 
 Top categories:
-  United States: 349
+  United States: 347
   Comedy: 62
   Kids: 55
   Sports & Outdoors: 53
   Music: 53
-  TV & Entertainment: 53
   Movies: 52
+  TV & Entertainment: 50
   Crime: 45
   Action & Drama: 42
   Home & Food: 39
   Reality TV: 38
-  Sports: 34
+  Sports: 35
   Nature, History & Science: 29
   Lifestyle & Pop Culture: 27
   News & Opinion: 26
@@ -256,25 +256,25 @@ Server fail: 0
   Manifest reachable and appears to be HLS
 [server-pass] Roku - TruBlu Crime Channel
   Manifest reachable and appears to be HLS
-[server-pass] Roku - Scares by Shudder
+[server-pass] Roku - Mi Miedo Canal
   Manifest reachable and appears to be HLS
 [server-pass] Roku - Moonbug Kids
   Manifest reachable and appears to be HLS
-[server-pass] Roku - FreeTV Asia
+[server-pass] Roku - FreeTV Acción
   Manifest reachable and appears to be HLS
-[server-pass] Roku - Xena
+[server-pass] Roku - Universal Westerns
   Manifest reachable and appears to be HLS
-[server-pass] Roku - FilmRise British TV
+[server-pass] Roku - FGTeeV
   Manifest reachable and appears to be HLS
-[server-pass] Roku - JoySauce Network
+[server-pass] Roku - iShowSpeed TV
   Manifest reachable and appears to be HLS
-[server-pass] Roku - The Dick Van Dyke Show
+[server-pass] Roku - The Ed Sullivan Show
   Manifest reachable and appears to be HLS
 [server-pass] Roku - Weathernation
   Manifest reachable and appears to be HLS
 [server-pass] Plex - 123GO!
   Manifest reachable and appears to be HLS
-[server-pass] Plex - Bizarre Foods with Andrew Zimmern
+[server-pass] Plex - Bizaar
   Manifest reachable and appears to be HLS
 [server-pass] Plex - Corner Gas
   Manifest reachable and appears to be HLS
@@ -292,7 +292,7 @@ Server fail: 0
   Manifest reachable and appears to be HLS
 [server-pass] Plex - The Biggest Loser
   Manifest reachable and appears to be HLS
-[server-pass] Plex - Travel Escapes
+[server-pass] Plex - Tribeca Channel
   Manifest reachable and appears to be HLS
 [server-pass] Plex - ÚN TV
   Manifest reachable and appears to be HLS
@@ -302,21 +302,21 @@ V4 NORMALIZED CATEGORY SUMMARY
 ================================================================
 
 Display taxonomy: 21 CarPlay categories
-Channels categorized: 1290
+Channels categorized: 1286
 Generic categories recovered from fallback metadata: 0
 United States display category: 0
 
   News: 49
   Local News: 20
-  Sports: 135
+  Sports: 136
   Movies: 70
-  TV: 145
+  TV: 142
   Comedy: 66
   Crime: 67
   Reality: 97
   Classics: 43
   Sci-Fi & Horror: 56
-  Kids: 71
+  Kids: 70
   Music: 82
   Food & Home: 73
   Lifestyle: 56
@@ -326,13 +326,13 @@ United States display category: 0
   Anime: 22
   Game Shows: 29
   Westerns: 12
-  Other: 117
+  Other: 116
 
 ================================================================
 V4 OTHER CHANNEL AUDIT
 ================================================================
 
-Unresolved Other channels: 117
+Unresolved Other channels: 116
 Remaining entries are intentionally left unresolved rather than forcing a low-confidence category.
 
   Dark Shadows | source=Pluto | original=Halloween Hits | useful=Halloween Hits
@@ -429,7 +429,6 @@ Remaining entries are intentionally left unresolved rather than forcing a low-co
   Spark TV Luz y Amor | source=Plex | original=United States | useful=United States
   SPIN | source=Plex | original=United States | useful=United States
   Sweet Escapes | source=Plex | original=United States | useful=United States
-  Swerve Combat | source=Plex | original=United States | useful=United States
   Tarima TV | source=Plex | original=United States | useful=United States
   Teen Wolf by MGM | source=Plex | original=United States | useful=United States
   Teleonce America | source=Plex | original=United States | useful=United States
@@ -457,9 +456,9 @@ Remaining entries are intentionally left unresolved rather than forcing a low-co
 FINAL ENGLISH-ONLY CLEANUP
 ================================================================
 
-Channels before final cleanup: 1290
+Channels before final cleanup: 1286
 Clearly non-English channels removed: 31
-Final English-focused channels: 1259
+Final English-focused channels: 1255
 
 Removed by primary source:
   Plex: 13
@@ -511,16 +510,16 @@ Custom channels added: 1
 EPG / NOW PLAYING SUMMARY
 ================================================================
 
-Master channels: 1260
-Channels with guide data: 1259
+Master channels: 1256
+Channels with guide data: 1255
 Channels without guide data: 1
 Channels using fallback-provider guide identity: 0
 Guide window: 3 hours past through 36 hours future
 
-Samsung: 542/542 IDs matched; 4775 programmes
-Pluto: 388/388 IDs matched; 8017 programmes
-Roku: 209/209 IDs matched; 9839 programmes
-Plex: 658/658 IDs matched; 24067 programmes
+Samsung: 542/542 IDs matched; 4652 programmes
+Pluto: 388/388 IDs matched; 8027 programmes
+Roku: 206/206 IDs matched; 9711 programmes
+Plex: 658/658 IDs matched; 22125 programmes
 
 Sample channels without guide data:
   Schwab Network
