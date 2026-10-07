@@ -6,10 +6,10 @@ Language preference: English-only
 
 Samsung TV Plus
 ---------------
-Raw channels: 585
+Raw channels: 587
 Non-English filtered: 42
-English candidates: 543
-New unique channels added: 543
+English candidates: 545
+New unique channels added: 545
 Alternate feeds retained: 0
 
 Pluto TV
@@ -22,11 +22,11 @@ Alternate feeds retained: 139
 
 Roku
 ----
-Raw channels: 247
-Non-English filtered: 14
-English candidates: 233
-New unique channels added: 156
-Alternate feeds retained: 77
+Raw channels: 257
+Non-English filtered: 15
+English candidates: 242
+New unique channels added: 162
+Alternate feeds retained: 80
 
 ERROR downloading Tubi: HTTP Error 404: Not Found
 
@@ -35,14 +35,14 @@ Plex
 Raw channels: 693
 Non-English filtered: 18
 English candidates: 675
-New unique channels added: 348
-Alternate feeds retained: 327
+New unique channels added: 344
+Alternate feeds retained: 331
 
 ================================================================
 LANGUAGE FILTER SUMMARY
 ================================================================
 
-Total non-English entries filtered: 113
+Total non-English entries filtered: 114
 
 Samsung: 42
   FILTERED: 40 y 20 [Latino] because category 'Latino'
@@ -88,7 +88,7 @@ Pluto: 39
   FILTERED: Crímenes imperfectos [En Español] because category 'En Español'
   FILTERED: El Capo [En Español] because category 'En Español'
 
-Roku: 14
+Roku: 15
   FILTERED: Iron Chef en Español [Cooking] because name 'Iron Chef en Español'
   FILTERED: COPS en Español [Crime] because name 'COPS en Español'
   FILTERED: Azteca Noticias [News] because name 'Azteca Noticias'
@@ -98,6 +98,7 @@ Roku: 14
   FILTERED: ViX Novelas de romance [Romance] because name 'ViX Novelas de romance'
   FILTERED: QVC en Español [Shopping] because name 'QVC en Español'
   FILTERED: Cheaters en Español [TV & Entertainment] because name 'Cheaters en Español'
+  FILTERED: Cine en Español [TV & Entertainment] because name 'Cine en Español'
   FILTERED: Real America's Voice en Español [TV & Entertainment] because name 'Real America's Voice en Español'
   FILTERED: Runtime Español [TV & Entertainment] because name 'Runtime Español'
   FILTERED: Todo Novelas Más Pasiones [TV & Entertainment] because name 'Todo Novelas Más Pasiones'
@@ -130,34 +131,34 @@ Plex: 18
 MASTER PLAYLIST SUMMARY
 ================================================================
 
-Total upstream entries: 1952
-Non-English entries filtered: 113
-Final unique English-focused channels: 1295
-Alternate feeds retained: 543
-Channels with fallback feeds: 408
+Total upstream entries: 1964
+Non-English entries filtered: 114
+Final unique English-focused channels: 1299
+Alternate feeds retained: 550
+Channels with fallback feeds: 411
 Known-dead primaries promoted: 0
 Known-dead channels removed: 1
 
 Primary channels by source:
-  Samsung: 543
+  Samsung: 545
   Pluto: 249
-  Roku: 155
+  Roku: 161
   Tubi: 0
-  Plex: 348
+  Plex: 344
 
 Top categories:
-  United States: 348
-  Comedy: 62
+  United States: 344
+  Comedy: 61
+  TV & Entertainment: 56
   Kids: 55
   Sports & Outdoors: 53
   Music: 53
   Movies: 52
-  TV & Entertainment: 52
   Crime: 45
   Action & Drama: 42
-  Home & Food: 39
+  Home & Food: 40
   Reality TV: 38
-  Sports: 34
+  Sports: 35
   Nature, History & Science: 29
   Lifestyle & Pop Culture: 27
   News & Opinion: 26
@@ -183,7 +184,7 @@ Top categories:
   True Crime: 7
   Anime: 7
   Competition Reality: 6
-  Documentary: 5
+  Documentary: 6
   Entertainment: 4
   Animated: 4
 
@@ -204,9 +205,9 @@ Server fail: 11
   Manifest reachable and appears to be HLS
 [server-pass] Samsung - BBC Earth
   Manifest reachable and appears to be HLS
-[server-pass] Samsung - CJ ENM K-POP
+[server-pass] Samsung - CJ ENM K-Food & Travel
   Manifest reachable and appears to be HLS
-[server-pass] Samsung - Dungeons & Dragons: Adventures
+[server-pass] Samsung - ducktv
   Manifest reachable and appears to be HLS
 [server-pass] Samsung - Heartland
   Manifest reachable and appears to be HLS
@@ -252,23 +253,23 @@ Server fail: 11
   Manifest reachable and appears to be HLS
 [server-pass] Roku - Fluffy TV
   Manifest reachable and appears to be HLS
-[server-pass] Roku - FilmRise Mysteries
+[server-pass] Roku - FilmRise True Crime
   Manifest reachable and appears to be HLS
-[server-pass] Roku - EarthDay 365
+[server-pass] Roku - Dove
   Manifest reachable and appears to be HLS
-[server-pass] Roku - Stingray Free Riding
+[server-pass] Roku - ABC7 Sarasota
   Manifest reachable and appears to be HLS
-[server-pass] Roku - WBTV News 3
+[server-pass] Roku - Like Nastya
   Manifest reachable and appears to be HLS
-[server-pass] Roku - Estrella TV Deportes
+[server-pass] Roku - FILMEX Clásico
   Manifest reachable and appears to be HLS
-[server-pass] Roku - Todo Cine
+[server-pass] Roku - ViX Lo Mejor de Liga MX
   Manifest reachable and appears to be HLS
-[server-pass] Roku - FilmRise Autopista al Cielo
+[server-pass] Roku - FilmRise Black TV
   Manifest reachable and appears to be HLS
-[server-pass] Roku - Jorge Ramos: Asi Veo Las Cosas
+[server-pass] Roku - Kalogeras Sisters TV
   Manifest reachable and appears to be HLS
-[server-pass] Roku - Stingray Zen Life
+[server-pass] Roku - The Dick Van Dyke Show
   Manifest reachable and appears to be HLS
 [server-pass] Roku - Weathernation
   Manifest reachable and appears to be HLS
@@ -276,23 +277,23 @@ Server fail: 11
   Manifest reachable and appears to be HLS
 [server-pass] Plex - Bizarre Foods with Andrew Zimmern
   Manifest reachable and appears to be HLS
-[server-pass] Plex - Corner Gas
+[server-pass] Plex - Cosmic Frontiers
   Manifest reachable and appears to be HLS
-[server-pass] Plex - Farscape
+[server-pass] Plex - FashionTV
   Manifest reachable and appears to be HLS
-[server-pass] Plex - Ghosts Are Real
+[server-pass] Plex - Glewed TV
   Manifest reachable and appears to be HLS
 [server-pass] Plex - In The Heat Of The Night by MGM
   Manifest reachable and appears to be HLS
-[server-pass] Plex - MGM Presents: Westerns
+[server-pass] Plex - Mi Casa
   Manifest reachable and appears to be HLS
-[server-pass] Plex - People are Awesome
+[server-pass] Plex - Perform by Lifetime
   Manifest reachable and appears to be HLS
-[server-pass] Plex - Silent Witness|New Tricks
+[server-pass] Plex - SKWAD
   Manifest reachable and appears to be HLS
-[server-pass] Plex - The Biggest Loser
+[server-pass] Plex - The Black Effect
   Manifest reachable and appears to be HLS
-[server-pass] Plex - Travel Escapes
+[server-pass] Plex - Tribeca Channel
   Manifest reachable and appears to be HLS
 [server-pass] Plex - ÚN TV
   Manifest reachable and appears to be HLS
@@ -302,37 +303,37 @@ V4 NORMALIZED CATEGORY SUMMARY
 ================================================================
 
 Display taxonomy: 21 CarPlay categories
-Channels categorized: 1295
+Channels categorized: 1299
 Generic categories recovered from fallback metadata: 0
 United States display category: 0
 
   News: 57
   Local News: 20
-  Sports: 135
+  Sports: 136
   Movies: 70
-  TV: 144
-  Comedy: 66
-  Crime: 67
+  TV: 148
+  Comedy: 65
+  Crime: 66
   Reality: 97
   Classics: 43
   Sci-Fi & Horror: 56
   Kids: 71
   Music: 82
-  Food & Home: 73
+  Food & Home: 74
   Lifestyle: 56
-  Nature & Travel: 20
-  History & Science: 52
-  Documentary: 6
+  Nature & Travel: 19
+  History & Science: 53
+  Documentary: 7
   Anime: 22
   Game Shows: 29
   Westerns: 12
-  Other: 117
+  Other: 116
 
 ================================================================
 V4 OTHER CHANNEL AUDIT
 ================================================================
 
-Unresolved Other channels: 117
+Unresolved Other channels: 116
 Remaining entries are intentionally left unresolved rather than forcing a low-confidence category.
 
   Dark Shadows | source=Pluto | original=Halloween Hits | useful=Halloween Hits
@@ -391,7 +392,6 @@ Remaining entries are intentionally left unresolved rather than forcing a low-co
   LATV | source=Plex | original=United States | useful=United States
   Lawless | source=Plex | original=United States | useful=United States
   Legacy | source=Plex | original=United States | useful=United States
-  Lionsgate Network | source=Plex | original=United States | useful=United States
   Lone Star | source=Plex | original=United States | useful=United States
   Love & Marriage | source=Plex | original=United States | useful=United States
   Lucha Plus | source=Plex | original=United States | useful=United States
@@ -457,9 +457,9 @@ Remaining entries are intentionally left unresolved rather than forcing a low-co
 FINAL ENGLISH-ONLY CLEANUP
 ================================================================
 
-Channels before final cleanup: 1295
+Channels before final cleanup: 1299
 Clearly non-English channels removed: 31
-Final English-focused channels: 1264
+Final English-focused channels: 1268
 
 Removed by primary source:
   Plex: 13
@@ -511,16 +511,16 @@ Custom channels added: 1
 EPG / NOW PLAYING SUMMARY
 ================================================================
 
-Master channels: 1265
-Channels with guide data: 1264
+Master channels: 1269
+Channels with guide data: 1268
 Channels without guide data: 1
 Channels using fallback-provider guide identity: 0
 Guide window: 3 hours past through 36 hours future
 
-Samsung: 542/542 IDs matched; 4643 programmes
-Pluto: 388/388 IDs matched; 8078 programmes
-Roku: 214/214 IDs matched; 10576 programmes
-Plex: 658/658 IDs matched; 20694 programmes
+Samsung: 544/544 IDs matched; 4705 programmes
+Pluto: 388/388 IDs matched; 7997 programmes
+Roku: 223/223 IDs matched; 10880 programmes
+Plex: 658/658 IDs matched; 20621 programmes
 
 Sample channels without guide data:
   Schwab Network
