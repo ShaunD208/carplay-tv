@@ -22,18 +22,18 @@ Alternate feeds retained: 139
 
 Roku
 ----
-Raw channels: 253
+Raw channels: 260
 Non-English filtered: 15
-English candidates: 238
-New unique channels added: 158
-Alternate feeds retained: 80
+English candidates: 245
+New unique channels added: 164
+Alternate feeds retained: 81
 
 Tubi
 ----
-Raw channels: 179
+Raw channels: 176
 Non-English filtered: 9
-English candidates: 170
-New unique channels added: 54
+English candidates: 167
+New unique channels added: 51
 Alternate feeds retained: 116
 
 Plex
@@ -41,8 +41,8 @@ Plex
 Raw channels: 692
 Non-English filtered: 17
 English candidates: 675
-New unique channels added: 322
-Alternate feeds retained: 353
+New unique channels added: 319
+Alternate feeds retained: 356
 
 ================================================================
 LANGUAGE FILTER SUMMARY
@@ -145,28 +145,28 @@ Plex: 17
 MASTER PLAYLIST SUMMARY
 ================================================================
 
-Total upstream entries: 2138
+Total upstream entries: 2142
 Non-English entries filtered: 122
 Final unique English-focused channels: 1327
-Alternate feeds retained: 688
-Channels with fallback feeds: 456
+Alternate feeds retained: 692
+Channels with fallback feeds: 459
 Known-dead primaries promoted: 0
 Known-dead channels removed: 1
 
 Primary channels by source:
   Samsung: 545
   Pluto: 249
-  Roku: 157
-  Tubi: 54
-  Plex: 322
+  Roku: 163
+  Tubi: 51
+  Plex: 319
 
 Top categories:
-  United States: 322
+  United States: 319
   Comedy: 65
   Kids: 55
+  TV & Entertainment: 55
   Sports & Outdoors: 53
   Music: 53
-  TV & Entertainment: 53
   Movies: 52
   Crime: 46
   Action & Drama: 42
@@ -178,9 +178,9 @@ Top categories:
   News & Opinion: 26
   Reality: 25
   Classic TV: 22
-  Local News: 22
   Reality Competition: 20
   Sci-Fi & Horror: 19
+  Local News: 19
   Ambiance: 17
   Drama: 16
   Western & Classic TV: 15
@@ -199,7 +199,7 @@ Top categories:
   Music Videos: 8
   Anime: 7
   Competition Reality: 6
-  Documentary: 5
+  Documentary: 6
   Entertainment: 4
 
 ================================================================
@@ -267,23 +267,23 @@ Server fail: 11
   Manifest reachable and appears to be HLS
 [server-pass] Roku - Fluffy TV
   Manifest reachable and appears to be HLS
-[server-pass] Roku - FilmRise True Crime
+[server-pass] Roku - FilmRise Mysteries
   Manifest reachable and appears to be HLS
-[server-pass] Roku - EarthDay 365
+[server-pass] Roku - This Old House Classic
   Manifest reachable and appears to be HLS
-[server-pass] Roku - Stingray Free Riding
+[server-pass] Roku - LaMúsica TV
   Manifest reachable and appears to be HLS
 [server-pass] Roku - WBTV News 3
   Manifest reachable and appears to be HLS
-[server-pass] Roku - FILMEX
+[server-pass] Roku - Estrella TV Deportes
   Manifest reachable and appears to be HLS
 [server-pass] Roku - Todo Cine
   Manifest reachable and appears to be HLS
-[server-pass] Roku - FGTeeV
+[server-pass] Roku - FilmRise Autopista al Cielo
   Manifest reachable and appears to be HLS
 [server-pass] Roku - JoySauce Network
   Manifest reachable and appears to be HLS
-[server-pass] Roku - The Ed Sullivan Show
+[server-pass] Roku - Stingray Zen Life
   Manifest reachable and appears to be HLS
 [server-pass] Roku - Weathernation
   Manifest reachable and appears to be HLS
@@ -291,7 +291,7 @@ Server fail: 11
   Manifest reachable and appears to be HLS
 [server-pass] Tubi - Classic Doctor Who
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - Def Jam
+[server-pass] Tubi - Deal or No Deal USA
   Manifest reachable and appears to be HLS
 [server-pass] Tubi - FOX LOCAL New York
   Manifest reachable and appears to be HLS
@@ -299,13 +299,13 @@ Server fail: 11
   Manifest reachable and appears to be HLS
 [server-pass] Tubi - In the Garage
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - KSBY News California
+[server-pass] Tubi - KMTV 3 News Omaha
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - NASCAR
+[server-pass] Tubi - NHL
   Manifest reachable and appears to be HLS
 [server-pass] Tubi - Real Madrid
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - The Biggest Loser
+[server-pass] Tubi - The Breakfast Club on iHeartRadio
   Manifest reachable and appears to be HLS
 [server-pass] Tubi - theGrio
   Manifest reachable and appears to be HLS
@@ -321,7 +321,7 @@ Server fail: 11
   Manifest reachable and appears to be HLS
 [server-pass] Plex - Go Wild
   Manifest reachable and appears to be HLS
-[server-pass] Plex - Iron Chef
+[server-pass] Plex - ITV Deportes
   Manifest reachable and appears to be HLS
 [server-pass] Plex - Mi Casa
   Manifest reachable and appears to be HLS
@@ -329,9 +329,9 @@ Server fail: 11
   Manifest reachable and appears to be HLS
 [server-pass] Plex - Silent Witness|New Tricks
   Manifest reachable and appears to be HLS
-[server-pass] Plex - That Girl
+[server-pass] Plex - Tennis+
   Manifest reachable and appears to be HLS
-[server-pass] Plex - Tribeca Channel
+[server-pass] Plex - Travel Escapes
   Manifest reachable and appears to be HLS
 [server-pass] Plex - ÚN TV
   Manifest reachable and appears to be HLS
@@ -346,10 +346,10 @@ Generic categories recovered from fallback metadata: 0
 United States display category: 0
 
   News: 59
-  Local News: 27
+  Local News: 24
   Sports: 143
   Movies: 70
-  TV: 147
+  TV: 149
   Comedy: 69
   Crime: 70
   Reality: 104
@@ -358,20 +358,20 @@ United States display category: 0
   Kids: 71
   Music: 82
   Food & Home: 75
-  Lifestyle: 60
+  Lifestyle: 61
   Nature & Travel: 19
   History & Science: 54
-  Documentary: 6
+  Documentary: 7
   Anime: 22
   Game Shows: 29
   Westerns: 12
-  Other: 104
+  Other: 103
 
 ================================================================
 V4 OTHER CHANNEL AUDIT
 ================================================================
 
-Unresolved Other channels: 104
+Unresolved Other channels: 103
 Remaining entries are intentionally left unresolved rather than forcing a low-confidence category.
 
   Dark Shadows | source=Pluto | original=Halloween Hits | useful=Halloween Hits
@@ -469,7 +469,6 @@ Remaining entries are intentionally left unresolved rather than forcing a low-co
   TRACE Latina | source=Plex | original=United States | useful=United States
   Trailer Park Boys: The SwearNet Show | source=Plex | original=United States | useful=United States
   Trailers From Hell | source=Plex | original=United States | useful=United States
-  Unique Lives | source=Plex | original=United States | useful=United States
   VR+ | source=Plex | original=United States | useful=United States
   WAPA+ | source=Plex | original=United States | useful=United States
   Wedotv Amor Piel Salvaje | source=Plex | original=United States | useful=United States
@@ -538,22 +537,55 @@ EPG / NOW PLAYING SUMMARY
 ================================================================
 
 Master channels: 1297
-Channels with guide data: 1290
-Channels without guide data: 7
+Channels with guide data: 1118
+Channels without guide data: 179
 Channels using fallback-provider guide identity: 0
 Guide window: 3 hours past through 36 hours future
 
-Samsung: 544/544 IDs matched; 4702 programmes
-Pluto: 388/388 IDs matched; 7989 programmes
-Roku: 218/219 IDs matched; 10683 programmes
-Tubi: 170/170 IDs matched; 9450 programmes
-Plex: 646/658 IDs matched; 12914 programmes
+Samsung: 544/544 IDs matched; 4681 programmes
+Pluto: 388/388 IDs matched; 8024 programmes
+Roku: 225/226 IDs matched; 11042 programmes
+Tubi: 167/167 IDs matched; 9159 programmes
+Plex: 285/658 IDs matched; 8176 programmes
 
 Sample channels without guide data:
-  Naturaleza
-  Stingray Karaoke
-  TRACE Brazuca
-  TRACE Latina
-  XITE Celebrates
-  XITE Hip-Hop Evolution
-  Schwab Network
+  123GO!
+  24 Hour Free Movies
+  365BLK [FAST]
+  5-Minute Crafts
+  ACL Cornhole TV
+  AddictaTV
+  Alternative
+  American Gladiators by MGM
+  Autopista al Cielo
+  BBC Game Shows
+  BBC News (North America)
+  Beyblade
+  BlackPix
+  BOOT
+  Buen Viaje
+  Camp Spoopy
+  Caught in Providence
+  Cesar's Pack Leader TV
+  Chef vs Chef
+  Chip & Jo: Feels Like Home
+  Cine de Horror
+  Classic Car Auctions
+  Classic Rock
+  Clic
+  CombaTV
+  Come Dine With Me
+  Creator Television
+  Cricket Gold
+  Crime & Justice
+  Crime Scene TV
+  Dark Matter TV
+  Delito
+  DREAD TV
+  EarthXtra
+  Easy Listening
+  Eddie's Wonderland
+  El Conflicto TV
+  Emoción Atres
+  Entertains
+  Entravision Ahora
