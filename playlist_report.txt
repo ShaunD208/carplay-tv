@@ -30,19 +30,19 @@ Alternate feeds retained: 81
 
 Tubi
 ----
-Raw channels: 176
+Raw channels: 278
 Non-English filtered: 9
-English candidates: 167
-New unique channels added: 51
-Alternate feeds retained: 116
+English candidates: 269
+New unique channels added: 151
+Alternate feeds retained: 118
 
 Plex
 ----
-Raw channels: 692
+Raw channels: 694
 Non-English filtered: 17
-English candidates: 675
-New unique channels added: 319
-Alternate feeds retained: 356
+English candidates: 677
+New unique channels added: 320
+Alternate feeds retained: 357
 
 ================================================================
 LANGUAGE FILTER SUMMARY
@@ -145,11 +145,11 @@ Plex: 17
 MASTER PLAYLIST SUMMARY
 ================================================================
 
-Total upstream entries: 2142
+Total upstream entries: 2246
 Non-English entries filtered: 122
-Final unique English-focused channels: 1327
-Alternate feeds retained: 692
-Channels with fallback feeds: 459
+Final unique English-focused channels: 1428
+Alternate feeds retained: 695
+Channels with fallback feeds: 461
 Known-dead primaries promoted: 0
 Known-dead channels removed: 1
 
@@ -157,14 +157,15 @@ Primary channels by source:
   Samsung: 545
   Pluto: 249
   Roku: 163
-  Tubi: 51
-  Plex: 319
+  Tubi: 151
+  Plex: 320
 
 Top categories:
-  United States: 319
+  United States: 320
+  Local News: 119
   Comedy: 65
+  TV & Entertainment: 56
   Kids: 55
-  TV & Entertainment: 55
   Sports & Outdoors: 53
   Music: 53
   Movies: 52
@@ -180,7 +181,6 @@ Top categories:
   Classic TV: 22
   Reality Competition: 20
   Sci-Fi & Horror: 19
-  Local News: 19
   Ambiance: 17
   Drama: 16
   Western & Classic TV: 15
@@ -285,31 +285,31 @@ Server fail: 11
   Manifest reachable and appears to be HLS
 [server-pass] Roku - Stingray Zen Life
   Manifest reachable and appears to be HLS
-[server-pass] Roku - Weathernation
+[server-pass] Roku - ÚNICA TV
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - ACCDN
+[server-pass] Tubi - 25 News KXXV / KRHD
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - Classic Doctor Who
-  Manifest reachable and appears to be HLS
-[server-pass] Tubi - Deal or No Deal USA
+[server-pass] Tubi - Def Jam
   Manifest reachable and appears to be HLS
 [server-pass] Tubi - FOX LOCAL New York
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - Ghosts are Real
+[server-pass] Tubi - HBO Boxing
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - In the Garage
+[server-pass] Tubi - KGUN 9 Tucson News
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - KMTV 3 News Omaha
+[server-pass] Tubi - KOCO Very Oklahoma 5
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - NHL
+[server-pass] Tubi - MADtv
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - Real Madrid
+[server-pass] Tubi - Sweet Escapes
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - The Breakfast Club on iHeartRadio
+[server-pass] Tubi - WAPT Very Jackson 16
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - theGrio
+[server-pass] Tubi - WJCL Very Savannah 22
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - Welcome Home
+[server-pass] Tubi - WPXI Pittsburgh
+  Manifest reachable and appears to be HLS
+[server-pass] Tubi - WYFF Very S. Carolina 4
   Manifest reachable and appears to be HLS
 [server-pass] Plex - 123GO!
   Manifest reachable and appears to be HLS
@@ -341,15 +341,15 @@ V4 NORMALIZED CATEGORY SUMMARY
 ================================================================
 
 Display taxonomy: 21 CarPlay categories
-Channels categorized: 1327
+Channels categorized: 1428
 Generic categories recovered from fallback metadata: 0
 United States display category: 0
 
-  News: 59
-  Local News: 24
+  News: 58
+  Local News: 124
   Sports: 143
   Movies: 70
-  TV: 149
+  TV: 150
   Comedy: 69
   Crime: 70
   Reality: 104
@@ -365,13 +365,13 @@ United States display category: 0
   Anime: 22
   Game Shows: 29
   Westerns: 12
-  Other: 103
+  Other: 104
 
 ================================================================
 V4 OTHER CHANNEL AUDIT
 ================================================================
 
-Unresolved Other channels: 103
+Unresolved Other channels: 104
 Remaining entries are intentionally left unresolved rather than forcing a low-confidence category.
 
   Dark Shadows | source=Pluto | original=Halloween Hits | useful=Halloween Hits
@@ -428,6 +428,7 @@ Remaining entries are intentionally left unresolved rather than forcing a low-co
   Lone Star | source=Plex | original=United States | useful=United States
   Lucha Plus | source=Plex | original=United States | useful=United States
   Made In Hollywood | source=Plex | original=United States | useful=United States
+  Man City 24/7 | source=Plex | original=United States | useful=United States
   McLeods Daughters | source=Plex | original=United States | useful=United States
   Mera Mera TV | source=Plex | original=United States | useful=United States
   Mi Casa | source=Plex | original=United States | useful=United States
@@ -482,9 +483,9 @@ Remaining entries are intentionally left unresolved rather than forcing a low-co
 FINAL ENGLISH-ONLY CLEANUP
 ================================================================
 
-Channels before final cleanup: 1327
+Channels before final cleanup: 1428
 Clearly non-English channels removed: 31
-Final English-focused channels: 1296
+Final English-focused channels: 1397
 
 Removed by primary source:
   Plex: 13
@@ -536,56 +537,17 @@ Custom channels added: 1
 EPG / NOW PLAYING SUMMARY
 ================================================================
 
-Master channels: 1297
-Channels with guide data: 1118
-Channels without guide data: 179
+Master channels: 1398
+Channels with guide data: 1397
+Channels without guide data: 1
 Channels using fallback-provider guide identity: 0
 Guide window: 3 hours past through 36 hours future
 
-Samsung: 544/544 IDs matched; 4681 programmes
-Pluto: 388/388 IDs matched; 8024 programmes
-Roku: 225/226 IDs matched; 11042 programmes
-Tubi: 167/167 IDs matched; 9159 programmes
-Plex: 285/658 IDs matched; 8176 programmes
+Samsung: 544/544 IDs matched; 4743 programmes
+Pluto: 388/388 IDs matched; 8035 programmes
+Roku: 226/226 IDs matched; 10714 programmes
+Tubi: 269/269 IDs matched; 13114 programmes
+Plex: 660/660 IDs matched; 13693 programmes
 
 Sample channels without guide data:
-  123GO!
-  24 Hour Free Movies
-  365BLK [FAST]
-  5-Minute Crafts
-  ACL Cornhole TV
-  AddictaTV
-  Alternative
-  American Gladiators by MGM
-  Autopista al Cielo
-  BBC Game Shows
-  BBC News (North America)
-  Beyblade
-  BlackPix
-  BOOT
-  Buen Viaje
-  Camp Spoopy
-  Caught in Providence
-  Cesar's Pack Leader TV
-  Chef vs Chef
-  Chip & Jo: Feels Like Home
-  Cine de Horror
-  Classic Car Auctions
-  Classic Rock
-  Clic
-  CombaTV
-  Come Dine With Me
-  Creator Television
-  Cricket Gold
-  Crime & Justice
-  Crime Scene TV
-  Dark Matter TV
-  Delito
-  DREAD TV
-  EarthXtra
-  Easy Listening
-  Eddie's Wonderland
-  El Conflicto TV
-  Emoción Atres
-  Entertains
-  Entravision Ahora
+  Schwab Network
