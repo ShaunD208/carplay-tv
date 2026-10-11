@@ -22,27 +22,27 @@ Alternate feeds retained: 139
 
 Roku
 ----
-Raw channels: 260
+Raw channels: 254
 Non-English filtered: 15
-English candidates: 245
-New unique channels added: 164
-Alternate feeds retained: 81
+English candidates: 239
+New unique channels added: 161
+Alternate feeds retained: 78
 
 Tubi
 ----
-Raw channels: 278
+Raw channels: 181
 Non-English filtered: 9
-English candidates: 269
-New unique channels added: 151
-Alternate feeds retained: 118
+English candidates: 172
+New unique channels added: 56
+Alternate feeds retained: 116
 
 Plex
 ----
 Raw channels: 694
 Non-English filtered: 17
 English candidates: 677
-New unique channels added: 320
-Alternate feeds retained: 357
+New unique channels added: 321
+Alternate feeds retained: 356
 
 ================================================================
 LANGUAGE FILTER SUMMARY
@@ -145,29 +145,28 @@ Plex: 17
 MASTER PLAYLIST SUMMARY
 ================================================================
 
-Total upstream entries: 2246
+Total upstream entries: 2143
 Non-English entries filtered: 122
-Final unique English-focused channels: 1428
-Alternate feeds retained: 695
-Channels with fallback feeds: 461
+Final unique English-focused channels: 1331
+Alternate feeds retained: 689
+Channels with fallback feeds: 458
 Known-dead primaries promoted: 0
 Known-dead channels removed: 1
 
 Primary channels by source:
   Samsung: 545
   Pluto: 249
-  Roku: 163
-  Tubi: 151
-  Plex: 320
+  Roku: 160
+  Tubi: 56
+  Plex: 321
 
 Top categories:
-  United States: 320
-  Local News: 119
+  United States: 321
   Comedy: 65
-  TV & Entertainment: 56
   Kids: 55
   Sports & Outdoors: 53
   Music: 53
+  TV & Entertainment: 53
   Movies: 52
   Crime: 46
   Action & Drama: 42
@@ -178,6 +177,7 @@ Top categories:
   Lifestyle & Pop Culture: 27
   News & Opinion: 26
   Reality: 25
+  Local News: 24
   Classic TV: 22
   Reality Competition: 20
   Sci-Fi & Horror: 19
@@ -267,49 +267,49 @@ Server fail: 11
   Manifest reachable and appears to be HLS
 [server-pass] Roku - Fluffy TV
   Manifest reachable and appears to be HLS
-[server-pass] Roku - FilmRise Mysteries
+[server-pass] Roku - FilmRise True Crime
   Manifest reachable and appears to be HLS
 [server-pass] Roku - This Old House Classic
   Manifest reachable and appears to be HLS
 [server-pass] Roku - LaMúsica TV
   Manifest reachable and appears to be HLS
-[server-pass] Roku - WBTV News 3
+[server-pass] Roku - Telemundo Al Día
   Manifest reachable and appears to be HLS
 [server-pass] Roku - Estrella TV Deportes
   Manifest reachable and appears to be HLS
-[server-pass] Roku - Todo Cine
+[server-pass] Roku - TNA Wrestling Channel
   Manifest reachable and appears to be HLS
 [server-pass] Roku - FilmRise Autopista al Cielo
   Manifest reachable and appears to be HLS
 [server-pass] Roku - JoySauce Network
   Manifest reachable and appears to be HLS
-[server-pass] Roku - Stingray Zen Life
+[server-pass] Roku - The Ed Sullivan Show
   Manifest reachable and appears to be HLS
-[server-pass] Roku - ÚNICA TV
+[server-pass] Roku - Weathernation
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - 25 News KXXV / KRHD
+[server-pass] Tubi - ACCDN
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - Def Jam
+[server-pass] Tubi - Classic Cinema
+  Manifest reachable and appears to be HLS
+[server-pass] Tubi - Deal or No Deal USA
   Manifest reachable and appears to be HLS
 [server-pass] Tubi - FOX LOCAL New York
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - HBO Boxing
+[server-pass] Tubi - Gordon Ramsay
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - KGUN 9 Tucson News
+[server-pass] Tubi - Jesser
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - KOCO Very Oklahoma 5
+[server-pass] Tubi - NASCAR
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - MADtv
+[server-pass] Tubi - Real Madrid
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - Sweet Escapes
+[server-pass] Tubi - The Breakfast Club on iHeartRadio
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - WAPT Very Jackson 16
+[server-pass] Tubi - Third Watch
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - WJCL Very Savannah 22
+[server-pass] Tubi - WBAL Very Baltimore 11
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - WPXI Pittsburgh
-  Manifest reachable and appears to be HLS
-[server-pass] Tubi - WYFF Very S. Carolina 4
+[server-pass] Tubi - WUSA DC/MD/VA 9
   Manifest reachable and appears to be HLS
 [server-pass] Plex - 123GO!
   Manifest reachable and appears to be HLS
@@ -341,21 +341,21 @@ V4 NORMALIZED CATEGORY SUMMARY
 ================================================================
 
 Display taxonomy: 21 CarPlay categories
-Channels categorized: 1428
+Channels categorized: 1331
 Generic categories recovered from fallback metadata: 0
 United States display category: 0
 
-  News: 58
-  Local News: 124
+  News: 59
+  Local News: 29
   Sports: 143
   Movies: 70
-  TV: 150
+  TV: 147
   Comedy: 69
   Crime: 70
   Reality: 104
   Classics: 45
   Sci-Fi & Horror: 59
-  Kids: 71
+  Kids: 70
   Music: 82
   Food & Home: 75
   Lifestyle: 61
@@ -365,13 +365,13 @@ United States display category: 0
   Anime: 22
   Game Shows: 29
   Westerns: 12
-  Other: 104
+  Other: 105
 
 ================================================================
 V4 OTHER CHANNEL AUDIT
 ================================================================
 
-Unresolved Other channels: 104
+Unresolved Other channels: 105
 Remaining entries are intentionally left unresolved rather than forcing a low-confidence category.
 
   Dark Shadows | source=Pluto | original=Halloween Hits | useful=Halloween Hits
@@ -417,6 +417,7 @@ Remaining entries are intentionally left unresolved rather than forcing a low-co
   Ideas En 5 Minutos | source=Plex | original=United States | useful=United States
   INTER 24/7 | source=Plex | original=United States | useful=United States
   Jade Fever | source=Plex | original=United States | useful=United States
+  Johnny Carson TV | source=Plex | original=United States | useful=United States
   JoySauce | source=Plex | original=United States | useful=United States
   Jubao | source=Plex | original=United States | useful=United States
   KidsFlix | source=Plex | original=United States | useful=United States
@@ -483,9 +484,9 @@ Remaining entries are intentionally left unresolved rather than forcing a low-co
 FINAL ENGLISH-ONLY CLEANUP
 ================================================================
 
-Channels before final cleanup: 1428
+Channels before final cleanup: 1331
 Clearly non-English channels removed: 31
-Final English-focused channels: 1397
+Final English-focused channels: 1300
 
 Removed by primary source:
   Plex: 13
@@ -537,17 +538,17 @@ Custom channels added: 1
 EPG / NOW PLAYING SUMMARY
 ================================================================
 
-Master channels: 1398
-Channels with guide data: 1397
+Master channels: 1301
+Channels with guide data: 1300
 Channels without guide data: 1
-Channels using fallback-provider guide identity: 0
+Channels using fallback-provider guide identity: 1
 Guide window: 3 hours past through 36 hours future
 
-Samsung: 544/544 IDs matched; 4743 programmes
-Pluto: 388/388 IDs matched; 8035 programmes
-Roku: 226/226 IDs matched; 10714 programmes
-Tubi: 269/269 IDs matched; 13114 programmes
-Plex: 660/660 IDs matched; 13693 programmes
+Samsung: 544/544 IDs matched; 4692 programmes
+Pluto: 388/388 IDs matched; 7979 programmes
+Roku: 219/220 IDs matched; 10501 programmes
+Tubi: 172/172 IDs matched; 9263 programmes
+Plex: 660/660 IDs matched; 19420 programmes
 
 Sample channels without guide data:
   Schwab Network
