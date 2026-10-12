@@ -22,11 +22,11 @@ Alternate feeds retained: 139
 
 Roku
 ----
-Raw channels: 254
+Raw channels: 256
 Non-English filtered: 15
-English candidates: 239
-New unique channels added: 161
-Alternate feeds retained: 78
+English candidates: 241
+New unique channels added: 162
+Alternate feeds retained: 79
 
 Tubi
 ----
@@ -41,8 +41,8 @@ Plex
 Raw channels: 694
 Non-English filtered: 17
 English candidates: 677
-New unique channels added: 321
-Alternate feeds retained: 356
+New unique channels added: 322
+Alternate feeds retained: 355
 
 ================================================================
 LANGUAGE FILTER SUMMARY
@@ -145,28 +145,28 @@ Plex: 17
 MASTER PLAYLIST SUMMARY
 ================================================================
 
-Total upstream entries: 2143
+Total upstream entries: 2145
 Non-English entries filtered: 122
-Final unique English-focused channels: 1331
+Final unique English-focused channels: 1333
 Alternate feeds retained: 689
-Channels with fallback feeds: 458
+Channels with fallback feeds: 457
 Known-dead primaries promoted: 0
 Known-dead channels removed: 1
 
 Primary channels by source:
   Samsung: 545
   Pluto: 249
-  Roku: 160
+  Roku: 161
   Tubi: 56
-  Plex: 321
+  Plex: 322
 
 Top categories:
-  United States: 321
-  Comedy: 65
+  United States: 322
+  Comedy: 64
+  TV & Entertainment: 56
   Kids: 55
   Sports & Outdoors: 53
   Music: 53
-  TV & Entertainment: 53
   Movies: 52
   Crime: 46
   Action & Drama: 42
@@ -199,7 +199,7 @@ Top categories:
   Music Videos: 8
   Anime: 7
   Competition Reality: 6
-  Documentary: 6
+  Documentary: 5
   Entertainment: 4
 
 ================================================================
@@ -211,9 +211,9 @@ Server validation is health checking only.
 Chrome/hls.js failure does NOT automatically exclude a channel.
 
 Samples tested: 60
-Server pass: 49
+Server pass: 47
 Server warning: 0
-Server fail: 11
+Server fail: 13
 
 [server-pass] Samsung - 21 Jump Street
   Manifest reachable and appears to be HLS
@@ -265,25 +265,25 @@ Server fail: 11
   HTTP 403
 [server-pass] Roku - Curiosity Explora
   Manifest reachable and appears to be HLS
-[server-pass] Roku - Fluffy TV
+[server-pass] Roku - Sam and Colby
   Manifest reachable and appears to be HLS
-[server-pass] Roku - FilmRise True Crime
+[server-fail] Roku - First 48
+  HTTP 404
+[server-pass] Roku - Dove
   Manifest reachable and appears to be HLS
-[server-pass] Roku - This Old House Classic
+[server-pass] Roku - ABC7 Sarasota
   Manifest reachable and appears to be HLS
-[server-pass] Roku - LaMúsica TV
+[server-pass] Roku - Like Nastya
   Manifest reachable and appears to be HLS
-[server-pass] Roku - Telemundo Al Día
+[server-pass] Roku - FILMEX Clásico
   Manifest reachable and appears to be HLS
-[server-pass] Roku - Estrella TV Deportes
+[server-fail] Roku - ViX Lo Mejor de Liga MX
+  HTTP 404
+[server-pass] Roku - FilmRise Black TV
   Manifest reachable and appears to be HLS
-[server-pass] Roku - TNA Wrestling Channel
+[server-pass] Roku - Kalogeras Sisters TV
   Manifest reachable and appears to be HLS
-[server-pass] Roku - FilmRise Autopista al Cielo
-  Manifest reachable and appears to be HLS
-[server-pass] Roku - JoySauce Network
-  Manifest reachable and appears to be HLS
-[server-pass] Roku - The Ed Sullivan Show
+[server-pass] Roku - The Dick Van Dyke Show
   Manifest reachable and appears to be HLS
 [server-pass] Roku - Weathernation
   Manifest reachable and appears to be HLS
@@ -313,9 +313,9 @@ Server fail: 11
   Manifest reachable and appears to be HLS
 [server-pass] Plex - 123GO!
   Manifest reachable and appears to be HLS
-[server-pass] Plex - Bizarre Foods with Andrew Zimmern
+[server-pass] Plex - Bizaar
   Manifest reachable and appears to be HLS
-[server-pass] Plex - Creator Television
+[server-pass] Plex - Cosmic Frontiers
   Manifest reachable and appears to be HLS
 [server-pass] Plex - Fifth Gear (UK)
   Manifest reachable and appears to be HLS
@@ -325,9 +325,9 @@ Server fail: 11
   Manifest reachable and appears to be HLS
 [server-pass] Plex - Mi Casa
   Manifest reachable and appears to be HLS
-[server-pass] Plex - PickleTV
+[server-pass] Plex - Perform by Lifetime
   Manifest reachable and appears to be HLS
-[server-pass] Plex - Silent Witness|New Tricks
+[server-pass] Plex - Shout! Movies
   Manifest reachable and appears to be HLS
 [server-pass] Plex - Tennis+
   Manifest reachable and appears to be HLS
@@ -341,7 +341,7 @@ V4 NORMALIZED CATEGORY SUMMARY
 ================================================================
 
 Display taxonomy: 21 CarPlay categories
-Channels categorized: 1331
+Channels categorized: 1333
 Generic categories recovered from fallback metadata: 0
 United States display category: 0
 
@@ -349,19 +349,19 @@ United States display category: 0
   Local News: 29
   Sports: 143
   Movies: 70
-  TV: 147
-  Comedy: 69
+  TV: 150
+  Comedy: 68
   Crime: 70
   Reality: 104
   Classics: 45
-  Sci-Fi & Horror: 59
-  Kids: 70
+  Sci-Fi & Horror: 60
+  Kids: 71
   Music: 82
   Food & Home: 75
-  Lifestyle: 61
+  Lifestyle: 60
   Nature & Travel: 19
   History & Science: 54
-  Documentary: 7
+  Documentary: 6
   Anime: 22
   Game Shows: 29
   Westerns: 12
@@ -380,6 +380,7 @@ Remaining entries are intentionally left unresolved rather than forcing a low-co
   A Touch of Frost | source=Plex | original=United States | useful=United States
   AddictaTV | source=Plex | original=United States | useful=United States
   AfroLandTV | source=Plex | original=United States | useful=United States
+  ALF | source=Plex | original=United States | useful=United States
   Aliwko | source=Plex | original=United States | useful=United States
   Alternative | source=Plex | original=United States | useful=United States
   Amasian TV | source=Plex | original=United States | useful=United States
@@ -417,7 +418,6 @@ Remaining entries are intentionally left unresolved rather than forcing a low-co
   Ideas En 5 Minutos | source=Plex | original=United States | useful=United States
   INTER 24/7 | source=Plex | original=United States | useful=United States
   Jade Fever | source=Plex | original=United States | useful=United States
-  Johnny Carson TV | source=Plex | original=United States | useful=United States
   JoySauce | source=Plex | original=United States | useful=United States
   Jubao | source=Plex | original=United States | useful=United States
   KidsFlix | source=Plex | original=United States | useful=United States
@@ -484,9 +484,9 @@ Remaining entries are intentionally left unresolved rather than forcing a low-co
 FINAL ENGLISH-ONLY CLEANUP
 ================================================================
 
-Channels before final cleanup: 1331
+Channels before final cleanup: 1333
 Clearly non-English channels removed: 31
-Final English-focused channels: 1300
+Final English-focused channels: 1302
 
 Removed by primary source:
   Plex: 13
@@ -538,17 +538,17 @@ Custom channels added: 1
 EPG / NOW PLAYING SUMMARY
 ================================================================
 
-Master channels: 1301
-Channels with guide data: 1300
+Master channels: 1303
+Channels with guide data: 1302
 Channels without guide data: 1
-Channels using fallback-provider guide identity: 1
+Channels using fallback-provider guide identity: 0
 Guide window: 3 hours past through 36 hours future
 
-Samsung: 544/544 IDs matched; 4692 programmes
-Pluto: 388/388 IDs matched; 7979 programmes
-Roku: 219/220 IDs matched; 10501 programmes
-Tubi: 172/172 IDs matched; 9263 programmes
-Plex: 660/660 IDs matched; 19420 programmes
+Samsung: 544/544 IDs matched; 4677 programmes
+Pluto: 388/388 IDs matched; 7861 programmes
+Roku: 222/222 IDs matched; 11268 programmes
+Tubi: 172/172 IDs matched; 9390 programmes
+Plex: 660/660 IDs matched; 23867 programmes
 
 Sample channels without guide data:
   Schwab Network
