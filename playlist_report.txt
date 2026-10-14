@@ -162,17 +162,17 @@ Primary channels by source:
 
 Top categories:
   United States: 319
-  Comedy: 65
+  Comedy: 64
   TV & Entertainment: 56
   Kids: 55
   Sports & Outdoors: 53
+  Movies: 53
   Music: 53
-  Movies: 52
   Crime: 46
   Action & Drama: 42
   Home & Food: 40
   Reality TV: 38
-  Sports: 35
+  Sports: 34
   Nature, History & Science: 29
   Lifestyle & Pop Culture: 27
   News & Opinion: 26
@@ -186,10 +186,10 @@ Top categories:
   Western & Classic TV: 15
   Sci-Fi: 15
   Daytime + Game Shows: 15
+  News: 15
   Anime & Gaming: 14
   Motor Sports: 14
   Home + Food: 14
-  News: 14
   True Crime: 12
   Game Shows: 11
   Sports On Now: 9
@@ -273,11 +273,11 @@ Server fail: 0
   Manifest reachable and appears to be HLS
 [server-pass] Roku - LaMúsica TV
   Manifest reachable and appears to be HLS
-[server-pass] Roku - WSMV 4 News
+[server-pass] Roku - WBTV News 3
   Manifest reachable and appears to be HLS
-[server-pass] Roku - FILMEX
+[server-pass] Roku - Estrella TV Deportes
   Manifest reachable and appears to be HLS
-[server-pass] Roku - Universal Westerns
+[server-pass] Roku - Todo Cine
   Manifest reachable and appears to be HLS
 [server-pass] Roku - FilmRise Black TV
   Manifest reachable and appears to be HLS
@@ -345,12 +345,12 @@ Channels categorized: 1333
 Generic categories recovered from fallback metadata: 0
 United States display category: 0
 
-  News: 58
+  News: 59
   Local News: 30
-  Sports: 143
-  Movies: 70
+  Sports: 142
+  Movies: 71
   TV: 150
-  Comedy: 69
+  Comedy: 68
   Crime: 70
   Reality: 104
   Classics: 45
@@ -484,12 +484,12 @@ FINAL ENGLISH-ONLY CLEANUP
 ================================================================
 
 Channels before final cleanup: 1333
-Clearly non-English channels removed: 31
-Final English-focused channels: 1302
+Clearly non-English channels removed: 30
+Final English-focused channels: 1303
 
 Removed by primary source:
   Plex: 13
-  Roku: 17
+  Roku: 16
   Samsung: 1
 
 Removed channels:
@@ -503,7 +503,6 @@ Removed channels:
   Novelísima | source=Roku | original=Romance
   Azteca Deportes Network LITE 3 | source=Roku | original=Sports
   Estrella TV Deportes | source=Roku | original=Sports
-  ViX Lo Mejor de Liga MX | source=Roku | original=Sports
   Azteca Internacional | source=Roku | original=TV & Entertainment
   Canal ViX | source=Roku | original=TV & Entertainment
   Canela.TV Narco-Drama | source=Roku | original=TV & Entertainment
@@ -537,18 +536,17 @@ Custom channels added: 1
 EPG / NOW PLAYING SUMMARY
 ================================================================
 
-Master channels: 1303
-Channels with guide data: 1301
-Channels without guide data: 2
+Master channels: 1304
+Channels with guide data: 1303
+Channels without guide data: 1
 Channels using fallback-provider guide identity: 0
 Guide window: 3 hours past through 36 hours future
 
-Samsung: 544/544 IDs matched; 4723 programmes
-Pluto: 388/388 IDs matched; 8041 programmes
-Roku: 226/226 IDs matched; 10879 programmes
-Tubi: 173/173 IDs matched; 9541 programmes
-Plex: 658/660 IDs matched; 22857 programmes
+Samsung: 544/544 IDs matched; 4694 programmes
+Pluto: 388/388 IDs matched; 7846 programmes
+Roku: 227/227 IDs matched; 11342 programmes
+Tubi: 173/173 IDs matched; 9475 programmes
+Plex: 660/660 IDs matched; 23015 programmes
 
 Sample channels without guide data:
-  Buen Viaje
   Schwab Network
