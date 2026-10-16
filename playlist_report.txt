@@ -14,35 +14,35 @@ Alternate feeds retained: 0
 
 Pluto TV
 --------
-Raw channels: 427
+Raw channels: 426
 Non-English filtered: 39
-English candidates: 388
+English candidates: 387
 New unique channels added: 249
-Alternate feeds retained: 139
+Alternate feeds retained: 138
 
 Roku
 ----
-Raw channels: 260
+Raw channels: 256
 Non-English filtered: 15
-English candidates: 245
+English candidates: 241
 New unique channels added: 164
-Alternate feeds retained: 81
+Alternate feeds retained: 77
 
 Tubi
 ----
-Raw channels: 177
+Raw channels: 176
 Non-English filtered: 9
-English candidates: 168
+English candidates: 167
 New unique channels added: 51
-Alternate feeds retained: 117
+Alternate feeds retained: 116
 
 Plex
 ----
 Raw channels: 695
 Non-English filtered: 17
 English candidates: 678
-New unique channels added: 321
-Alternate feeds retained: 357
+New unique channels added: 322
+Alternate feeds retained: 356
 
 ================================================================
 LANGUAGE FILTER SUMMARY
@@ -145,11 +145,11 @@ Plex: 17
 MASTER PLAYLIST SUMMARY
 ================================================================
 
-Total upstream entries: 2146
+Total upstream entries: 2140
 Non-English entries filtered: 122
-Final unique English-focused channels: 1329
-Alternate feeds retained: 694
-Channels with fallback feeds: 461
+Final unique English-focused channels: 1330
+Alternate feeds retained: 687
+Channels with fallback feeds: 458
 Known-dead primaries promoted: 0
 Known-dead channels removed: 1
 
@@ -158,10 +158,10 @@ Primary channels by source:
   Pluto: 249
   Roku: 163
   Tubi: 51
-  Plex: 321
+  Plex: 322
 
 Top categories:
-  United States: 321
+  United States: 322
   Comedy: 64
   TV & Entertainment: 56
   Kids: 55
@@ -299,17 +299,17 @@ Server fail: 0
   Manifest reachable and appears to be HLS
 [server-pass] Tubi - In the Garage
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - MADtv
+[server-pass] Tubi - KMTV 3 News Omaha
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - Paternity Court by MGM
+[server-pass] Tubi - NHL
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - Strangely Addicting
+[server-pass] Tubi - Real Madrid
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - The FBI Files
+[server-pass] Tubi - The Breakfast Club on iHeartRadio
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - Travel + Adventure
+[server-pass] Tubi - theGrio
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - WXII Very Carolina 12
+[server-pass] Tubi - Welcome Home
   Manifest reachable and appears to be HLS
 [server-pass] Plex - 123GO!
   Manifest reachable and appears to be HLS
@@ -323,11 +323,11 @@ Server fail: 0
   Manifest reachable and appears to be HLS
 [server-pass] Plex - INTER 24/7
   Manifest reachable and appears to be HLS
-[server-pass] Plex - Mi Casa
+[server-pass] Plex - MGM Presents: Westerns
   Manifest reachable and appears to be HLS
-[server-pass] Plex - PickleTV
+[server-pass] Plex - Perform by Lifetime
   Manifest reachable and appears to be HLS
-[server-pass] Plex - Silent Witness|New Tricks
+[server-pass] Plex - Shout! Movies
   Manifest reachable and appears to be HLS
 [server-pass] Plex - Tennis+
   Manifest reachable and appears to be HLS
@@ -341,11 +341,11 @@ V4 NORMALIZED CATEGORY SUMMARY
 ================================================================
 
 Display taxonomy: 21 CarPlay categories
-Channels categorized: 1329
+Channels categorized: 1330
 Generic categories recovered from fallback metadata: 0
 United States display category: 0
 
-  News: 58
+  News: 59
   Local News: 24
   Sports: 143
   Movies: 71
@@ -483,20 +483,19 @@ Remaining entries are intentionally left unresolved rather than forcing a low-co
 FINAL ENGLISH-ONLY CLEANUP
 ================================================================
 
-Channels before final cleanup: 1329
+Channels before final cleanup: 1330
 Clearly non-English channels removed: 31
-Final English-focused channels: 1298
+Final English-focused channels: 1299
 
 Removed by primary source:
-  Plex: 13
-  Roku: 17
+  Plex: 14
+  Roku: 16
   Samsung: 1
 
 Removed channels:
   N+ Univision 24/7 | source=Samsung | original=News & Opinion
   Caracol Mix | source=Roku | original=Comedy
   ViX Cine Club | source=Roku | original=Comedy
-  Estrella News | source=Roku | original=News
   Estrella TV | source=Roku | original=News
   Telemundo Al Día | source=Roku | original=News
   Cine Romantico | source=Roku | original=Romance
@@ -518,6 +517,7 @@ Removed channels:
   Cine EstrellaTV | source=Plex | original=United States
   Cine Romántico | source=Plex | original=United States
   Estrella Games | source=Plex | original=United States
+  Estrella News | source=Plex | original=United States
   Gata Salvaje | source=Plex | original=United States
   Grjngo - Películas Del Oeste | source=Plex | original=United States
   Lucha Plus | source=Plex | original=United States
@@ -537,17 +537,17 @@ Custom channels added: 1
 EPG / NOW PLAYING SUMMARY
 ================================================================
 
-Master channels: 1299
-Channels with guide data: 1298
+Master channels: 1300
+Channels with guide data: 1299
 Channels without guide data: 1
-Channels using fallback-provider guide identity: 1
+Channels using fallback-provider guide identity: 0
 Guide window: 3 hours past through 36 hours future
 
-Samsung: 544/544 IDs matched; 4696 programmes
-Pluto: 388/388 IDs matched; 8031 programmes
-Roku: 225/226 IDs matched; 10921 programmes
-Tubi: 168/168 IDs matched; 9252 programmes
-Plex: 661/661 IDs matched; 25732 programmes
+Samsung: 544/544 IDs matched; 4713 programmes
+Pluto: 387/387 IDs matched; 8040 programmes
+Roku: 223/223 IDs matched; 10695 programmes
+Tubi: 167/167 IDs matched; 9215 programmes
+Plex: 661/661 IDs matched; 26301 programmes
 
 Sample channels without guide data:
   Schwab Network
