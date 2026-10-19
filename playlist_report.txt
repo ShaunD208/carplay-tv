@@ -281,9 +281,9 @@ Server fail: 0
   Manifest reachable and appears to be HLS
 [server-pass] Roku - FilmRise Autopista al Cielo
   Manifest reachable and appears to be HLS
-[server-pass] Roku - JoySauce Network
+[server-pass] Roku - Kalogeras Sisters TV
   Manifest reachable and appears to be HLS
-[server-pass] Roku - Stingray Zen Life
+[server-pass] Roku - The Dick Van Dyke Show
   Manifest reachable and appears to be HLS
 [server-pass] Roku - Weathernation
   Manifest reachable and appears to be HLS
@@ -538,17 +538,20 @@ EPG / NOW PLAYING SUMMARY
 ================================================================
 
 Master channels: 1304
-Channels with guide data: 1302
-Channels without guide data: 2
+Channels with guide data: 1299
+Channels without guide data: 5
 Channels using fallback-provider guide identity: 0
 Guide window: 3 hours past through 36 hours future
 
-Samsung: 544/544 IDs matched; 4666 programmes
-Pluto: 386/386 IDs matched; 7951 programmes
-Roku: 225/226 IDs matched; 10748 programmes
-Tubi: 173/173 IDs matched; 9293 programmes
-Plex: 661/661 IDs matched; 18879 programmes
+Samsung: 544/544 IDs matched; 4723 programmes
+Pluto: 386/386 IDs matched; 8004 programmes
+Roku: 226/226 IDs matched; 11258 programmes
+Tubi: 173/173 IDs matched; 9398 programmes
+Plex: 656/661 IDs matched; 26304 programmes
 
 Sample channels without guide data:
-  Kelsi Davies: Paranormal Investigations
+  Buen Viaje
+  FreeTV Banda
+  Ideas En 5 Minutos
+  La Fiebre del Jade
   Schwab Network
