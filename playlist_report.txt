@@ -14,35 +14,35 @@ Alternate feeds retained: 0
 
 Pluto TV
 --------
-Raw channels: 429
+Raw channels: 430
 Non-English filtered: 39
-English candidates: 390
+English candidates: 391
 New unique channels added: 250
-Alternate feeds retained: 140
+Alternate feeds retained: 141
 
 Roku
 ----
-Raw channels: 260
+Raw channels: 261
 Non-English filtered: 15
-English candidates: 245
-New unique channels added: 164
+English candidates: 246
+New unique channels added: 165
 Alternate feeds retained: 81
 
 Tubi
 ----
-Raw channels: 182
+Raw channels: 181
 Non-English filtered: 9
-English candidates: 173
-New unique channels added: 57
+English candidates: 172
+New unique channels added: 56
 Alternate feeds retained: 116
 
 Plex
 ----
-Raw channels: 695
+Raw channels: 696
 Non-English filtered: 17
-English candidates: 678
+English candidates: 679
 New unique channels added: 322
-Alternate feeds retained: 356
+Alternate feeds retained: 357
 
 ================================================================
 LANGUAGE FILTER SUMMARY
@@ -145,19 +145,19 @@ Plex: 17
 MASTER PLAYLIST SUMMARY
 ================================================================
 
-Total upstream entries: 2154
+Total upstream entries: 2156
 Non-English entries filtered: 122
 Final unique English-focused channels: 1338
-Alternate feeds retained: 693
-Channels with fallback feeds: 459
+Alternate feeds retained: 695
+Channels with fallback feeds: 460
 Known-dead primaries promoted: 0
 Known-dead channels removed: 1
 
 Primary channels by source:
   Samsung: 546
   Pluto: 250
-  Roku: 163
-  Tubi: 57
+  Roku: 164
+  Tubi: 56
   Plex: 322
 
 Top categories:
@@ -177,7 +177,7 @@ Top categories:
   Lifestyle & Pop Culture: 28
   Reality: 28
   News & Opinion: 26
-  Local News: 25
+  Local News: 24
   Classic TV: 22
   Reality Competition: 20
   Sci-Fi & Horror: 19
@@ -185,11 +185,11 @@ Top categories:
   Drama: 16
   Western & Classic TV: 15
   Sci-Fi: 15
+  News: 15
   Anime & Gaming: 14
   Motor Sports: 14
   Home + Food: 14
   Daytime + Game Shows: 14
-  News: 14
   True Crime: 12
   Game Shows: 11
   Sports On Now: 9
@@ -267,13 +267,13 @@ Server fail: 0
   Manifest reachable and appears to be HLS
 [server-pass] Roku - Fluffy TV
   Manifest reachable and appears to be HLS
-[server-pass] Roku - FilmRise Mysteries
+[server-pass] Roku - FilmRise True Crime
   Manifest reachable and appears to be HLS
 [server-pass] Roku - This Old House Classic
   Manifest reachable and appears to be HLS
 [server-pass] Roku - LaMúsica TV
   Manifest reachable and appears to be HLS
-[server-pass] Roku - WSMV 4 News
+[server-pass] Roku - WBTV News 3
   Manifest reachable and appears to be HLS
 [server-pass] Roku - FILMEX
   Manifest reachable and appears to be HLS
@@ -281,7 +281,7 @@ Server fail: 0
   Manifest reachable and appears to be HLS
 [server-pass] Roku - FilmRise Black TV
   Manifest reachable and appears to be HLS
-[server-pass] Roku - Kalogeras Sisters TV
+[server-pass] Roku - JoySauce Network
   Manifest reachable and appears to be HLS
 [server-pass] Roku - The Dick Van Dyke Show
   Manifest reachable and appears to be HLS
@@ -289,27 +289,27 @@ Server fail: 0
   Manifest reachable and appears to be HLS
 [server-pass] Tubi - ACCDN
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - Classic Doctor Who
+[server-pass] Tubi - Classic Cinema
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - Def Jam
+[server-pass] Tubi - Deal or No Deal USA
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - FOX LOCAL Phoenix
+[server-pass] Tubi - FOX LOCAL New York
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - Ghosts are Real
+[server-pass] Tubi - Gordon Ramsay
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - In the Garage
+[server-pass] Tubi - Jesser
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - KNXV Arizona ABC15
+[server-pass] Tubi - NASCAR
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - Mysterious Worlds
+[server-pass] Tubi - Real Madrid
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - Paws & Claws
+[server-pass] Tubi - The Breakfast Club on iHeartRadio
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - The Biggest Loser
+[server-pass] Tubi - Third Watch
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - theGrio
+[server-pass] Tubi - WBAL Very Baltimore 11
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - Welcome Home
+[server-pass] Tubi - WUSA DC/MD/VA 9
   Manifest reachable and appears to be HLS
 [server-pass] Plex - 123GO!
   Manifest reachable and appears to be HLS
@@ -345,8 +345,8 @@ Channels categorized: 1338
 Generic categories recovered from fallback metadata: 0
 United States display category: 0
 
-  News: 58
-  Local News: 30
+  News: 59
+  Local News: 29
   Sports: 143
   Movies: 70
   TV: 150
@@ -538,28 +538,16 @@ EPG / NOW PLAYING SUMMARY
 ================================================================
 
 Master channels: 1308
-Channels with guide data: 1295
-Channels without guide data: 13
+Channels with guide data: 1307
+Channels without guide data: 1
 Channels using fallback-provider guide identity: 0
 Guide window: 3 hours past through 36 hours future
 
-Samsung: 541/545 IDs matched; 4658 programmes
-Pluto: 390/390 IDs matched; 8088 programmes
-Roku: 226/226 IDs matched; 11166 programmes
-Tubi: 173/173 IDs matched; 9446 programmes
-Plex: 651/661 IDs matched; 22414 programmes
+Samsung: 545/545 IDs matched; 4690 programmes
+Pluto: 391/391 IDs matched; 8114 programmes
+Roku: 227/227 IDs matched; 11187 programmes
+Tubi: 172/172 IDs matched; 9097 programmes
+Plex: 662/662 IDs matched; 19726 programmes
 
 Sample channels without guide data:
-  WBTV News
-  WCNC
-  WN Charlotte
-  WSOC Charlotte
-  Local Now Charlotte
-  Nothin' But 90s
-  Qwest TV
-  Remember the ‘80s
-  Smooth Jazz
-  The Spa
-  Today's K-Pop
-  VR+
   Schwab Network
