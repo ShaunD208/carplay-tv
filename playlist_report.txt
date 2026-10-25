@@ -22,18 +22,18 @@ Alternate feeds retained: 141
 
 Roku
 ----
-Raw channels: 259
+Raw channels: 260
 Non-English filtered: 15
-English candidates: 244
+English candidates: 245
 New unique channels added: 164
-Alternate feeds retained: 80
+Alternate feeds retained: 81
 
 Tubi
 ----
-Raw channels: 182
+Raw channels: 181
 Non-English filtered: 9
-English candidates: 173
-New unique channels added: 57
+English candidates: 172
+New unique channels added: 56
 Alternate feeds retained: 116
 
 Plex
@@ -147,9 +147,9 @@ MASTER PLAYLIST SUMMARY
 
 Total upstream entries: 2155
 Non-English entries filtered: 122
-Final unique English-focused channels: 1338
-Alternate feeds retained: 694
-Channels with fallback feeds: 459
+Final unique English-focused channels: 1337
+Alternate feeds retained: 695
+Channels with fallback feeds: 460
 Known-dead primaries promoted: 0
 Known-dead channels removed: 1
 
@@ -157,7 +157,7 @@ Primary channels by source:
   Samsung: 546
   Pluto: 250
   Roku: 163
-  Tubi: 57
+  Tubi: 56
   Plex: 322
 
 Top categories:
@@ -167,7 +167,7 @@ Top categories:
   TV & Entertainment: 56
   Sports & Outdoors: 53
   Movies: 53
-  Music: 53
+  Music: 52
   Crime: 46
   Action & Drama: 42
   Home & Food: 40
@@ -177,7 +177,7 @@ Top categories:
   Lifestyle & Pop Culture: 28
   Reality: 28
   News & Opinion: 26
-  Local News: 25
+  Local News: 24
   Classic TV: 22
   Reality Competition: 20
   Sci-Fi & Horror: 19
@@ -185,11 +185,11 @@ Top categories:
   Drama: 16
   Western & Classic TV: 15
   Sci-Fi: 15
+  News: 15
   Anime & Gaming: 14
   Motor Sports: 14
   Home + Food: 14
   Daytime + Game Shows: 14
-  News: 14
   True Crime: 12
   Game Shows: 11
   Sports On Now: 9
@@ -271,7 +271,7 @@ Server fail: 0
   Manifest reachable and appears to be HLS
 [server-pass] Roku - This Old House Classic
   Manifest reachable and appears to be HLS
-[server-pass] Roku - LaMúsica TV
+[server-pass] Roku - Stingray Free Riding
   Manifest reachable and appears to be HLS
 [server-pass] Roku - WSMV 4 News
   Manifest reachable and appears to be HLS
@@ -289,27 +289,27 @@ Server fail: 0
   Manifest reachable and appears to be HLS
 [server-pass] Tubi - ACCDN
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - Classic Doctor Who
+[server-pass] Tubi - Classic Cinema
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - Def Jam
+[server-pass] Tubi - Deal or No Deal USA
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - FOX LOCAL Phoenix
+[server-pass] Tubi - FOX LOCAL New York
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - Ghosts are Real
+[server-pass] Tubi - Gordon Ramsay
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - In the Garage
+[server-pass] Tubi - Jesser
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - KNXV Arizona ABC15
+[server-pass] Tubi - NASCAR
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - Mysterious Worlds
+[server-pass] Tubi - Real Madrid
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - Paws & Claws
+[server-pass] Tubi - The Breakfast Club on iHeartRadio
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - The Biggest Loser
+[server-pass] Tubi - Third Watch
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - theGrio
+[server-pass] Tubi - WBAL Very Baltimore 11
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - Welcome Home
+[server-pass] Tubi - WUSA DC/MD/VA 9
   Manifest reachable and appears to be HLS
 [server-pass] Plex - 123GO!
   Manifest reachable and appears to be HLS
@@ -341,12 +341,12 @@ V4 NORMALIZED CATEGORY SUMMARY
 ================================================================
 
 Display taxonomy: 21 CarPlay categories
-Channels categorized: 1338
+Channels categorized: 1337
 Generic categories recovered from fallback metadata: 0
 United States display category: 0
 
-  News: 58
-  Local News: 30
+  News: 59
+  Local News: 29
   Sports: 143
   Movies: 70
   TV: 150
@@ -356,7 +356,7 @@ United States display category: 0
   Classics: 45
   Sci-Fi & Horror: 59
   Kids: 71
-  Music: 83
+  Music: 82
   Food & Home: 75
   Lifestyle: 62
   Nature & Travel: 19
@@ -483,9 +483,9 @@ Remaining entries are intentionally left unresolved rather than forcing a low-co
 FINAL ENGLISH-ONLY CLEANUP
 ================================================================
 
-Channels before final cleanup: 1338
+Channels before final cleanup: 1337
 Clearly non-English channels removed: 31
-Final English-focused channels: 1307
+Final English-focused channels: 1306
 
 Removed by primary source:
   Plex: 13
@@ -537,17 +537,17 @@ Custom channels added: 1
 EPG / NOW PLAYING SUMMARY
 ================================================================
 
-Master channels: 1308
-Channels with guide data: 1307
+Master channels: 1307
+Channels with guide data: 1306
 Channels without guide data: 1
 Channels using fallback-provider guide identity: 0
 Guide window: 3 hours past through 36 hours future
 
-Samsung: 545/545 IDs matched; 4718 programmes
-Pluto: 391/391 IDs matched; 8108 programmes
-Roku: 225/225 IDs matched; 10921 programmes
-Tubi: 173/173 IDs matched; 9094 programmes
-Plex: 662/662 IDs matched; 19145 programmes
+Samsung: 545/545 IDs matched; 4657 programmes
+Pluto: 391/391 IDs matched; 8067 programmes
+Roku: 226/226 IDs matched; 11007 programmes
+Tubi: 172/172 IDs matched; 8874 programmes
+Plex: 662/662 IDs matched; 19984 programmes
 
 Sample channels without guide data:
   Schwab Network
