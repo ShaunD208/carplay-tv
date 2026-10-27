@@ -22,27 +22,27 @@ Alternate feeds retained: 141
 
 Roku
 ----
-Raw channels: 252
+Raw channels: 255
 Non-English filtered: 14
-English candidates: 238
-New unique channels added: 157
+English candidates: 241
+New unique channels added: 160
 Alternate feeds retained: 81
 
 Tubi
 ----
-Raw channels: 181
+Raw channels: 179
 Non-English filtered: 9
-English candidates: 172
-New unique channels added: 58
-Alternate feeds retained: 114
+English candidates: 170
+New unique channels added: 57
+Alternate feeds retained: 113
 
 Plex
 ----
 Raw channels: 696
 Non-English filtered: 17
 English candidates: 679
-New unique channels added: 323
-Alternate feeds retained: 356
+New unique channels added: 322
+Alternate feeds retained: 357
 
 ================================================================
 LANGUAGE FILTER SUMMARY
@@ -102,7 +102,7 @@ Roku: 14
   FILTERED: Noticias Telemundo AHORA [News] because name 'Noticias Telemundo AHORA'
   FILTERED: RCN Noticias [News] because name 'RCN Noticias'
   FILTERED: ViX Novelas de romance [Romance] because name 'ViX Novelas de romance'
-  FILTERED: QVC en Español [Shopping] because name 'QVC en Español'
+  FILTERED: QVC en Espanol [Shopping] because name 'QVC en Espanol'
   FILTERED: Cheaters en Español [TV & Entertainment] because name 'Cheaters en Español'
   FILTERED: Cine en Español [TV & Entertainment] because name 'Cine en Español'
   FILTERED: Runtime Español [TV & Entertainment] because name 'Runtime Español'
@@ -144,27 +144,27 @@ Plex: 17
 MASTER PLAYLIST SUMMARY
 ================================================================
 
-Total upstream entries: 2147
+Total upstream entries: 2148
 Non-English entries filtered: 121
-Final unique English-focused channels: 1333
+Final unique English-focused channels: 1334
 Alternate feeds retained: 692
-Channels with fallback feeds: 459
+Channels with fallback feeds: 460
 Known-dead primaries promoted: 0
 Known-dead channels removed: 1
 
 Primary channels by source:
   Samsung: 546
   Pluto: 250
-  Roku: 156
-  Tubi: 58
-  Plex: 323
+  Roku: 159
+  Tubi: 57
+  Plex: 322
 
 Top categories:
-  United States: 323
+  United States: 322
   Comedy: 63
   Kids: 56
+  TV & Entertainment: 56
   Sports & Outdoors: 53
-  TV & Entertainment: 53
   Movies: 52
   Music: 52
   Crime: 46
@@ -173,22 +173,22 @@ Top categories:
   Reality TV: 38
   Sports: 35
   Nature, History & Science: 29
+  Reality: 29
   Lifestyle & Pop Culture: 28
-  Reality: 28
   News & Opinion: 26
-  Local News: 24
   Classic TV: 22
+  Local News: 22
   Reality Competition: 20
   Sci-Fi & Horror: 19
   Ambiance: 17
   Drama: 16
   Western & Classic TV: 15
   Sci-Fi: 15
+  News: 15
   Anime & Gaming: 14
   Motor Sports: 14
   Home + Food: 14
   Daytime + Game Shows: 14
-  News: 14
   True Crime: 12
   Game Shows: 11
   Sports On Now: 9
@@ -210,9 +210,9 @@ Server validation is health checking only.
 Chrome/hls.js failure does NOT automatically exclude a channel.
 
 Samples tested: 60
-Server pass: 60
+Server pass: 59
 Server warning: 0
-Server fail: 0
+Server fail: 1
 
 [server-pass] Samsung - 21 Jump Street
   Manifest reachable and appears to be HLS
@@ -248,8 +248,8 @@ Server fail: 0
   Manifest reachable and appears to be HLS
 [server-pass] Pluto - Funny AF
   Manifest reachable and appears to be HLS
-[server-pass] Pluto - LEGO Kids TV
-  Manifest reachable and appears to be HLS
+[server-fail] Pluto - LEGO Kids TV
+  HTTP 500
 [server-pass] Pluto - Naturescape
   Manifest reachable and appears to be HLS
 [server-pass] Pluto - Pluto TV Competition
@@ -266,17 +266,17 @@ Server fail: 0
   Manifest reachable and appears to be HLS
 [server-pass] Roku - Ebony
   Manifest reachable and appears to be HLS
-[server-pass] Roku - FilmRise Mysteries
+[server-pass] Roku - FilmRise True Crime
   Manifest reachable and appears to be HLS
-[server-pass] Roku - Space Live
+[server-pass] Roku - This Old House Classic
   Manifest reachable and appears to be HLS
-[server-pass] Roku - LaMúsica TV
+[server-pass] Roku - ABC7 Sarasota
   Manifest reachable and appears to be HLS
-[server-pass] Roku - WSMV 4 News
+[server-pass] Roku - Like Nastya
   Manifest reachable and appears to be HLS
-[server-pass] Roku - FILMEX Clásico
+[server-pass] Roku - FreeTV Acción
   Manifest reachable and appears to be HLS
-[server-pass] Roku - Universal Westerns
+[server-pass] Roku - Xena
   Manifest reachable and appears to be HLS
 [server-pass] Roku - FilmRise British TV
   Manifest reachable and appears to be HLS
@@ -288,39 +288,39 @@ Server fail: 0
   Manifest reachable and appears to be HLS
 [server-pass] Tubi - ACCDN
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - Classic Cinema
+[server-pass] Tubi - Classic Doctor Who
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - Deal or No Deal USA
+[server-pass] Tubi - Def Jam
   Manifest reachable and appears to be HLS
 [server-pass] Tubi - FOX LOCAL New York
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - Ghosts are Real
+[server-pass] Tubi - Generation Drama
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - In the Garage
+[server-pass] Tubi - How To
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - Mysterious Worlds
+[server-pass] Tubi - KSBY News California
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - Paws & Claws
+[server-pass] Tubi - NASCAR
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - The Biggest Loser
+[server-pass] Tubi - Real Madrid
+  Manifest reachable and appears to be HLS
+[server-pass] Tubi - The Breakfast Club on iHeartRadio
   Manifest reachable and appears to be HLS
 [server-pass] Tubi - Third Watch
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - WBAL Very Baltimore 11
-  Manifest reachable and appears to be HLS
-[server-pass] Tubi - WUSA DC/MD/VA 9
+[server-pass] Tubi - Welcome Home
   Manifest reachable and appears to be HLS
 [server-pass] Plex - 123GO!
   Manifest reachable and appears to be HLS
-[server-pass] Plex - Bizaar
+[server-pass] Plex - Bizarre Foods with Andrew Zimmern
   Manifest reachable and appears to be HLS
 [server-pass] Plex - Creator Television
   Manifest reachable and appears to be HLS
-[server-pass] Plex - Fifth Gear (UK)
+[server-pass] Plex - Fight Network
   Manifest reachable and appears to be HLS
-[server-pass] Plex - Go Wild
+[server-pass] Plex - GoTraveler
   Manifest reachable and appears to be HLS
-[server-pass] Plex - ITV Deportes
+[server-pass] Plex - Jade Fever
   Manifest reachable and appears to be HLS
 [server-pass] Plex - Mi Casa
   Manifest reachable and appears to be HLS
@@ -328,7 +328,7 @@ Server fail: 0
   Manifest reachable and appears to be HLS
 [server-pass] Plex - Silent Witness|New Tricks
   Manifest reachable and appears to be HLS
-[server-pass] Plex - Tennis+
+[server-pass] Plex - That Girl
   Manifest reachable and appears to be HLS
 [server-pass] Plex - Tribeca Channel
   Manifest reachable and appears to be HLS
@@ -340,18 +340,18 @@ V4 NORMALIZED CATEGORY SUMMARY
 ================================================================
 
 Display taxonomy: 21 CarPlay categories
-Channels categorized: 1333
+Channels categorized: 1334
 Generic categories recovered from fallback metadata: 0
 United States display category: 0
 
-  News: 58
-  Local News: 29
+  News: 59
+  Local News: 27
   Sports: 143
   Movies: 69
-  TV: 147
+  TV: 149
   Comedy: 67
   Crime: 70
-  Reality: 107
+  Reality: 108
   Classics: 45
   Sci-Fi & Horror: 60
   Kids: 71
@@ -364,13 +364,13 @@ United States display category: 0
   Anime: 22
   Game Shows: 29
   Westerns: 12
-  Other: 105
+  Other: 104
 
 ================================================================
 V4 OTHER CHANNEL AUDIT
 ================================================================
 
-Unresolved Other channels: 105
+Unresolved Other channels: 104
 Remaining entries are intentionally left unresolved rather than forcing a low-confidence category.
 
   Dark Shadows | source=Pluto | original=Halloween Hits | useful=Halloween Hits
@@ -383,7 +383,6 @@ Remaining entries are intentionally left unresolved rather than forcing a low-co
   Amasian TV | source=Plex | original=United States | useful=United States
   AsianCrush | source=Plex | original=United States | useful=United States
   Autopista al Cielo | source=Plex | original=United States | useful=United States
-  Azteca Internacional | source=Plex | original=United States | useful=United States
   Beyond Belief | source=Plex | original=United States | useful=United States
   Bizaar | source=Plex | original=United States | useful=United States
   BOOT | source=Plex | original=United States | useful=United States
@@ -483,13 +482,13 @@ Remaining entries are intentionally left unresolved rather than forcing a low-co
 FINAL ENGLISH-ONLY CLEANUP
 ================================================================
 
-Channels before final cleanup: 1333
-Clearly non-English channels removed: 30
+Channels before final cleanup: 1334
+Clearly non-English channels removed: 31
 Final English-focused channels: 1303
 
 Removed by primary source:
-  Plex: 14
-  Roku: 15
+  Plex: 13
+  Roku: 17
   Samsung: 1
 
 Removed channels:
@@ -500,17 +499,18 @@ Removed channels:
   Estrella TV | source=Roku | original=News
   Telemundo Al Día | source=Roku | original=News
   Cine Romantico | source=Roku | original=Romance
-  Novelísima | source=Roku | original=Romance
   Azteca Deportes Network LITE 3 | source=Roku | original=Sports
   Estrella TV Deportes | source=Roku | original=Sports
   ViX Lo Mejor de Liga MX | source=Roku | original=Sports
+  Azteca Internacional | source=Roku | original=TV & Entertainment
+  Canal ViX | source=Roku | original=TV & Entertainment
   Canela.TV Narco-Drama | source=Roku | original=TV & Entertainment
   FilmRise Películas Gratis | source=Roku | original=TV & Entertainment
+  Novelísima | source=Roku | original=TV & Entertainment
   ViX Grandes Parejas | source=Roku | original=TV & Entertainment
   ViX Jajaja | source=Roku | original=TV & Entertainment
   ViX Villanos de Novela | source=Roku | original=TV & Entertainment
   Azteca Deportes Network | source=Plex | original=United States
-  Azteca Internacional | source=Plex | original=United States
   Canela.TV Clásicos | source=Plex | original=United States
   Canela.TV Deportes | source=Plex | original=United States
   Canela.TV Hollywood y Más | source=Plex | original=United States
@@ -537,16 +537,23 @@ EPG / NOW PLAYING SUMMARY
 ================================================================
 
 Master channels: 1304
-Channels with guide data: 1303
-Channels without guide data: 1
-Channels using fallback-provider guide identity: 0
+Channels with guide data: 1296
+Channels without guide data: 8
+Channels using fallback-provider guide identity: 2
 Guide window: 3 hours past through 36 hours future
 
-Samsung: 545/545 IDs matched; 4672 programmes
-Pluto: 391/391 IDs matched; 8015 programmes
-Roku: 221/221 IDs matched; 11038 programmes
-Tubi: 172/172 IDs matched; 9058 programmes
-Plex: 662/662 IDs matched; 22981 programmes
+Samsung: 543/545 IDs matched; 4678 programmes
+Pluto: 391/391 IDs matched; 8165 programmes
+Roku: 222/222 IDs matched; 11115 programmes
+Tubi: 170/170 IDs matched; 8873 programmes
+Plex: 638/662 IDs matched; 20179 programmes
 
 Sample channels without guide data:
+  Bonanza-Billies TV
+  Crime Scene TV
+  Hasbro Legends
+  McLeods Daughters
+  Mysteria
+  That Girl
+  Very Carolina by WXII
   Schwab Network
