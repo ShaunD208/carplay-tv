@@ -22,10 +22,10 @@ Alternate feeds retained: 141
 
 Roku
 ----
-Raw channels: 254
+Raw channels: 255
 Non-English filtered: 15
-English candidates: 239
-New unique channels added: 157
+English candidates: 240
+New unique channels added: 158
 Alternate feeds retained: 82
 
 Tubi
@@ -38,10 +38,10 @@ Alternate feeds retained: 113
 
 Plex
 ----
-Raw channels: 696
+Raw channels: 695
 Non-English filtered: 17
-English candidates: 679
-New unique channels added: 322
+English candidates: 678
+New unique channels added: 321
 Alternate feeds retained: 357
 
 ================================================================
@@ -156,23 +156,23 @@ Known-dead channels removed: 1
 Primary channels by source:
   Samsung: 546
   Pluto: 252
-  Roku: 156
+  Roku: 157
   Tubi: 59
-  Plex: 322
+  Plex: 321
 
 Top categories:
-  United States: 322
+  United States: 321
   Comedy: 63
   Kids: 56
   TV & Entertainment: 56
   Sports & Outdoors: 53
   Movies: 52
   Music: 52
-  Crime: 45
+  Crime: 46
   Action & Drama: 42
   Home & Food: 40
   Reality TV: 38
-  Sports: 35
+  Sports: 36
   Nature, History & Science: 29
   Reality: 29
   Lifestyle & Pop Culture: 28
@@ -269,17 +269,17 @@ Server fail: 0
   Manifest reachable and appears to be HLS
 [server-pass] Roku - FilmRise Mysteries
   Manifest reachable and appears to be HLS
-[server-pass] Roku - This Old House Classic
+[server-pass] Roku - This Old House Shorts
   Manifest reachable and appears to be HLS
-[server-pass] Roku - ABC7 Sarasota
+[server-pass] Roku - Arizona's Family
   Manifest reachable and appears to be HLS
-[server-pass] Roku - WSMV 4 News
+[server-pass] Roku - Like Nastya
   Manifest reachable and appears to be HLS
 [server-pass] Roku - FreeTV Asia
   Manifest reachable and appears to be HLS
-[server-pass] Roku - Azteca Internacional
+[server-pass] Roku - Xena
   Manifest reachable and appears to be HLS
-[server-pass] Roku - FilmRise Classic TV
+[server-pass] Roku - FilmRise British TV
   Manifest reachable and appears to be HLS
 [server-pass] Roku - Latinus
   Manifest reachable and appears to be HLS
@@ -313,15 +313,15 @@ Server fail: 0
   Manifest reachable and appears to be HLS
 [server-pass] Plex - 123GO!
   Manifest reachable and appears to be HLS
-[server-pass] Plex - Bizarre Foods with Andrew Zimmern
+[server-pass] Plex - Bizaar
   Manifest reachable and appears to be HLS
-[server-pass] Plex - Creator Television
+[server-pass] Plex - Cosmic Frontiers
   Manifest reachable and appears to be HLS
-[server-pass] Plex - Fight Network
+[server-pass] Plex - FEVA TV
   Manifest reachable and appears to be HLS
-[server-pass] Plex - GoTraveler
+[server-pass] Plex - Go Wild
   Manifest reachable and appears to be HLS
-[server-pass] Plex - Jade Fever
+[server-pass] Plex - ITV Deportes
   Manifest reachable and appears to be HLS
 [server-pass] Plex - Mi Casa
   Manifest reachable and appears to be HLS
@@ -329,7 +329,7 @@ Server fail: 0
   Manifest reachable and appears to be HLS
 [server-pass] Plex - Silent Witness|New Tricks
   Manifest reachable and appears to be HLS
-[server-pass] Plex - That Girl
+[server-pass] Plex - Tennis+
   Manifest reachable and appears to be HLS
 [server-pass] Plex - Tribeca Channel
   Manifest reachable and appears to be HLS
@@ -347,11 +347,11 @@ United States display category: 0
 
   News: 59
   Local News: 29
-  Sports: 142
+  Sports: 143
   Movies: 69
-  TV: 150
+  TV: 149
   Comedy: 67
-  Crime: 69
+  Crime: 70
   Reality: 108
   Classics: 45
   Sci-Fi & Horror: 60
@@ -360,7 +360,7 @@ United States display category: 0
   Food & Home: 74
   Lifestyle: 63
   Nature & Travel: 19
-  History & Science: 54
+  History & Science: 53
   Documentary: 7
   Anime: 22
   Game Shows: 29
@@ -381,6 +381,7 @@ Remaining entries are intentionally left unresolved rather than forcing a low-co
   AfroLandTV | source=Plex | original=United States | useful=United States
   Aliwko | source=Plex | original=United States | useful=United States
   Alternative | source=Plex | original=United States | useful=United States
+  Always Christmas | source=Plex | original=United States | useful=United States
   Amasian TV | source=Plex | original=United States | useful=United States
   AsianCrush | source=Plex | original=United States | useful=United States
   Autopista al Cielo | source=Plex | original=United States | useful=United States
@@ -463,7 +464,6 @@ Remaining entries are intentionally left unresolved rather than forcing a low-co
   Tarima TV | source=Plex | original=United States | useful=United States
   Teen Wolf by MGM | source=Plex | original=United States | useful=United States
   Teleonce America | source=Plex | original=United States | useful=United States
-  The Black Effect | source=Plex | original=United States | useful=United States
   The Sherlock Holmes Channel | source=Plex | original=United States | useful=United States
   The Spa | source=Plex | original=United States | useful=United States
   TRACE Brazuca | source=Plex | original=United States | useful=United States
@@ -538,17 +538,16 @@ EPG / NOW PLAYING SUMMARY
 ================================================================
 
 Master channels: 1305
-Channels with guide data: 1303
-Channels without guide data: 2
+Channels with guide data: 1304
+Channels without guide data: 1
 Channels using fallback-provider guide identity: 1
 Guide window: 3 hours past through 36 hours future
 
-Samsung: 543/545 IDs matched; 4684 programmes
-Pluto: 393/393 IDs matched; 8112 programmes
-Roku: 220/220 IDs matched; 10736 programmes
-Tubi: 172/172 IDs matched; 9101 programmes
-Plex: 662/662 IDs matched; 16973 programmes
+Samsung: 545/545 IDs matched; 4698 programmes
+Pluto: 393/393 IDs matched; 8168 programmes
+Roku: 219/221 IDs matched; 10851 programmes
+Tubi: 172/172 IDs matched; 9317 programmes
+Plex: 660/661 IDs matched; 20741 programmes
 
 Sample channels without guide data:
-  Hollywire
   Schwab Network
