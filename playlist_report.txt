@@ -14,10 +14,10 @@ Alternate feeds retained: 0
 
 Pluto TV
 --------
-Raw channels: 432
+Raw channels: 433
 Non-English filtered: 39
-English candidates: 393
-New unique channels added: 252
+English candidates: 394
+New unique channels added: 253
 Alternate feeds retained: 141
 
 Roku
@@ -38,10 +38,10 @@ Alternate feeds retained: 113
 
 Plex
 ----
-Raw channels: 695
+Raw channels: 693
 Non-English filtered: 17
-English candidates: 678
-New unique channels added: 321
+English candidates: 676
+New unique channels added: 319
 Alternate feeds retained: 357
 
 ================================================================
@@ -145,9 +145,9 @@ Plex: 17
 MASTER PLAYLIST SUMMARY
 ================================================================
 
-Total upstream entries: 2151
+Total upstream entries: 2150
 Non-English entries filtered: 122
-Final unique English-focused channels: 1335
+Final unique English-focused channels: 1334
 Alternate feeds retained: 693
 Channels with fallback feeds: 460
 Known-dead primaries promoted: 0
@@ -155,18 +155,18 @@ Known-dead channels removed: 1
 
 Primary channels by source:
   Samsung: 546
-  Pluto: 252
+  Pluto: 253
   Roku: 157
   Tubi: 59
-  Plex: 321
+  Plex: 319
 
 Top categories:
-  United States: 321
+  United States: 319
   Comedy: 63
   Kids: 56
-  TV & Entertainment: 56
+  TV & Entertainment: 55
   Sports & Outdoors: 53
-  Movies: 52
+  Movies: 53
   Music: 52
   Crime: 46
   Action & Drama: 42
@@ -245,11 +245,11 @@ Server fail: 0
   Manifest reachable and appears to be HLS
 [server-pass] Pluto - CBS News Minnesota
   Manifest reachable and appears to be HLS
-[server-pass] Pluto - Classic TV: Families
+[server-pass] Pluto - Classica
   Manifest reachable and appears to be HLS
-[server-pass] Pluto - Frasier
+[server-pass] Pluto - Funny AF
   Manifest reachable and appears to be HLS
-[server-pass] Pluto - LEGO Kids TV
+[server-pass] Pluto - Let's Make A Deal
   Manifest reachable and appears to be HLS
 [server-pass] Pluto - Naturescape
   Manifest reachable and appears to be HLS
@@ -257,7 +257,7 @@ Server fail: 0
   Manifest reachable and appears to be HLS
 [server-pass] Pluto - Pluto TV Sci-Fi
   Manifest reachable and appears to be HLS
-[server-pass] Pluto - Spike Pluto TV
+[server-pass] Pluto - Star Trek
   Manifest reachable and appears to be HLS
 [server-pass] Pluto - The Wild Wild West
   Manifest reachable and appears to be HLS
@@ -269,15 +269,15 @@ Server fail: 0
   Manifest reachable and appears to be HLS
 [server-pass] Roku - FilmRise Mysteries
   Manifest reachable and appears to be HLS
-[server-pass] Roku - This Old House Shorts
+[server-pass] Roku - This Old House Classic
   Manifest reachable and appears to be HLS
-[server-pass] Roku - Arizona's Family
+[server-pass] Roku - ABC7 Sarasota
   Manifest reachable and appears to be HLS
-[server-pass] Roku - Like Nastya
+[server-pass] Roku - WSMV 4 News
   Manifest reachable and appears to be HLS
-[server-pass] Roku - FreeTV Asia
+[server-pass] Roku - FreeTV Acción
   Manifest reachable and appears to be HLS
-[server-pass] Roku - Xena
+[server-pass] Roku - ViX Lo Mejor de Liga MX
   Manifest reachable and appears to be HLS
 [server-pass] Roku - FilmRise British TV
   Manifest reachable and appears to be HLS
@@ -323,13 +323,13 @@ Server fail: 0
   Manifest reachable and appears to be HLS
 [server-pass] Plex - ITV Deportes
   Manifest reachable and appears to be HLS
-[server-pass] Plex - Mi Casa
+[server-pass] Plex - MGM Presents: Horror
   Manifest reachable and appears to be HLS
-[server-pass] Plex - PickleTV
+[server-pass] Plex - People are Awesome
   Manifest reachable and appears to be HLS
-[server-pass] Plex - Silent Witness|New Tricks
+[server-pass] Plex - Sheriffs: El Dorado County
   Manifest reachable and appears to be HLS
-[server-pass] Plex - Tennis+
+[server-pass] Plex - Tennis TV
   Manifest reachable and appears to be HLS
 [server-pass] Plex - Tribeca Channel
   Manifest reachable and appears to be HLS
@@ -341,15 +341,15 @@ V4 NORMALIZED CATEGORY SUMMARY
 ================================================================
 
 Display taxonomy: 21 CarPlay categories
-Channels categorized: 1335
+Channels categorized: 1334
 Generic categories recovered from fallback metadata: 0
 United States display category: 0
 
   News: 59
   Local News: 29
   Sports: 143
-  Movies: 69
-  TV: 149
+  Movies: 70
+  TV: 148
   Comedy: 67
   Crime: 70
   Reality: 108
@@ -360,18 +360,18 @@ United States display category: 0
   Food & Home: 74
   Lifestyle: 63
   Nature & Travel: 19
-  History & Science: 53
+  History & Science: 54
   Documentary: 7
   Anime: 22
   Game Shows: 29
   Westerns: 12
-  Other: 104
+  Other: 102
 
 ================================================================
 V4 OTHER CHANNEL AUDIT
 ================================================================
 
-Unresolved Other channels: 104
+Unresolved Other channels: 102
 Remaining entries are intentionally left unresolved rather than forcing a low-confidence category.
 
   Dark Shadows | source=Pluto | original=Halloween Hits | useful=Halloween Hits
@@ -459,7 +459,6 @@ Remaining entries are intentionally left unresolved rather than forcing a low-co
   Slightly Off IFC | source=Plex | original=United States | useful=United States
   SLOPES | source=Plex | original=United States | useful=United States
   Spark TV Light & Love | source=Plex | original=United States | useful=United States
-  Spark TV Luz y Amor | source=Plex | original=United States | useful=United States
   SPIN | source=Plex | original=United States | useful=United States
   Tarima TV | source=Plex | original=United States | useful=United States
   Teen Wolf by MGM | source=Plex | original=United States | useful=United States
@@ -468,7 +467,6 @@ Remaining entries are intentionally left unresolved rather than forcing a low-co
   The Spa | source=Plex | original=United States | useful=United States
   TRACE Brazuca | source=Plex | original=United States | useful=United States
   TRACE Latina | source=Plex | original=United States | useful=United States
-  Trailer Park Boys: The SwearNet Show | source=Plex | original=United States | useful=United States
   Trailers From Hell | source=Plex | original=United States | useful=United States
   VR+ | source=Plex | original=United States | useful=United States
   WAPA+ | source=Plex | original=United States | useful=United States
@@ -483,13 +481,13 @@ Remaining entries are intentionally left unresolved rather than forcing a low-co
 FINAL ENGLISH-ONLY CLEANUP
 ================================================================
 
-Channels before final cleanup: 1335
-Clearly non-English channels removed: 31
+Channels before final cleanup: 1334
+Clearly non-English channels removed: 30
 Final English-focused channels: 1304
 
 Removed by primary source:
   Plex: 13
-  Roku: 17
+  Roku: 16
   Samsung: 1
 
 Removed channels:
@@ -505,7 +503,6 @@ Removed channels:
   ViX Lo Mejor de Liga MX | source=Roku | original=Sports
   Azteca Internacional | source=Roku | original=TV & Entertainment
   Canal ViX | source=Roku | original=TV & Entertainment
-  Canela.TV Narco-Drama | source=Roku | original=TV & Entertainment
   FilmRise Películas Gratis | source=Roku | original=TV & Entertainment
   Novelísima | source=Roku | original=TV & Entertainment
   ViX Grandes Parejas | source=Roku | original=TV & Entertainment
@@ -538,16 +535,26 @@ EPG / NOW PLAYING SUMMARY
 ================================================================
 
 Master channels: 1305
-Channels with guide data: 1304
-Channels without guide data: 1
-Channels using fallback-provider guide identity: 1
+Channels with guide data: 1294
+Channels without guide data: 11
+Channels using fallback-provider guide identity: 0
 Guide window: 3 hours past through 36 hours future
 
-Samsung: 545/545 IDs matched; 4698 programmes
-Pluto: 393/393 IDs matched; 8168 programmes
-Roku: 219/221 IDs matched; 10851 programmes
-Tubi: 172/172 IDs matched; 9317 programmes
-Plex: 660/661 IDs matched; 20741 programmes
+Samsung: 545/545 IDs matched; 4675 programmes
+Pluto: 394/394 IDs matched; 8235 programmes
+Roku: 222/222 IDs matched; 11207 programmes
+Tubi: 172/172 IDs matched; 9248 programmes
+Plex: 637/659 IDs matched; 21161 programmes
 
 Sample channels without guide data:
+  Metal.Rocks
+  Stingray Classica Stream
+  Stingray Karaoke
+  Tarima TV
+  TRACE Brazuca
+  TRACE Latina
+  TRACE Urban
+  VEEPS Concert Pass
+  XITE Hip-Hop Evolution
+  XITE The Beatles
   Schwab Network
