@@ -14,18 +14,18 @@ Alternate feeds retained: 0
 
 Pluto TV
 --------
-Raw channels: 458
+Raw channels: 457
 Non-English filtered: 41
-English candidates: 417
-New unique channels added: 276
+English candidates: 416
+New unique channels added: 275
 Alternate feeds retained: 141
 
 Roku
 ----
-Raw channels: 254
+Raw channels: 255
 Non-English filtered: 15
-English candidates: 239
-New unique channels added: 157
+English candidates: 240
+New unique channels added: 158
 Alternate feeds retained: 82
 
 Tubi
@@ -156,8 +156,8 @@ Known-dead channels removed: 1
 
 Primary channels by source:
   Samsung: 550
-  Pluto: 276
-  Roku: 156
+  Pluto: 275
+  Roku: 157
   Tubi: 52
   Plex: 327
 
@@ -173,7 +173,7 @@ Top categories:
   Action & Drama: 43
   Home & Food: 40
   Reality TV: 38
-  Sports: 36
+  Sports: 35
   Reality: 31
   Nature, History & Science: 29
   Lifestyle & Pop Culture: 28
@@ -191,7 +191,7 @@ Top categories:
   Motor Sports: 14
   True Crime: 14
   Daytime + Game Shows: 14
-  News: 13
+  News: 14
   Game Shows: 11
   History + Science: 11
   Sports On Now: 9
@@ -252,15 +252,15 @@ Server fail: 0
   Manifest reachable and appears to be HLS
 [server-pass] Pluto - Little Stars Universe
   Manifest reachable and appears to be HLS
-[server-pass] Pluto - Nickelodeon Pluto TV
+[server-pass] Pluto - Nick Jr. Pluto TV
   Manifest reachable and appears to be HLS
-[server-pass] Pluto - Pluto TV Crime Drama
+[server-pass] Pluto - Pluto TV Competition
   Manifest reachable and appears to be HLS
-[server-pass] Pluto - Pluto TV Staff Picks
+[server-pass] Pluto - Pluto TV Spotlight
   Manifest reachable and appears to be HLS
-[server-pass] Pluto - Star Trek: The Next Generation
+[server-pass] Pluto - Star Trek: The Motion Pictures
   Manifest reachable and appears to be HLS
-[server-pass] Pluto - Third Watch
+[server-pass] Pluto - The X-Files
   Manifest reachable and appears to be HLS
 [server-pass] Pluto - iCarly TV
   Manifest reachable and appears to be HLS
@@ -270,17 +270,17 @@ Server fail: 0
   Manifest reachable and appears to be HLS
 [server-pass] Roku - FilmRise Mysteries
   Manifest reachable and appears to be HLS
-[server-pass] Roku - TruBlu Crime Channel
+[server-pass] Roku - Space Live
   Manifest reachable and appears to be HLS
-[server-pass] Roku - LaMúsica TV
+[server-pass] Roku - ABC7 Sarasota
   Manifest reachable and appears to be HLS
 [server-pass] Roku - Like Nastya
   Manifest reachable and appears to be HLS
-[server-pass] Roku - FreeTV Clásico
+[server-pass] Roku - FreeTV Asia
   Manifest reachable and appears to be HLS
-[server-pass] Roku - Azteca Internacional
+[server-pass] Roku - AYM Sports 3 USA
   Manifest reachable and appears to be HLS
-[server-pass] Roku - FilmRise Classic TV
+[server-pass] Roku - FilmRise British TV
   Manifest reachable and appears to be HLS
 [server-pass] Roku - Life with Derek
   Manifest reachable and appears to be HLS
@@ -346,9 +346,9 @@ Channels categorized: 1361
 Generic categories recovered from fallback metadata: 0
 United States display category: 0
 
-  News: 57
+  News: 58
   Local News: 29
-  Sports: 144
+  Sports: 143
   Movies: 75
   TV: 155
   Comedy: 68
@@ -551,11 +551,11 @@ Channels without guide data: 1
 Channels using fallback-provider guide identity: 0
 Guide window: 3 hours past through 36 hours future
 
-Samsung: 549/549 IDs matched; 4688 programmes
-Pluto: 417/417 IDs matched; 8606 programmes
-Roku: 222/222 IDs matched; 11045 programmes
-Tubi: 172/172 IDs matched; 8961 programmes
-Plex: 667/667 IDs matched; 30124 programmes
+Samsung: 549/549 IDs matched; 4643 programmes
+Pluto: 416/416 IDs matched; 8558 programmes
+Roku: 223/223 IDs matched; 11068 programmes
+Tubi: 172/172 IDs matched; 8805 programmes
+Plex: 667/667 IDs matched; 31550 programmes
 
 Sample channels without guide data:
   Schwab Network
