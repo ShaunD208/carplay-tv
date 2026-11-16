@@ -14,10 +14,10 @@ Alternate feeds retained: 0
 
 Pluto TV
 --------
-Raw channels: 457
+Raw channels: 458
 Non-English filtered: 41
-English candidates: 416
-New unique channels added: 275
+English candidates: 417
+New unique channels added: 276
 Alternate feeds retained: 141
 
 Roku
@@ -30,10 +30,10 @@ Alternate feeds retained: 82
 
 Tubi
 ----
-Raw channels: 181
+Raw channels: 182
 Non-English filtered: 9
-English candidates: 172
-New unique channels added: 52
+English candidates: 173
+New unique channels added: 53
 Alternate feeds retained: 120
 
 Plex
@@ -146,9 +146,9 @@ Plex: 18
 MASTER PLAYLIST SUMMARY
 ================================================================
 
-Total upstream entries: 2187
+Total upstream entries: 2189
 Non-English entries filtered: 125
-Final unique English-focused channels: 1361
+Final unique English-focused channels: 1363
 Alternate feeds retained: 700
 Channels with fallback feeds: 462
 Known-dead primaries promoted: 0
@@ -156,14 +156,14 @@ Known-dead channels removed: 1
 
 Primary channels by source:
   Samsung: 550
-  Pluto: 275
+  Pluto: 276
   Roku: 157
-  Tubi: 52
+  Tubi: 53
   Plex: 327
 
 Top categories:
   United States: 327
-  Comedy: 64
+  Comedy: 65
   TV & Entertainment: 57
   Kids: 56
   Movies: 55
@@ -178,7 +178,7 @@ Top categories:
   Nature, History & Science: 29
   Lifestyle & Pop Culture: 28
   News & Opinion: 26
-  Local News: 24
+  Local News: 25
   Classic TV: 22
   Reality Competition: 20
   Drama: 20
@@ -212,9 +212,9 @@ Server validation is health checking only.
 Chrome/hls.js failure does NOT automatically exclude a channel.
 
 Samples tested: 60
-Server pass: 60
+Server pass: 59
 Server warning: 0
-Server fail: 0
+Server fail: 1
 
 [server-pass] Samsung - 21 Jump Street
   Manifest reachable and appears to be HLS
@@ -252,15 +252,15 @@ Server fail: 0
   Manifest reachable and appears to be HLS
 [server-pass] Pluto - Little Stars Universe
   Manifest reachable and appears to be HLS
-[server-pass] Pluto - Nick Jr. Pluto TV
+[server-pass] Pluto - Nickelodeon Pluto TV
   Manifest reachable and appears to be HLS
-[server-pass] Pluto - Pluto TV Competition
+[server-pass] Pluto - Pluto TV Crime Drama
   Manifest reachable and appears to be HLS
-[server-pass] Pluto - Pluto TV Spotlight
+[server-pass] Pluto - Pluto TV Staff Picks
   Manifest reachable and appears to be HLS
-[server-pass] Pluto - Star Trek: The Motion Pictures
+[server-pass] Pluto - Star Trek: The Next Generation
   Manifest reachable and appears to be HLS
-[server-pass] Pluto - The X-Files
+[server-pass] Pluto - Third Watch
   Manifest reachable and appears to be HLS
 [server-pass] Pluto - iCarly TV
   Manifest reachable and appears to be HLS
@@ -282,35 +282,35 @@ Server fail: 0
   Manifest reachable and appears to be HLS
 [server-pass] Roku - FilmRise British TV
   Manifest reachable and appears to be HLS
-[server-pass] Roku - Life with Derek
-  Manifest reachable and appears to be HLS
+[server-fail] Roku - Life with Derek
+  HTTP 404
 [server-pass] Roku - The Ed Sullivan Show
   Manifest reachable and appears to be HLS
 [server-pass] Roku - Weathernation
   Manifest reachable and appears to be HLS
 [server-pass] Tubi - ACCDN
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - Classic Cinema
+[server-pass] Tubi - Classic Doctor Who
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - Deal or No Deal USA
+[server-pass] Tubi - Def Jam
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - FilmRise Horror
+[server-pass] Tubi - FOX LOCAL New York
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - Generation Drama
+[server-pass] Tubi - Garden with Monty Don
   Manifest reachable and appears to be HLS
 [server-pass] Tubi - Hersphere
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - MADtv
+[server-pass] Tubi - KGTV San Diego ABC10
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - Paws & Claws
+[server-pass] Tubi - KPNX Phoenix 12 News
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - The Breakfast Club on iHeartRadio
+[server-pass] Tubi - Paternity Court by MGM
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - True Crime Now
+[server-pass] Tubi - The Biggest Loser
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - WBAL Very Baltimore 11
+[server-pass] Tubi - theGrio
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - WUSA DC/MD/VA 9
+[server-pass] Tubi - Welcome Home
   Manifest reachable and appears to be HLS
 [server-pass] Plex - 123GO!
   Manifest reachable and appears to be HLS
@@ -342,16 +342,16 @@ V4 NORMALIZED CATEGORY SUMMARY
 ================================================================
 
 Display taxonomy: 21 CarPlay categories
-Channels categorized: 1361
+Channels categorized: 1363
 Generic categories recovered from fallback metadata: 0
 United States display category: 0
 
   News: 58
-  Local News: 29
+  Local News: 30
   Sports: 143
   Movies: 75
   TV: 155
-  Comedy: 68
+  Comedy: 69
   Crime: 73
   Reality: 110
   Classics: 44
@@ -493,9 +493,9 @@ Remaining entries are intentionally left unresolved rather than forcing a low-co
 FINAL ENGLISH-ONLY CLEANUP
 ================================================================
 
-Channels before final cleanup: 1361
+Channels before final cleanup: 1363
 Clearly non-English channels removed: 29
-Final English-focused channels: 1332
+Final English-focused channels: 1334
 
 Removed by primary source:
   Plex: 13
@@ -545,17 +545,18 @@ Custom channels added: 1
 EPG / NOW PLAYING SUMMARY
 ================================================================
 
-Master channels: 1333
-Channels with guide data: 1332
-Channels without guide data: 1
+Master channels: 1335
+Channels with guide data: 1333
+Channels without guide data: 2
 Channels using fallback-provider guide identity: 0
 Guide window: 3 hours past through 36 hours future
 
-Samsung: 549/549 IDs matched; 4643 programmes
-Pluto: 416/416 IDs matched; 8558 programmes
-Roku: 223/223 IDs matched; 11068 programmes
-Tubi: 172/172 IDs matched; 8805 programmes
-Plex: 667/667 IDs matched; 31550 programmes
+Samsung: 549/549 IDs matched; 4682 programmes
+Pluto: 417/417 IDs matched; 8649 programmes
+Roku: 222/223 IDs matched; 10426 programmes
+Tubi: 173/173 IDs matched; 8916 programmes
+Plex: 667/667 IDs matched; 32015 programmes
 
 Sample channels without guide data:
+  Life with Derek
   Schwab Network
