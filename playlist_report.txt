@@ -544,16 +544,17 @@ EPG / NOW PLAYING SUMMARY
 ================================================================
 
 Master channels: 1338
-Channels with guide data: 1337
-Channels without guide data: 1
-Channels using fallback-provider guide identity: 0
+Channels with guide data: 1336
+Channels without guide data: 2
+Channels using fallback-provider guide identity: 1
 Guide window: 3 hours past through 36 hours future
 
-Samsung: 549/549 IDs matched; 4717 programmes
-Pluto: 417/417 IDs matched; 8615 programmes
-Roku: 227/227 IDs matched; 11039 programmes
-Tubi: 174/174 IDs matched; 8680 programmes
-Plex: 667/667 IDs matched; 31324 programmes
+Samsung: 548/549 IDs matched; 4697 programmes
+Pluto: 417/417 IDs matched; 8695 programmes
+Roku: 226/227 IDs matched; 10927 programmes
+Tubi: 174/174 IDs matched; 3389 programmes
+Plex: 667/667 IDs matched; 31953 programmes
 
 Sample channels without guide data:
+  FILMEX
   Schwab Network
