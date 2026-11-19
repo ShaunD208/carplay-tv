@@ -544,17 +544,51 @@ EPG / NOW PLAYING SUMMARY
 ================================================================
 
 Master channels: 1338
-Channels with guide data: 1336
-Channels without guide data: 2
-Channels using fallback-provider guide identity: 1
+Channels with guide data: 1302
+Channels without guide data: 36
+Channels using fallback-provider guide identity: 21
 Guide window: 3 hours past through 36 hours future
 
-Samsung: 548/549 IDs matched; 4697 programmes
-Pluto: 417/417 IDs matched; 8695 programmes
-Roku: 226/227 IDs matched; 10927 programmes
-Tubi: 174/174 IDs matched; 3389 programmes
-Plex: 667/667 IDs matched; 31953 programmes
+Samsung: 549/549 IDs matched; 4738 programmes
+Pluto: 417/417 IDs matched; 8607 programmes
+Roku: 226/227 IDs matched; 10966 programmes
+Tubi: 0/174 IDs matched; 0 programmes
+Plex: 666/667 IDs matched; 31705 programmes
 
 Sample channels without guide data:
-  FILMEX
+  Super Mario Brothers
+  Chasing Criminals
+  Crime Cults Killers
+  Deal or No Deal USA
+  Def Jam
+  Fear Factor USA
+  FOX 2 Detroit
+  FOX LOCAL Chicago
+  FOX LOCAL Milwaukee
+  FOX LOCAL New York
+  FOX LOCAL Washington DC
+  FOX Sports on Tubi
+  Gordon Ramsay
+  Hersphere
+  In the Garage
+  Jesser
+  Jubilee
+  KCCI Very Iowa Des Moines 8
+  KERO 23 Bakersfield
+  MADtv
+  NASCAR
+  NBC 26 WGBA Green Bay
+  NHL
+  Paternity Court by MGM
+  Real Madrid
+  Retro Black Laughs
+  The Breakfast Club on iHeartRadio
+  The Johnny Carson Show
+  TMJ4 News Milwaukee
+  Travel + Adventure
+  UEFA.tv
+  Urban TV + Movies TV One
+  WISN Very Milwaukee 12
+  WTXL Tallahassee
+  Entravision Ahora
   Schwab Network
