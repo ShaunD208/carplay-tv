@@ -544,19 +544,18 @@ EPG / NOW PLAYING SUMMARY
 ================================================================
 
 Master channels: 1338
-Channels with guide data: 1302
-Channels without guide data: 36
+Channels with guide data: 1303
+Channels without guide data: 35
 Channels using fallback-provider guide identity: 21
 Guide window: 3 hours past through 36 hours future
 
-Samsung: 549/549 IDs matched; 4738 programmes
-Pluto: 417/417 IDs matched; 8607 programmes
-Roku: 226/227 IDs matched; 10966 programmes
+Samsung: 549/549 IDs matched; 4688 programmes
+Pluto: 417/417 IDs matched; 8646 programmes
+Roku: 227/227 IDs matched; 10896 programmes
 Tubi: 0/174 IDs matched; 0 programmes
-Plex: 666/667 IDs matched; 31705 programmes
+Plex: 666/667 IDs matched; 31718 programmes
 
 Sample channels without guide data:
-  Super Mario Brothers
   Chasing Criminals
   Crime Cults Killers
   Deal or No Deal USA
