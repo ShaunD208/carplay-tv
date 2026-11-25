@@ -25,15 +25,15 @@ Roku
 Raw channels: 257
 Non-English filtered: 16
 English candidates: 241
-New unique channels added: 159
-Alternate feeds retained: 82
+New unique channels added: 160
+Alternate feeds retained: 81
 
 Tubi
 ----
-Raw channels: 179
+Raw channels: 176
 Non-English filtered: 3
-English candidates: 176
-New unique channels added: 53
+English candidates: 173
+New unique channels added: 50
 Alternate feeds retained: 123
 
 Plex
@@ -41,8 +41,8 @@ Plex
 Raw channels: 702
 Non-English filtered: 18
 English candidates: 684
-New unique channels added: 322
-Alternate feeds retained: 362
+New unique channels added: 321
+Alternate feeds retained: 363
 
 ================================================================
 LANGUAGE FILTER SUMMARY
@@ -141,31 +141,31 @@ Plex: 18
 MASTER PLAYLIST SUMMARY
 ================================================================
 
-Total upstream entries: 2190
+Total upstream entries: 2187
 Non-English entries filtered: 120
-Final unique English-focused channels: 1361
+Final unique English-focused channels: 1358
 Alternate feeds retained: 708
-Channels with fallback feeds: 466
+Channels with fallback feeds: 467
 Known-dead primaries promoted: 0
 Known-dead channels removed: 1
 
 Primary channels by source:
   Samsung: 552
   Pluto: 276
-  Roku: 158
-  Tubi: 53
-  Plex: 322
+  Roku: 159
+  Tubi: 50
+  Plex: 321
 
 Top categories:
-  United States: 322
+  United States: 321
   Comedy: 62
+  TV & Entertainment: 59
   Kids: 57
-  TV & Entertainment: 57
   Movies: 55
   Music: 54
   Sports & Outdoors: 53
-  Fast Tubi: 53
-  Crime: 46
+  Fast Tubi: 50
+  Crime: 45
   Action & Drama: 43
   Home & Food: 40
   Reality TV: 38
@@ -265,45 +265,45 @@ Server fail: 0
   Manifest reachable and appears to be HLS
 [server-pass] Roku - FilmRise True Crime
   Manifest reachable and appears to be HLS
-[server-pass] Roku - Space Live
+[server-pass] Roku - This Old House Classic
   Manifest reachable and appears to be HLS
-[server-pass] Roku - LaMúsica TV
+[server-pass] Roku - ABC7 Sarasota
   Manifest reachable and appears to be HLS
-[server-pass] Roku - WSMV 4 News
+[server-pass] Roku - Moonbug Kids
   Manifest reachable and appears to be HLS
-[server-pass] Roku - FreeTV Clásico
+[server-pass] Roku - FUEL TV
   Manifest reachable and appears to be HLS
-[server-pass] Roku - AYM Sports 3 USA
+[server-pass] Roku - Barça 24H
   Manifest reachable and appears to be HLS
-[server-pass] Roku - FilmRise British TV
+[server-pass] Roku - FilmRise Creators
   Manifest reachable and appears to be HLS
-[server-pass] Roku - Latinus
+[server-pass] Roku - Life with Derek
   Manifest reachable and appears to be HLS
-[server-pass] Roku - The Ed Sullivan Show
+[server-pass] Roku - The Graham Norton Show
   Manifest reachable and appears to be HLS
 [server-pass] Roku - Weathernation
   Manifest reachable and appears to be HLS
 [server-pass] Tubi - ACCDN
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - Classic Cinema
+[server-pass] Tubi - Cine EstrellaTV
   Manifest reachable and appears to be HLS
 [server-pass] Tubi - Deal or No Deal USA
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - Fear Factor USA
+[server-pass] Tubi - Family Unscripted
   Manifest reachable and appears to be HLS
 [server-pass] Tubi - FOX Sports on Tubi
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - HBO Boxing
+[server-pass] Tubi - Gordon Ramsay
   Manifest reachable and appears to be HLS
 [server-pass] Tubi - Jubilee
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - Love & Marriage
+[server-pass] Tubi - Lucha Plus
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - Paternity Court by MGM
+[server-pass] Tubi - Paws & Claws
   Manifest reachable and appears to be HLS
 [server-pass] Tubi - The Biggest Loser
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - theGrio
+[server-pass] Tubi - Travel + Adventure
   Manifest reachable and appears to be HLS
 [server-pass] Tubi - Welcome Home
   Manifest reachable and appears to be HLS
@@ -313,17 +313,17 @@ Server fail: 0
   Manifest reachable and appears to be HLS
 [server-pass] Plex - Cosmic Frontiers
   Manifest reachable and appears to be HLS
-[server-pass] Plex - Fight Network
+[server-pass] Plex - Fifth Gear (UK)
   Manifest reachable and appears to be HLS
 [server-pass] Plex - Great British Menu
   Manifest reachable and appears to be HLS
 [server-pass] Plex - Jade Fever
   Manifest reachable and appears to be HLS
-[server-pass] Plex - MGM Presents: Westerns
+[server-pass] Plex - Mi Casa
   Manifest reachable and appears to be HLS
-[server-pass] Plex - Perform by Lifetime
+[server-pass] Plex - PickleTV
   Manifest reachable and appears to be HLS
-[server-pass] Plex - Shout! Movies
+[server-pass] Plex - Silent Witness|New Tricks
   Manifest reachable and appears to be HLS
 [server-pass] Plex - The Bold and the Beautiful
   Manifest reachable and appears to be HLS
@@ -337,17 +337,17 @@ V4 NORMALIZED CATEGORY SUMMARY
 ================================================================
 
 Display taxonomy: 21 CarPlay categories
-Channels categorized: 1361
+Channels categorized: 1358
 Generic categories recovered from fallback metadata: 0
 United States display category: 0
 
-  News: 55
-  Local News: 24
+  News: 56
+  Local News: 22
   Sports: 138
   Movies: 76
-  TV: 156
+  TV: 157
   Comedy: 66
-  Crime: 72
+  Crime: 71
   Reality: 104
   Classics: 44
   Sci-Fi & Horror: 56
@@ -361,13 +361,13 @@ United States display category: 0
   Anime: 22
   Game Shows: 30
   Westerns: 12
-  Other: 134
+  Other: 132
 
 ================================================================
 V4 OTHER CHANNEL AUDIT
 ================================================================
 
-Unresolved Other channels: 134
+Unresolved Other channels: 132
 Remaining entries are intentionally left unresolved rather than forcing a low-confidence category.
 
   Crackling Fireplace | source=Pluto | original=Season's Greetings | useful=Season's Greetings
@@ -385,9 +385,7 @@ Remaining entries are intentionally left unresolved rather than forcing a low-co
   In the Garage | source=Tubi | original=Fast Tubi | useful=Fast Tubi
   Jesser | source=Tubi | original=Fast Tubi | useful=Fast Tubi
   Jubilee | source=Tubi | original=Fast Tubi | useful=Fast Tubi
-  KCRA Very Sacramento 3 | source=Tubi | original=Fast Tubi | useful=Fast Tubi
-  KSBW Very Monterey 8 | source=Tubi | original=Fast Tubi | useful=Fast Tubi
-  KXTV Sacramento ABC10 | source=Tubi | original=Fast Tubi | useful=Fast Tubi
+  KCCI Very Iowa Des Moines 8 | source=Tubi | original=Fast Tubi | useful=Fast Tubi
   Love & Marriage | source=Tubi | original=Fast Tubi | useful=Fast Tubi
   Lucha Plus | source=Tubi | original=Fast Tubi | useful=Fast Tubi
   MADtv | source=Tubi | original=Fast Tubi | useful=Fast Tubi
@@ -509,13 +507,13 @@ Remaining entries are intentionally left unresolved rather than forcing a low-co
 FINAL ENGLISH-ONLY CLEANUP
 ================================================================
 
-Channels before final cleanup: 1361
-Clearly non-English channels removed: 27
-Final English-focused channels: 1334
+Channels before final cleanup: 1358
+Clearly non-English channels removed: 28
+Final English-focused channels: 1330
 
 Removed by primary source:
   Plex: 10
-  Roku: 13
+  Roku: 14
   Samsung: 1
   Tubi: 3
 
@@ -533,6 +531,7 @@ Removed channels:
   FilmRise Películas Gratis | source=Roku | original=TV & Entertainment
   Novelísima | source=Roku | original=TV & Entertainment
   ViX Grandes Parejas | source=Roku | original=TV & Entertainment
+  ViX Jajaja | source=Roku | original=TV & Entertainment
   ViX Villanos de Novela | source=Roku | original=TV & Entertainment
   Cine EstrellaTV | source=Tubi | original=Fast Tubi
   Estrella Games | source=Tubi | original=Fast Tubi
@@ -560,17 +559,17 @@ Custom channels added: 1
 EPG / NOW PLAYING SUMMARY
 ================================================================
 
-Master channels: 1335
-Channels with guide data: 1334
+Master channels: 1331
+Channels with guide data: 1330
 Channels without guide data: 1
 Channels using fallback-provider guide identity: 0
 Guide window: 3 hours past through 36 hours future
 
-Samsung: 551/551 IDs matched; 4761 programmes
-Pluto: 417/417 IDs matched; 8601 programmes
-Roku: 226/226 IDs matched; 11505 programmes
-Tubi: 171/171 IDs matched; 7645 programmes
-Plex: 667/667 IDs matched; 31871 programmes
+Samsung: 551/551 IDs matched; 4708 programmes
+Pluto: 417/417 IDs matched; 8624 programmes
+Roku: 225/225 IDs matched; 11340 programmes
+Tubi: 168/168 IDs matched; 7770 programmes
+Plex: 667/667 IDs matched; 31368 programmes
 
 Sample channels without guide data:
   Schwab Network
