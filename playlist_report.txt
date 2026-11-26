@@ -14,27 +14,27 @@ Alternate feeds retained: 0
 
 Pluto TV
 --------
-Raw channels: 458
+Raw channels: 459
 Non-English filtered: 41
-English candidates: 417
-New unique channels added: 276
+English candidates: 418
+New unique channels added: 277
 Alternate feeds retained: 141
 
 Roku
 ----
-Raw channels: 257
+Raw channels: 259
 Non-English filtered: 16
-English candidates: 241
-New unique channels added: 160
-Alternate feeds retained: 81
+English candidates: 243
+New unique channels added: 161
+Alternate feeds retained: 82
 
 Tubi
 ----
-Raw channels: 176
+Raw channels: 177
 Non-English filtered: 3
-English candidates: 173
+English candidates: 174
 New unique channels added: 50
-Alternate feeds retained: 123
+Alternate feeds retained: 124
 
 Plex
 ----
@@ -141,18 +141,18 @@ Plex: 18
 MASTER PLAYLIST SUMMARY
 ================================================================
 
-Total upstream entries: 2187
+Total upstream entries: 2191
 Non-English entries filtered: 120
-Final unique English-focused channels: 1358
-Alternate feeds retained: 708
-Channels with fallback feeds: 467
+Final unique English-focused channels: 1360
+Alternate feeds retained: 710
+Channels with fallback feeds: 468
 Known-dead primaries promoted: 0
 Known-dead channels removed: 1
 
 Primary channels by source:
   Samsung: 552
-  Pluto: 276
-  Roku: 159
+  Pluto: 277
+  Roku: 160
   Tubi: 50
   Plex: 321
 
@@ -160,12 +160,12 @@ Top categories:
   United States: 321
   Comedy: 62
   TV & Entertainment: 59
-  Kids: 57
+  Kids: 58
   Movies: 55
   Music: 54
   Sports & Outdoors: 53
   Fast Tubi: 50
-  Crime: 45
+  Crime: 46
   Action & Drama: 43
   Home & Food: 40
   Reality TV: 38
@@ -247,7 +247,7 @@ Server fail: 0
   Manifest reachable and appears to be HLS
 [server-pass] Pluto - Little Stars Universe
   Manifest reachable and appears to be HLS
-[server-pass] Pluto - Nickelodeon Pluto TV
+[server-pass] Pluto - Nikita
   Manifest reachable and appears to be HLS
 [server-pass] Pluto - Pluto TV Crime Drama
   Manifest reachable and appears to be HLS
@@ -265,15 +265,15 @@ Server fail: 0
   Manifest reachable and appears to be HLS
 [server-pass] Roku - FilmRise True Crime
   Manifest reachable and appears to be HLS
-[server-pass] Roku - This Old House Classic
+[server-pass] Roku - Space Live
   Manifest reachable and appears to be HLS
 [server-pass] Roku - ABC7 Sarasota
   Manifest reachable and appears to be HLS
-[server-pass] Roku - Moonbug Kids
+[server-pass] Roku - Like Nastya
   Manifest reachable and appears to be HLS
 [server-pass] Roku - FUEL TV
   Manifest reachable and appears to be HLS
-[server-pass] Roku - Barça 24H
+[server-pass] Roku - Azteca Internacional
   Manifest reachable and appears to be HLS
 [server-pass] Roku - FilmRise Creators
   Manifest reachable and appears to be HLS
@@ -297,15 +297,15 @@ Server fail: 0
   Manifest reachable and appears to be HLS
 [server-pass] Tubi - Jubilee
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - Lucha Plus
+[server-pass] Tubi - NASCAR
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - Paws & Claws
+[server-pass] Tubi - Retro Black Laughs
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - The Biggest Loser
+[server-pass] Tubi - The FBI Files
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - Travel + Adventure
+[server-pass] Tubi - UEFA.tv
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - Welcome Home
+[server-pass] Tubi - WXII Very Carolina 12
   Manifest reachable and appears to be HLS
 [server-pass] Plex - 123GO!
   Manifest reachable and appears to be HLS
@@ -337,21 +337,21 @@ V4 NORMALIZED CATEGORY SUMMARY
 ================================================================
 
 Display taxonomy: 21 CarPlay categories
-Channels categorized: 1358
+Channels categorized: 1360
 Generic categories recovered from fallback metadata: 0
 United States display category: 0
 
-  News: 56
-  Local News: 22
+  News: 55
+  Local News: 23
   Sports: 138
   Movies: 76
   TV: 157
   Comedy: 66
-  Crime: 71
+  Crime: 72
   Reality: 104
   Classics: 44
   Sci-Fi & Horror: 56
-  Kids: 72
+  Kids: 73
   Music: 85
   Food & Home: 75
   Lifestyle: 58
@@ -385,7 +385,6 @@ Remaining entries are intentionally left unresolved rather than forcing a low-co
   In the Garage | source=Tubi | original=Fast Tubi | useful=Fast Tubi
   Jesser | source=Tubi | original=Fast Tubi | useful=Fast Tubi
   Jubilee | source=Tubi | original=Fast Tubi | useful=Fast Tubi
-  KCCI Very Iowa Des Moines 8 | source=Tubi | original=Fast Tubi | useful=Fast Tubi
   Love & Marriage | source=Tubi | original=Fast Tubi | useful=Fast Tubi
   Lucha Plus | source=Tubi | original=Fast Tubi | useful=Fast Tubi
   MADtv | source=Tubi | original=Fast Tubi | useful=Fast Tubi
@@ -397,6 +396,7 @@ Remaining entries are intentionally left unresolved rather than forcing a low-co
   The Johnny Carson Show | source=Tubi | original=Fast Tubi | useful=Fast Tubi
   theGrio | source=Tubi | original=Fast Tubi | useful=Fast Tubi
   UEFA.tv | source=Tubi | original=Fast Tubi | useful=Fast Tubi
+  WFMY Greensboro 2 | source=Tubi | original=Fast Tubi | useful=Fast Tubi
   365BLK [FAST] | source=Plex | original=United States | useful=United States
   A Touch of Frost | source=Plex | original=United States | useful=United States
   AddictaTV | source=Plex | original=United States | useful=United States
@@ -507,9 +507,9 @@ Remaining entries are intentionally left unresolved rather than forcing a low-co
 FINAL ENGLISH-ONLY CLEANUP
 ================================================================
 
-Channels before final cleanup: 1358
+Channels before final cleanup: 1360
 Clearly non-English channels removed: 28
-Final English-focused channels: 1330
+Final English-focused channels: 1332
 
 Removed by primary source:
   Plex: 10
@@ -559,17 +559,17 @@ Custom channels added: 1
 EPG / NOW PLAYING SUMMARY
 ================================================================
 
-Master channels: 1331
-Channels with guide data: 1330
+Master channels: 1333
+Channels with guide data: 1332
 Channels without guide data: 1
 Channels using fallback-provider guide identity: 0
 Guide window: 3 hours past through 36 hours future
 
-Samsung: 551/551 IDs matched; 4708 programmes
-Pluto: 417/417 IDs matched; 8624 programmes
-Roku: 225/225 IDs matched; 11340 programmes
-Tubi: 168/168 IDs matched; 7770 programmes
-Plex: 667/667 IDs matched; 31368 programmes
+Samsung: 551/551 IDs matched; 4734 programmes
+Pluto: 418/418 IDs matched; 8584 programmes
+Roku: 227/227 IDs matched; 11260 programmes
+Tubi: 169/169 IDs matched; 7859 programmes
+Plex: 667/667 IDs matched; 31392 programmes
 
 Sample channels without guide data:
   Schwab Network
