@@ -11659,16 +11659,7 @@
       "source": "Samsung",
       "url": "https://jmp2.uk/stvp-USBC1000017D8"
     },
-    "fallbacks": [
-      {
-        "source": "Tubi",
-        "name": "WSOC Charlotte",
-        "url": "https://live-manifest.production-public.tubi.io/live/6908219d-0b27-435f-bf80-51168a281c4a/playlist.m3u8",
-        "logo": "https://canvas-lb.tubitv.com/opts/qNO4KNBFwJh4rg==/9c9c952e-6a73-4104-bf70-6026cb323ab3/CHgQeDoFMS4xLjlAAQ==",
-        "group": "Fast Tubi",
-        "tvg_id": "650252"
-      }
-    ],
+    "fallbacks": [],
     "original_group": "News & Opinion",
     "display_category": "News"
   },
@@ -19979,6 +19970,34 @@
     "display_category": "Other"
   },
   {
+    "name": "KCCI Very Iowa Des Moines 8",
+    "normalized_name": "kcciveryiowadesmoines8",
+    "group": "Fast Tubi",
+    "logo": "https://canvas-lb.tubitv.com/opts/riE9GYh_sl5TWg==/14d79fa8-04ea-4a04-9c57-22dca8e2851c/CHgQeDoFMS4xLjlAAQ==",
+    "tvg_id": "603907",
+    "primary": {
+      "source": "Tubi",
+      "url": "https://live-manifest.production-public.tubi.io/live/03361ae2-95b5-411f-b0cc-2721486cb734/playlist.m3u8"
+    },
+    "fallbacks": [],
+    "original_group": "Fast Tubi",
+    "display_category": "Other"
+  },
+  {
+    "name": "KMTV 3 News Omaha",
+    "normalized_name": "kmtv3newsomaha",
+    "group": "Fast Tubi",
+    "logo": "https://canvas-lb.tubitv.com/opts/CNGMUuU8KsqP8g==/b4f8a8e0-d44c-480c-b6e6-2781bc0f2f69/CHgQeDoFMS4xLjlAAQ==",
+    "tvg_id": "687448",
+    "primary": {
+      "source": "Tubi",
+      "url": "https://live-manifest.production-public.tubi.io/live/4955ee1f-cb35-4678-a5ee-28a3fa3c8e86/playlist.m3u8"
+    },
+    "fallbacks": [],
+    "original_group": "Fast Tubi",
+    "display_category": "News"
+  },
+  {
     "name": "Love & Marriage",
     "normalized_name": "loveandmarriage",
     "group": "Fast Tubi",
@@ -20315,34 +20334,6 @@
     ],
     "original_group": "Fast Tubi",
     "display_category": "Food & Home"
-  },
-  {
-    "name": "WFMY Greensboro 2",
-    "normalized_name": "wfmygreensboro2",
-    "group": "Fast Tubi",
-    "logo": "https://canvas-lb.tubitv.com/opts/X5Rc0LSutUJ6GA==/dec6f7c5-0a9a-4299-8fb7-9a634a4598f5/CHgQeDoFMS4xLjlAAQ==",
-    "tvg_id": "618765",
-    "primary": {
-      "source": "Tubi",
-      "url": "https://live-manifest.production-public.tubi.io/live/463137aa-545b-4f06-b2e6-108decd9ebb3/playlist.m3u8"
-    },
-    "fallbacks": [],
-    "original_group": "Fast Tubi",
-    "display_category": "Other"
-  },
-  {
-    "name": "WXII Very Carolina 12",
-    "normalized_name": "wxiiverycarolina12",
-    "group": "Fast Tubi",
-    "logo": "https://canvas-lb.tubitv.com/opts/SyEQhYwg_M3CPw==/533b0e82-7e1f-4213-8447-867d8a4ce393/CHgQeDoFMS4xLjlAAQ==",
-    "tvg_id": "610465",
-    "primary": {
-      "source": "Tubi",
-      "url": "https://live-manifest.production-public.tubi.io/live/7024f527-09ef-4afa-af9c-a8e518fdc7f9/playlist.m3u8"
-    },
-    "fallbacks": [],
-    "original_group": "Fast Tubi",
-    "display_category": "Local News"
   },
   {
     "name": "123GO!",

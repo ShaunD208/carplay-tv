@@ -22,19 +22,19 @@ Alternate feeds retained: 141
 
 Roku
 ----
-Raw channels: 259
-Non-English filtered: 16
+Raw channels: 256
+Non-English filtered: 13
 English candidates: 243
 New unique channels added: 161
 Alternate feeds retained: 82
 
 Tubi
 ----
-Raw channels: 177
+Raw channels: 176
 Non-English filtered: 3
-English candidates: 174
+English candidates: 173
 New unique channels added: 50
-Alternate feeds retained: 124
+Alternate feeds retained: 123
 
 Plex
 ----
@@ -48,7 +48,7 @@ Alternate feeds retained: 363
 LANGUAGE FILTER SUMMARY
 ================================================================
 
-Total non-English entries filtered: 120
+Total non-English entries filtered: 117
 
 Samsung: 42
   FILTERED: 40 y 20 [Latino] because category 'Latino'
@@ -94,7 +94,7 @@ Pluto: 41
   FILTERED: Crimen [En Español] because category 'En Español'
   FILTERED: Crímenes imperfectos [En Español] because category 'En Español'
 
-Roku: 16
+Roku: 13
   FILTERED: Iron Chef en Español [Cooking] because name 'Iron Chef en Español'
   FILTERED: COPS en Español [Crime] because name 'COPS en Español'
   FILTERED: Azteca Noticias [News] because name 'Azteca Noticias'
@@ -107,10 +107,7 @@ Roku: 16
   FILTERED: Cheaters en Español [TV & Entertainment] because name 'Cheaters en Español'
   FILTERED: Cine en Español [TV & Entertainment] because name 'Cine en Español'
   FILTERED: Real America's Voice en Español [TV & Entertainment] because name 'Real America's Voice en Español'
-  FILTERED: Runtime Español [TV & Entertainment] because name 'Runtime Español'
   FILTERED: Todo Novelas Más Pasiones [TV & Entertainment] because name 'Todo Novelas Más Pasiones'
-  FILTERED: ViX Novelas de oro [TV & Entertainment] because name 'ViX Novelas de oro'
-  FILTERED: ViX Novelas en familia [TV & Entertainment] because name 'ViX Novelas en familia'
 
 Tubi: 3
   FILTERED: beIN Sports XTRA En Español [Fast Tubi] because name 'beIN Sports XTRA En Español'
@@ -141,11 +138,11 @@ Plex: 18
 MASTER PLAYLIST SUMMARY
 ================================================================
 
-Total upstream entries: 2191
-Non-English entries filtered: 120
+Total upstream entries: 2187
+Non-English entries filtered: 117
 Final unique English-focused channels: 1360
-Alternate feeds retained: 710
-Channels with fallback feeds: 468
+Alternate feeds retained: 709
+Channels with fallback feeds: 467
 Known-dead primaries promoted: 0
 Known-dead channels removed: 1
 
@@ -297,15 +294,15 @@ Server fail: 0
   Manifest reachable and appears to be HLS
 [server-pass] Tubi - Jubilee
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - NASCAR
+[server-pass] Tubi - Lucha Plus
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - Retro Black Laughs
+[server-pass] Tubi - Paws & Claws
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - The FBI Files
+[server-pass] Tubi - The Biggest Loser
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - UEFA.tv
+[server-pass] Tubi - Travel + Adventure
   Manifest reachable and appears to be HLS
-[server-pass] Tubi - WXII Very Carolina 12
+[server-pass] Tubi - Welcome Home
   Manifest reachable and appears to be HLS
 [server-pass] Plex - 123GO!
   Manifest reachable and appears to be HLS
@@ -341,8 +338,8 @@ Channels categorized: 1360
 Generic categories recovered from fallback metadata: 0
 United States display category: 0
 
-  News: 55
-  Local News: 23
+  News: 56
+  Local News: 22
   Sports: 138
   Movies: 76
   TV: 157
@@ -385,6 +382,7 @@ Remaining entries are intentionally left unresolved rather than forcing a low-co
   In the Garage | source=Tubi | original=Fast Tubi | useful=Fast Tubi
   Jesser | source=Tubi | original=Fast Tubi | useful=Fast Tubi
   Jubilee | source=Tubi | original=Fast Tubi | useful=Fast Tubi
+  KCCI Very Iowa Des Moines 8 | source=Tubi | original=Fast Tubi | useful=Fast Tubi
   Love & Marriage | source=Tubi | original=Fast Tubi | useful=Fast Tubi
   Lucha Plus | source=Tubi | original=Fast Tubi | useful=Fast Tubi
   MADtv | source=Tubi | original=Fast Tubi | useful=Fast Tubi
@@ -396,7 +394,6 @@ Remaining entries are intentionally left unresolved rather than forcing a low-co
   The Johnny Carson Show | source=Tubi | original=Fast Tubi | useful=Fast Tubi
   theGrio | source=Tubi | original=Fast Tubi | useful=Fast Tubi
   UEFA.tv | source=Tubi | original=Fast Tubi | useful=Fast Tubi
-  WFMY Greensboro 2 | source=Tubi | original=Fast Tubi | useful=Fast Tubi
   365BLK [FAST] | source=Plex | original=United States | useful=United States
   A Touch of Frost | source=Plex | original=United States | useful=United States
   AddictaTV | source=Plex | original=United States | useful=United States
@@ -560,16 +557,55 @@ EPG / NOW PLAYING SUMMARY
 ================================================================
 
 Master channels: 1333
-Channels with guide data: 1332
-Channels without guide data: 1
+Channels with guide data: 1021
+Channels without guide data: 312
 Channels using fallback-provider guide identity: 0
 Guide window: 3 hours past through 36 hours future
 
-Samsung: 551/551 IDs matched; 4734 programmes
-Pluto: 418/418 IDs matched; 8584 programmes
-Roku: 227/227 IDs matched; 11260 programmes
-Tubi: 169/169 IDs matched; 7859 programmes
-Plex: 667/667 IDs matched; 31392 programmes
+Samsung: 551/551 IDs matched; 4719 programmes
+Pluto: 418/418 IDs matched; 8608 programmes
+Roku: 227/227 IDs matched; 11216 programmes
+Tubi: 168/168 IDs matched; 7881 programmes
+Plex: 0/667 IDs matched; 0 programmes
 
 Sample channels without guide data:
-  Schwab Network
+  123GO!
+  24 Hour Free Movies
+  365BLK [FAST]
+  5-Minute Crafts
+  80's Sitcom Flashback
+  A Touch of Frost
+  ACL Cornhole TV
+  Action Hollywood Movies
+  AddictaTV
+  AfroLandTV
+  Aliwko
+  Alternative
+  Always Christmas
+  Amasian TV
+  AMC Thrillers
+  American Gladiators by MGM
+  Anime 24/7
+  Asian Drama
+  AsianCrush
+  Autopista al Cielo
+  Ax Men by History
+  Bachelor Nation
+  BBC Game Shows
+  BBC News (North America)
+  BBC Sci-Fi
+  Beyblade
+  Beyond Belief
+  Beyond Paranormal
+  Bizaar
+  BlackPix
+  Bloodline Detectives Hosted by Nancy Grace
+  Bonanza-Billies TV
+  BOOT
+  Buen Viaje
+  Camp Spoopy
+  Caught in Providence
+  Cesar's Pack Leader TV
+  Chef vs Chef
+  Chip & Jo: Feels Like Home
+  Christmas Plus
