@@ -7,7 +7,7 @@ https://jmp2.uk/stvp-USBC6000108Z
 https://jmp2.uk/stvp-US17000186W
 #EXTINF:-1 channel-id="USBC4400002GF" tvg-id="USBC4400002GF" tvg-chno="1976" tvg-name="Duck Dynasty" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC4400002GF_20250805T005759SQUARE.png" group-title="Reality TV" source="Samsung" fallbacks="1",Duck Dynasty
 https://jmp2.uk/stvp-USBC4400002GF
-#EXTINF:-1 channel-id="USBB2900003O3" tvg-id="USBB2900003O3" tvg-chno="1580" tvg-name="Heartland" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB2900003O3_20261125T213526SQUARE.png" group-title="Action & Drama" source="Samsung" fallbacks="2",Heartland
+#EXTINF:-1 channel-id="USBB2900003O3" tvg-id="USBB2900003O3" tvg-chno="1001" tvg-name="Heartland" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB2900003O3_20261125T213526SQUARE.png" group-title="Action & Drama" source="Samsung" fallbacks="2",Heartland
 https://jmp2.uk/stvp-USBB2900003O3
 #EXTINF:-1 channel-id="USBA300024TN" tvg-id="USBA300024TN" tvg-chno="1116" tvg-name="LiveNOW from FOX" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBA300024TN_20261104T180507SQUARE.png" group-title="News & Opinion" source="Samsung" fallbacks="3",LiveNOW from FOX
 https://jmp2.uk/stvp-USBA300024TN
@@ -17,7 +17,7 @@ https://jmp2.uk/stvp-US1900014Y2
 https://jmp2.uk/stvp-USBD3500024YB
 #EXTINF:-1 channel-id="USBD3500011J3" tvg-id="USBD3500011J3" tvg-chno="4474" tvg-name="Stingray Easy Listening" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD3500011J3_20260421T143139SQUARE.png" group-title="Music" source="Samsung" fallbacks="0",Stingray Easy Listening
 https://jmp2.uk/stvp-USBD3500011J3
-#EXTINF:-1 channel-id="US4100031FK" tvg-id="US4100031FK" tvg-chno="3517" tvg-name="The Incredible Dr. Pol" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US4100031FK_20261125T214503SQUARE.png" group-title="Nature, History & Science" source="Samsung" fallbacks="0",The Incredible Dr. Pol
+#EXTINF:-1 channel-id="US4100031FK" tvg-id="US4100031FK" tvg-chno="1004" tvg-name="The Incredible Dr. Pol" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US4100031FK_20261125T214503SQUARE.png" group-title="Nature, History & Science" source="Samsung" fallbacks="0",The Incredible Dr. Pol
 https://jmp2.uk/stvp-US4100031FK
 #EXTINF:-1 channel-id="USBC3600001RQ" tvg-id="USBC3600001RQ" tvg-chno="4415" tvg-name="Vevo Country" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBC3600001RQ_20261106T175053SQUARE.png" group-title="Music" source="Samsung" fallbacks="1",Vevo Country
 https://jmp2.uk/stvp-USBC3600001RQ

@@ -22,8 +22,8 @@ Alternate feeds retained: 141
 
 Roku
 ----
-Raw channels: 256
-Non-English filtered: 13
+Raw channels: 259
+Non-English filtered: 16
 English candidates: 243
 New unique channels added: 161
 Alternate feeds retained: 82
@@ -48,7 +48,7 @@ Alternate feeds retained: 363
 LANGUAGE FILTER SUMMARY
 ================================================================
 
-Total non-English entries filtered: 117
+Total non-English entries filtered: 120
 
 Samsung: 42
   FILTERED: 40 y 20 [Latino] because category 'Latino'
@@ -94,7 +94,7 @@ Pluto: 41
   FILTERED: Crimen [En Español] because category 'En Español'
   FILTERED: Crímenes imperfectos [En Español] because category 'En Español'
 
-Roku: 13
+Roku: 16
   FILTERED: Iron Chef en Español [Cooking] because name 'Iron Chef en Español'
   FILTERED: COPS en Español [Crime] because name 'COPS en Español'
   FILTERED: Azteca Noticias [News] because name 'Azteca Noticias'
@@ -107,7 +107,10 @@ Roku: 13
   FILTERED: Cheaters en Español [TV & Entertainment] because name 'Cheaters en Español'
   FILTERED: Cine en Español [TV & Entertainment] because name 'Cine en Español'
   FILTERED: Real America's Voice en Español [TV & Entertainment] because name 'Real America's Voice en Español'
+  FILTERED: Runtime Español [TV & Entertainment] because name 'Runtime Español'
   FILTERED: Todo Novelas Más Pasiones [TV & Entertainment] because name 'Todo Novelas Más Pasiones'
+  FILTERED: ViX Novelas de oro [TV & Entertainment] because name 'ViX Novelas de oro'
+  FILTERED: ViX Novelas en familia [TV & Entertainment] because name 'ViX Novelas en familia'
 
 Tubi: 3
   FILTERED: beIN Sports XTRA En Español [Fast Tubi] because name 'beIN Sports XTRA En Español'
@@ -138,8 +141,8 @@ Plex: 18
 MASTER PLAYLIST SUMMARY
 ================================================================
 
-Total upstream entries: 2187
-Non-English entries filtered: 117
+Total upstream entries: 2190
+Non-English entries filtered: 120
 Final unique English-focused channels: 1360
 Alternate feeds retained: 709
 Channels with fallback feeds: 467
@@ -562,10 +565,10 @@ Channels without guide data: 312
 Channels using fallback-provider guide identity: 0
 Guide window: 3 hours past through 36 hours future
 
-Samsung: 551/551 IDs matched; 4719 programmes
-Pluto: 418/418 IDs matched; 8608 programmes
-Roku: 227/227 IDs matched; 11216 programmes
-Tubi: 168/168 IDs matched; 7881 programmes
+Samsung: 551/551 IDs matched; 4729 programmes
+Pluto: 418/418 IDs matched; 8619 programmes
+Roku: 227/227 IDs matched; 10971 programmes
+Tubi: 168/168 IDs matched; 7772 programmes
 Plex: 0/667 IDs matched; 0 programmes
 
 Sample channels without guide data:
